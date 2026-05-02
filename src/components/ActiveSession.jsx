@@ -116,6 +116,7 @@ export default function ActiveSession({ workout, onFinish, onCancel }) {
         id: ex.id,
         name: ex.name,
         trackingType: ex.trackingType,
+        bodyPart: ex.bodyPart,
         sets: ex.sets,
       })),
     };

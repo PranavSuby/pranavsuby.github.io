@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { LayoutDashboard, Dumbbell, BookOpen, BarChart2, Home } from 'lucide-react';
+import { LayoutDashboard, Dumbbell, BookOpen, BarChart2, ArrowLeft } from 'lucide-react';
 import HomeScreen from './components/Home';
 import WorkoutBuilder from './components/WorkoutBuilder';
 import ExerciseLibrary from './components/ExerciseLibrary';
@@ -22,19 +22,18 @@ export default function App() {
   const [newWorkoutPending, setNewWorkoutPending] = useState(false);
 
   const handleStartWorkout = (workout) => setActiveWorkout(workout);
-
-  const handleFinishSession = () => {
-    setActiveWorkout(null);
-    setTab('home');
-  };
-
-  const handleNewWorkout = () => {
-    setNewWorkoutPending(true);
-    setTab('workouts');
-  };
+  const handleFinishSession = () => { setActiveWorkout(null); setTab('home'); };
+  const handleNewWorkout = () => { setNewWorkoutPending(true); setTab('workouts'); };
 
   return (
     <div className="app">
+      {!activeWorkout && (
+        <button className="gym-back-btn" onClick={() => navigate('/')}>
+          <ArrowLeft size={15} />
+          Apps
+        </button>
+      )}
+
       {activeWorkout ? (
         <ActiveSession
           workout={activeWorkout}
@@ -45,10 +44,7 @@ export default function App() {
         <>
           {tab === 'home' && <HomeScreen onStartWorkout={handleStartWorkout} onNewWorkout={handleNewWorkout} />}
           {tab === 'workouts' && (
-            <WorkoutBuilder
-              autoCreate={newWorkoutPending}
-              onAutoCreateDone={() => setNewWorkoutPending(false)}
-            />
+            <WorkoutBuilder autoCreate={newWorkoutPending} onAutoCreateDone={() => setNewWorkoutPending(false)} />
           )}
           {tab === 'exercises' && <ExerciseLibrary />}
           {tab === 'metrics' && <Metrics />}
@@ -56,10 +52,6 @@ export default function App() {
       )}
 
       <nav className="bottom-nav">
-        <button className="nav-btn" onClick={() => navigate('/')} title="Back to home">
-          <Home />
-          <span style={{ fontSize: 10, letterSpacing: '0.5px', textTransform: 'uppercase' }}>Apps</span>
-        </button>
         {TABS.map(({ id, label, icon: Icon }) => (
           <button
             key={id}
