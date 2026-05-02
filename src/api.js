@@ -1,58 +1,54 @@
-// api.js — ExerciseDB free API (no key required)
-// Base: https://exercisedb.dev (open-source v1, 1300+ exercises with GIFs)
+import bundledExercises from './data/exercises.json';
 
-const BASE = 'https://exercisedb.dev/api/exercises';
+function searchBundled(query) {
+  const q = query.toLowerCase();
+  return bundledExercises.filter(e => e.name.toLowerCase().includes(q)).slice(0, 30);
+}
 
-export async function fetchExercisesByBodyPart(bodyPart, limit = 50) {
-  const res = await fetch(`${BASE}/bodyPart/${encodeURIComponent(bodyPart)}?limit=${limit}`);
-  if (!res.ok) throw new Error('API error');
-  return res.json();
+function filterBundled(bodyPart) {
+  if (!bodyPart || bodyPart === 'All') return bundledExercises.slice(0, 60);
+  return bundledExercises.filter(e => e.bodyPart === bodyPart).slice(0, 60);
+}
+
+export async function fetchExercisesByBodyPart(bodyPart, _limit = 60) {
+  return filterBundled(bodyPart).map(normalizeApiExercise);
 }
 
 export async function fetchExercisesByName(name) {
-  const res = await fetch(`${BASE}?name=${encodeURIComponent(name)}&limit=30`);
-  if (!res.ok) throw new Error('API error');
-  return res.json();
+  return searchBundled(name).map(normalizeApiExercise);
 }
 
 export async function fetchExerciseById(id) {
-  const res = await fetch(`${BASE}/exercise/${id}`);
-  if (!res.ok) throw new Error('API error');
-  return res.json();
+  const ex = bundledExercises.find(e => e.id === id);
+  if (!ex) throw new Error('Exercise not found');
+  return normalizeApiExercise(ex);
 }
 
 export async function fetchBodyPartList() {
-  const res = await fetch(`${BASE}/bodyPartList`);
-  if (!res.ok) throw new Error('API error');
-  return res.json();
+  return [...new Set(bundledExercises.map(e => e.bodyPart))].sort();
 }
 
 export async function fetchAllExercises(limit = 100) {
-  const res = await fetch(`${BASE}?limit=${limit}`);
-  if (!res.ok) throw new Error('API error');
-  return res.json();
+  return bundledExercises.slice(0, limit).map(normalizeApiExercise);
 }
 
-// Normalize API exercise to our internal format
 export function normalizeApiExercise(ex) {
   return {
     id: ex.id,
     name: ex.name,
     bodyPart: ex.bodyPart,
-    target: ex.target,
+    target: ex.target || ex.bodyPart,
     equipment: ex.equipment,
-    gifUrl: ex.gifUrl,
+    gifUrl: ex.gifUrl || null,
     instructions: ex.instructions || [],
     secondaryMuscles: ex.secondaryMuscles || [],
     custom: false,
-    // Default: strength exercises are reps+weight; cardio/stretching are time
-    trackingType: isTimeBased(ex) ? 'time' : 'reps',
+    trackingType: ex.trackingType || (isTimeBased(ex) ? 'time' : 'reps'),
   };
 }
 
 function isTimeBased(ex) {
   const timeKeywords = ['cardio', 'plank', 'hold', 'stretch', 'yoga'];
   const name = (ex.name || '').toLowerCase();
-  const bp = (ex.bodyPart || '').toLowerCase();
-  return timeKeywords.some(k => name.includes(k) || bp.includes(k));
+  return timeKeywords.some(k => name.includes(k));
 }
