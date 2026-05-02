@@ -5,7 +5,7 @@ const tools = [
   {
     id: 'gym',
     title: 'Gym Tracker',
-    description: 'Log workouts, track exercises, and build routines',
+    description: 'Log workouts & track progress',
     icon: Dumbbell,
     path: '/gym-app',
   },
@@ -23,9 +23,9 @@ export default function HomePage() {
         {tools.map(({ id, title, description, icon: Icon, path }) => (
           <button key={id} className="tool-card" onClick={() => navigate(path)}>
             <div className="tool-card-icon">
-              <Icon size={24} />
+              <Icon size={22} />
             </div>
-            <div className="tool-card-info">
+            <div className="tool-card-footer">
               <div className="tool-card-title">{title}</div>
               <div className="tool-card-desc">{description}</div>
             </div>
