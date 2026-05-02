@@ -16,8 +16,8 @@ export default function HomePage() {
   return (
     <div className="homepage">
       <header className="hp-header">
-        <h1 className="hp-title">Pranav's Tools</h1>
-        <p className="hp-sub">A collection of personal tools</p>
+        <h1 className="hp-title">Web Apps</h1>
+        <p className="hp-sub">Web applications customized by me, for me</p>
       </header>
       <div className="hp-grid">
         {tools.map(({ id, title, description, icon: Icon, path }) => (
