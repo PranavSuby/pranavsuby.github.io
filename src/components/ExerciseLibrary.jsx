@@ -1,12 +1,16 @@
-// ExerciseLibrary.jsx
 import { useState, useEffect, useCallback } from 'react';
 import { Search, Plus, ChevronRight, X } from 'lucide-react';
-import { fetchExercisesByBodyPart, fetchBodyPartList, fetchExercisesByName, normalizeApiExercise } from '../api';
+import { fetchExercisesByBodyPart, fetchExercisesByName, normalizeApiExercise } from '../api';
 import { getAllCustomExercises, saveExercise, deleteExercise } from '../db';
 import ExerciseDetail from './ExerciseDetail';
 import CreateExerciseModal from './CreateExerciseModal';
 
-const BODY_PARTS = ['All', 'chest', 'back', 'shoulders', 'upper arms', 'lower arms', 'upper legs', 'lower legs', 'waist', 'cardio', 'neck'];
+const BODY_PARTS = [
+  'All', 'chest', 'shoulders', 'biceps', 'triceps', 'forearms',
+  'lats', 'middle back', 'lower back', 'traps',
+  'quadriceps', 'hamstrings', 'glutes', 'calves',
+  'abdominals', 'abductors', 'adductors', 'neck',
+];
 
 export default function ExerciseLibrary({ onPickExercise }) {
   const [exercises, setExercises] = useState([]);
@@ -16,7 +20,6 @@ export default function ExerciseLibrary({ onPickExercise }) {
   const [activeBodyPart, setActiveBodyPart] = useState('All');
   const [selected, setSelected] = useState(null);
   const [showCreate, setShowCreate] = useState(false);
-  const [error, setError] = useState(null);
 
   const loadCustom = useCallback(async () => {
     const custom = await getAllCustomExercises();
@@ -28,30 +31,22 @@ export default function ExerciseLibrary({ onPickExercise }) {
   useEffect(() => {
     if (query.length > 1) {
       const t = setTimeout(async () => {
-        setLoading(true); setError(null);
+        setLoading(true);
         try {
           const data = await fetchExercisesByName(query);
-          setExercises(data.map(normalizeApiExercise));
-        } catch { setError('Could not reach exercise database. Check your connection.'); }
-        finally { setLoading(false); }
-      }, 400);
+          setExercises(data);
+        } finally { setLoading(false); }
+      }, 300);
       return () => clearTimeout(t);
     }
   }, [query]);
 
   useEffect(() => {
     if (query.length > 1) return;
-    setLoading(true); setError(null);
-    const load = async () => {
-      try {
-        const data = activeBodyPart === 'All'
-          ? await fetchExercisesByBodyPart('chest', 40)  // default to chest on All
-          : await fetchExercisesByBodyPart(activeBodyPart, 60);
-        setExercises(data.map(normalizeApiExercise));
-      } catch { setError('Could not reach exercise database.'); }
-      finally { setLoading(false); }
-    };
-    load();
+    setLoading(true);
+    fetchExercisesByBodyPart(activeBodyPart === 'All' ? null : activeBodyPart)
+      .then(setExercises)
+      .finally(() => setLoading(false));
   }, [activeBodyPart, query]);
 
   const handleSaveCustom = async (ex) => {
@@ -78,7 +73,6 @@ export default function ExerciseLibrary({ onPickExercise }) {
         </button>
       </div>
 
-      {/* Search */}
       <div style={{ position: 'relative', marginBottom: 12 }}>
         <Search size={16} style={{ position: 'absolute', left: 12, top: '50%', transform: 'translateY(-50%)', color: 'var(--text3)' }} />
         <input
@@ -95,18 +89,15 @@ export default function ExerciseLibrary({ onPickExercise }) {
         )}
       </div>
 
-      {/* Body part filter */}
       {query.length <= 1 && (
         <div className="chips-row">
           {BODY_PARTS.map(bp => (
             <button key={bp} className={`chip-btn ${activeBodyPart === bp ? 'active' : ''}`} onClick={() => setActiveBodyPart(bp)}>
-              {bp === 'All' ? 'All' : bp.charAt(0).toUpperCase() + bp.slice(1)}
+              {bp.charAt(0).toUpperCase() + bp.slice(1)}
             </button>
           ))}
         </div>
       )}
-
-      {error && <div className="card" style={{ color: 'var(--accent2)', fontSize: 13 }}>{error}</div>}
 
       {loading ? (
         <div className="empty-state"><div className="spinner" /></div>
