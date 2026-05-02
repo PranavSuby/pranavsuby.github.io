@@ -1,34 +1,40 @@
-// App.jsx
 import { useState } from 'react';
-import { LayoutDashboard, Dumbbell, BookOpen, Search } from 'lucide-react';
-import Home from './components/Home';
+import { useNavigate } from 'react-router-dom';
+import { LayoutDashboard, Dumbbell, BookOpen, BarChart2, Home } from 'lucide-react';
+import HomeScreen from './components/Home';
 import WorkoutBuilder from './components/WorkoutBuilder';
 import ExerciseLibrary from './components/ExerciseLibrary';
 import ActiveSession from './components/ActiveSession';
+import Metrics from './components/Metrics';
 import './index.css';
 
 const TABS = [
   { id: 'home', label: 'Home', icon: LayoutDashboard },
   { id: 'workouts', label: 'Workouts', icon: Dumbbell },
   { id: 'exercises', label: 'Library', icon: BookOpen },
+  { id: 'metrics', label: 'Metrics', icon: BarChart2 },
 ];
 
 export default function App() {
+  const navigate = useNavigate();
   const [tab, setTab] = useState('home');
-  const [activeWorkout, setActiveWorkout] = useState(null); // null or workout object
+  const [activeWorkout, setActiveWorkout] = useState(null);
+  const [newWorkoutPending, setNewWorkoutPending] = useState(false);
 
-  const handleStartWorkout = (workout) => {
-    setActiveWorkout(workout);
-  };
+  const handleStartWorkout = (workout) => setActiveWorkout(workout);
 
   const handleFinishSession = () => {
     setActiveWorkout(null);
     setTab('home');
   };
 
+  const handleNewWorkout = () => {
+    setNewWorkoutPending(true);
+    setTab('workouts');
+  };
+
   return (
     <div className="app">
-      {/* Active session takes over the full screen */}
       {activeWorkout ? (
         <ActiveSession
           workout={activeWorkout}
@@ -37,14 +43,23 @@ export default function App() {
         />
       ) : (
         <>
-          {tab === 'home' && <Home onStartWorkout={handleStartWorkout} />}
-          {tab === 'workouts' && <WorkoutBuilder />}
+          {tab === 'home' && <HomeScreen onStartWorkout={handleStartWorkout} onNewWorkout={handleNewWorkout} />}
+          {tab === 'workouts' && (
+            <WorkoutBuilder
+              autoCreate={newWorkoutPending}
+              onAutoCreateDone={() => setNewWorkoutPending(false)}
+            />
+          )}
           {tab === 'exercises' && <ExerciseLibrary />}
+          {tab === 'metrics' && <Metrics />}
         </>
       )}
 
-      {/* Bottom nav — always visible */}
       <nav className="bottom-nav">
+        <button className="nav-btn" onClick={() => navigate('/')} title="Back to home">
+          <Home />
+          <span style={{ fontSize: 10, letterSpacing: '0.5px', textTransform: 'uppercase' }}>Apps</span>
+        </button>
         {TABS.map(({ id, label, icon: Icon }) => (
           <button
             key={id}
