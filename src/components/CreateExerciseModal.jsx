@@ -22,7 +22,7 @@ export default function CreateExerciseModal({ onSave, onClose }) {
       instructions: notes ? [notes] : [],
       secondaryMuscles: [],
       custom: true,
-      gifUrl: null,
+      imageUrl: null,
     };
     onSave(exercise);
   };
@@ -60,11 +60,11 @@ export default function CreateExerciseModal({ onSave, onClose }) {
               <button
                 className={`btn btn-full ${trackingType === 'reps' ? 'btn-primary' : 'btn-secondary'}`}
                 onClick={() => setTrackingType('reps')}
-              >🔢 Reps + Weight</button>
+              >Reps + Weight</button>
               <button
                 className={`btn btn-full ${trackingType === 'time' ? 'btn-primary' : 'btn-secondary'}`}
                 onClick={() => setTrackingType('time')}
-              >⏱ Time + Weight</button>
+              >Time + Weight</button>
             </div>
           </div>
 

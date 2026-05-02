@@ -39,7 +39,7 @@ export function normalizeApiExercise(ex) {
     bodyPart: ex.bodyPart,
     target: ex.target || ex.bodyPart,
     equipment: ex.equipment,
-    gifUrl: ex.gifUrl || null,
+    imageUrl: ex.imageUrl || null,
     instructions: ex.instructions || [],
     secondaryMuscles: ex.secondaryMuscles || [],
     custom: false,

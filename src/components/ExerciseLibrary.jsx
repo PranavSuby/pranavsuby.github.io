@@ -1,9 +1,11 @@
 import { useState, useEffect, useCallback } from 'react';
-import { Search, Plus, ChevronRight, X } from 'lucide-react';
-import { fetchExercisesByBodyPart, fetchExercisesByName, normalizeApiExercise } from '../api';
+import { Search, Plus, X, Dumbbell } from 'lucide-react';
+import { fetchExercisesByBodyPart, fetchExercisesByName } from '../api';
 import { getAllCustomExercises, saveExercise, deleteExercise } from '../db';
 import ExerciseDetail from './ExerciseDetail';
 import CreateExerciseModal from './CreateExerciseModal';
+
+const cap = s => s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
 
 const BODY_PARTS = [
   'All', 'chest', 'shoulders', 'biceps', 'triceps', 'forearms',
@@ -32,10 +34,8 @@ export default function ExerciseLibrary({ onPickExercise }) {
     if (query.length > 1) {
       const t = setTimeout(async () => {
         setLoading(true);
-        try {
-          const data = await fetchExercisesByName(query);
-          setExercises(data);
-        } finally { setLoading(false); }
+        try { setExercises(await fetchExercisesByName(query)); }
+        finally { setLoading(false); }
       }, 300);
       return () => clearTimeout(t);
     }
@@ -58,6 +58,14 @@ export default function ExerciseLibrary({ onPickExercise }) {
   const handleDeleteCustom = async (id) => {
     await deleteExercise(id);
     await loadCustom();
+  };
+
+  const handleRowClick = (ex) => {
+    if (onPickExercise) {
+      onPickExercise(ex);
+    } else {
+      setSelected(ex);
+    }
   };
 
   const displayed = query.length > 1
@@ -93,7 +101,7 @@ export default function ExerciseLibrary({ onPickExercise }) {
         <div className="chips-row">
           {BODY_PARTS.map(bp => (
             <button key={bp} className={`chip-btn ${activeBodyPart === bp ? 'active' : ''}`} onClick={() => setActiveBodyPart(bp)}>
-              {bp.charAt(0).toUpperCase() + bp.slice(1)}
+              {cap(bp)}
             </button>
           ))}
         </div>
@@ -107,19 +115,24 @@ export default function ExerciseLibrary({ onPickExercise }) {
           <p>No exercises found</p>
         </div>
       ) : (
-        displayed.map((ex) => (
+        displayed.map(ex => (
           <ExerciseRow
             key={ex.id}
             exercise={ex}
-            onView={() => setSelected(ex)}
-            onPick={onPickExercise ? () => onPickExercise(ex) : null}
+            onClick={() => handleRowClick(ex)}
+            onViewDetail={onPickExercise ? () => setSelected(ex) : null}
             onDelete={ex.custom ? () => handleDeleteCustom(ex.id) : null}
+            pickMode={!!onPickExercise}
           />
         ))
       )}
 
       {selected && (
-        <ExerciseDetail exercise={selected} onClose={() => setSelected(null)} onPick={onPickExercise ? () => { onPickExercise(selected); setSelected(null); } : null} />
+        <ExerciseDetail
+          exercise={selected}
+          onClose={() => setSelected(null)}
+          onPick={onPickExercise ? () => { onPickExercise(selected); setSelected(null); } : null}
+        />
       )}
 
       {showCreate && (
@@ -129,37 +142,49 @@ export default function ExerciseLibrary({ onPickExercise }) {
   );
 }
 
-function ExerciseRow({ exercise, onView, onPick, onDelete }) {
+function ExerciseRow({ exercise, onClick, onViewDetail, onDelete, pickMode }) {
+  const [imgError, setImgError] = useState(false);
+
   return (
-    <div className="card" style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '12px 16px', marginBottom: 8 }}>
-      {exercise.gifUrl && !exercise.custom ? (
-        <img src={exercise.gifUrl} alt={exercise.name} style={{ width: 52, height: 52, borderRadius: 8, objectFit: 'cover', background: 'var(--bg3)', flexShrink: 0 }} loading="lazy" />
+    <div className="exercise-row" onClick={onClick}>
+      {exercise.imageUrl && !exercise.custom && !imgError ? (
+        <img
+          src={exercise.imageUrl}
+          alt={exercise.name}
+          className="exercise-thumb"
+          loading="lazy"
+          onError={() => setImgError(true)}
+        />
       ) : (
-        <div style={{ width: 52, height: 52, borderRadius: 8, background: 'var(--bg3)', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 22 }}>
-          💪
+        <div className="exercise-thumb-placeholder">
+          <Dumbbell size={18} />
         </div>
       )}
+
       <div style={{ flex: 1, minWidth: 0 }}>
         <div style={{ fontWeight: 600, fontSize: 14, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
           {exercise.name}
-          {exercise.custom && <span className="chip chip-accent" style={{ marginLeft: 6, fontSize: 10, padding: '2px 6px' }}>Custom</span>}
+          {exercise.custom && (
+            <span className="chip chip-accent" style={{ marginLeft: 6, fontSize: 10, padding: '2px 6px' }}>Custom</span>
+          )}
         </div>
         <div className="text-muted text-sm" style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginTop: 2 }}>
-          {exercise.bodyPart && <span>{exercise.bodyPart}</span>}
-          {exercise.equipment && <span>· {exercise.equipment}</span>}
-          <span style={{ color: exercise.trackingType === 'time' ? 'var(--accent2)' : 'var(--text3)' }}>· {exercise.trackingType === 'time' ? '⏱ Timed' : '🔢 Reps'}</span>
+          {exercise.bodyPart && <span>{cap(exercise.bodyPart)}</span>}
+          {exercise.equipment && <span>· {cap(exercise.equipment)}</span>}
+          <span style={{ color: 'var(--text3)' }}>· {exercise.trackingType === 'time' ? 'Timed' : 'Reps'}</span>
         </div>
       </div>
-      <div style={{ display: 'flex', gap: 6, flexShrink: 0 }}>
+
+      <div style={{ display: 'flex', gap: 6, flexShrink: 0 }} onClick={e => e.stopPropagation()}>
         {onDelete && (
           <button className="btn-icon" style={{ color: 'var(--accent2)' }} onClick={onDelete}>
             <X size={14} />
           </button>
         )}
-        {onPick ? (
-          <button className="btn btn-primary" style={{ padding: '6px 12px', fontSize: 13 }} onClick={onPick}>Add</button>
-        ) : (
-          <button className="btn-icon" onClick={onView}><ChevronRight size={18} /></button>
+        {pickMode && onViewDetail && (
+          <button className="btn-icon" style={{ fontSize: 11, color: 'var(--text3)' }} onClick={onViewDetail} title="View details">
+            <Search size={14} />
+          </button>
         )}
       </div>
     </div>

@@ -151,7 +151,7 @@ export default function WorkoutBuilder({ autoCreate, onAutoCreateDone }) {
               <div className="flex justify-between items-center" style={{ marginBottom: 8 }}>
                 <div style={{ flex: 1 }}>
                   <div style={{ fontWeight: 600, fontSize: 15 }}>{ex.name}</div>
-                  <div className="text-muted text-sm">{ex.bodyPart} · {ex.trackingType === 'time' ? '⏱ Timed' : '🔢 Reps'}</div>
+                  <div className="text-muted text-sm">{ex.bodyPart} · {ex.trackingType === 'time' ? 'Timed' : 'Reps'}</div>
                 </div>
                 <div style={{ display: 'flex', gap: 4 }}>
                   <button className="btn-icon" onClick={() => moveExercise(exIdx, -1)}><ChevronUp size={14} /></button>
