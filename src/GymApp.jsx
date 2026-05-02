@@ -1,6 +1,5 @@
-// App.jsx
 import { useState } from 'react';
-import { LayoutDashboard, Dumbbell, BookOpen, Search } from 'lucide-react';
+import { LayoutDashboard, Dumbbell, BookOpen } from 'lucide-react';
 import Home from './components/Home';
 import WorkoutBuilder from './components/WorkoutBuilder';
 import ExerciseLibrary from './components/ExerciseLibrary';
@@ -15,7 +14,8 @@ const TABS = [
 
 export default function App() {
   const [tab, setTab] = useState('home');
-  const [activeWorkout, setActiveWorkout] = useState(null); // null or workout object
+  const [activeWorkout, setActiveWorkout] = useState(null);
+  const [newWorkoutPending, setNewWorkoutPending] = useState(false);
 
   const handleStartWorkout = (workout) => {
     setActiveWorkout(workout);
@@ -26,9 +26,13 @@ export default function App() {
     setTab('home');
   };
 
+  const handleNewWorkout = () => {
+    setNewWorkoutPending(true);
+    setTab('workouts');
+  };
+
   return (
     <div className="app">
-      {/* Active session takes over the full screen */}
       {activeWorkout ? (
         <ActiveSession
           workout={activeWorkout}
@@ -37,13 +41,17 @@ export default function App() {
         />
       ) : (
         <>
-          {tab === 'home' && <Home onStartWorkout={handleStartWorkout} />}
-          {tab === 'workouts' && <WorkoutBuilder />}
+          {tab === 'home' && <Home onStartWorkout={handleStartWorkout} onNewWorkout={handleNewWorkout} />}
+          {tab === 'workouts' && (
+            <WorkoutBuilder
+              autoCreate={newWorkoutPending}
+              onAutoCreateDone={() => setNewWorkoutPending(false)}
+            />
+          )}
           {tab === 'exercises' && <ExerciseLibrary />}
         </>
       )}
 
-      {/* Bottom nav — always visible */}
       <nav className="bottom-nav">
         {TABS.map(({ id, label, icon: Icon }) => (
           <button

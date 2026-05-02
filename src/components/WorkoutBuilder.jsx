@@ -4,7 +4,7 @@ import { Plus, Trash2, Link2, ChevronUp, ChevronDown, X, ArrowLeft } from 'lucid
 import { saveWorkout, getAllWorkouts, deleteWorkout } from '../db';
 import ExerciseLibrary from './ExerciseLibrary';
 
-export default function WorkoutBuilder() {
+export default function WorkoutBuilder({ autoCreate, onAutoCreateDone }) {
   const [workouts, setWorkouts] = useState([]);
   const [editing, setEditing] = useState(null); // null = list, object = editing
   const [showExPicker, setShowExPicker] = useState(false);
@@ -15,6 +15,10 @@ export default function WorkoutBuilder() {
   };
 
   useEffect(() => { loadWorkouts(); }, []);
+
+  useEffect(() => {
+    if (autoCreate) { createNew(); onAutoCreateDone(); }
+  }, [autoCreate]);
 
   const createNew = () => {
     setEditing({ id: `w_${Date.now()}`, name: '', exercises: [], createdAt: Date.now() });
