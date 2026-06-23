@@ -11,7 +11,7 @@
      network and degrade gracefully when offline.
 */
 
-const VERSION = 'v3';
+const VERSION = 'v4';
 const SHELL_CACHE = `shell-${VERSION}`;
 const ASSET_CACHE = `assets-${VERSION}`;
 const SHELL = ['./', './index.html', './manifest.json'];
@@ -32,6 +32,17 @@ self.addEventListener('activate', e => {
     )
   );
   self.clients.claim();
+});
+
+// Tapping a notification (e.g. rest-timer done) focuses the app, opening it if closed.
+self.addEventListener('notificationclick', e => {
+  e.notification.close();
+  e.waitUntil(
+    self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then(list => {
+      for (const c of list) { if ('focus' in c) return c.focus(); }
+      if (self.clients.openWindow) return self.clients.openWindow('./');
+    })
+  );
 });
 
 self.addEventListener('fetch', e => {
