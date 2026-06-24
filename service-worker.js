@@ -11,7 +11,7 @@
      network and degrade gracefully when offline.
 */
 
-const VERSION = 'v4';
+const VERSION = 'v5';
 const SHELL_CACHE = `shell-${VERSION}`;
 const ASSET_CACHE = `assets-${VERSION}`;
 const SHELL = ['./', './index.html', './manifest.json'];
@@ -32,6 +32,32 @@ self.addEventListener('activate', e => {
     )
   );
   self.clients.claim();
+});
+
+// ── Rest-timer notification scheduling ──────────────────────────────────────
+// The page hands off the rest countdown to the SW when it loses visibility (iOS freezes
+// page timers when the PWA is backgrounded). The SW fires the system notification at the
+// scheduled time so it lands on the lock screen even with the app closed/frozen.
+let restTimerId = null;
+self.addEventListener('message', e => {
+  const d = e.data || {};
+  if (d.type === 'schedule-rest') {
+    if (restTimerId) clearTimeout(restTimerId);
+    const delay = Math.max(0, (d.endsAt || 0) - Date.now());
+    restTimerId = setTimeout(() => {
+      restTimerId = null;
+      self.registration.showNotification(d.title || 'Rest complete', {
+        body: d.body || 'Time for your next set 💪',
+        tag: 'rest-timer',
+        renotify: true,
+        requireInteraction: true,
+        silent: false,
+        vibrate: [300, 120, 300, 120, 300],
+      });
+    }, delay);
+  } else if (d.type === 'cancel-rest') {
+    if (restTimerId) { clearTimeout(restTimerId); restTimerId = null; }
+  }
 });
 
 // Tapping a notification (e.g. rest-timer done) focuses the app, opening it if closed.
