@@ -7,11 +7,13 @@
    - Hashed static assets (JS/CSS/fonts/images): stale-while-revalidate. Filenames are
      content-hashed by CRA, so a cached copy is never wrong; we serve it instantly and
      refresh in the background.
+   - Web fonts (Google Fonts CSS + font files): stale-while-revalidate, so typography
+     survives offline launches.
    - Large remote media (exercise GIFs/images from third-party hosts) are left to the
      network and degrade gracefully when offline.
 */
 
-const VERSION = 'v5';
+const VERSION = 'v6';
 const SHELL_CACHE = `shell-${VERSION}`;
 const ASSET_CACHE = `assets-${VERSION}`;
 const SHELL = ['./', './index.html', './manifest.json'];
@@ -92,8 +94,9 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // Same-origin static assets → stale-while-revalidate.
-  if (sameOrigin) {
+  // Same-origin static assets and web fonts → stale-while-revalidate.
+  const isFont = url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com';
+  if (sameOrigin || isFont) {
     e.respondWith(
       caches.open(ASSET_CACHE).then(async cache => {
         const cached = await cache.match(request);
@@ -102,7 +105,9 @@ self.addEventListener('fetch', e => {
             if (res && res.status === 200) cache.put(request, res.clone());
             return res;
           })
-          .catch(() => cached);
+          .catch(() =>
+            cached || new Response('', { status: 504, statusText: 'offline' })
+          );
         return cached || network;
       })
     );
