@@ -85,8 +85,12 @@ self.addEventListener('fetch', e => {
     e.respondWith(
       fetch(request)
         .then(res => {
-          const copy = res.clone();
-          caches.open(SHELL_CACHE).then(c => c.put('./index.html', copy));
+          // Only cache real shell responses — gh-pages answers deep links with 404.html,
+          // and caching that over index.html bricks every offline launch.
+          if (res.ok) {
+            const copy = res.clone();
+            caches.open(SHELL_CACHE).then(c => c.put('./index.html', copy));
+          }
           return res;
         })
         .catch(() => caches.match('./index.html').then(r => r || caches.match('./')))
