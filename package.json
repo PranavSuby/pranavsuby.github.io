@@ -1,21 +1,29 @@
 {
   "name": "gym-app",
-  "version": "1.0.0",
+  "version": "1.36.0",
   "private": true,
   "homepage": "https://pranavsuby.github.io",
   "dependencies": {
+    "@tanstack/react-virtual": "^3.13.26",
+    "@zxing/browser": "^0.2.0",
+    "@zxing/library": "^0.21.3",
     "idb": "^8.0.0",
     "lucide-react": "^0.383.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-native-body-highlighter": "^3.2.0",
     "react-router-dom": "^7.14.2",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "recharts": "^3.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build:foods": "node scripts/build-food-db.js",
+    "build:exercises": "node scripts/build-exercises.js",
+    "build:icons": "node scripts/build-icons.js"
   },
   "browserslist": {
     "production": [
@@ -30,6 +38,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "adm-zip": "^0.5.17",
+    "gh-pages": "^6.3.0",
+    "playwright": "^1.60.0"
   }
 }

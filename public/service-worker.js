@@ -1,49 +1,119 @@
 /* service-worker.js
-   Caches all app shell assets for offline use.
-   Exercise GIFs from the API are NOT cached (too large) — 
-   they degrade gracefully when offline.
+   Offline support for the app shell + runtime caching of hashed build assets.
+
+   Strategy:
+   - Navigations (HTML): network-first, fall back to cached shell so a fresh deploy is
+     always picked up online but the app still loads offline.
+   - Hashed static assets (JS/CSS/fonts/images): stale-while-revalidate. Filenames are
+     content-hashed by CRA, so a cached copy is never wrong; we serve it instantly and
+     refresh in the background.
+   - Web fonts (Google Fonts CSS + font files): stale-while-revalidate, so typography
+     survives offline launches.
+   - Large remote media (exercise GIFs/images from third-party hosts) are left to the
+     network and degrade gracefully when offline.
 */
 
-const CACHE = 'gymapp-v1';
-const PRECACHE = [
-  '/',
-  '/index.html',
-  '/static/js/main.chunk.js',
-  '/static/js/bundle.js',
-  '/manifest.json',
-];
+const VERSION = 'v6';
+const SHELL_CACHE = `shell-${VERSION}`;
+const ASSET_CACHE = `assets-${VERSION}`;
+const SHELL = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', e => {
-  e.waitUntil(
-    caches.open(CACHE).then(c => c.addAll(PRECACHE).catch(() => {}))
-  );
+  e.waitUntil(caches.open(SHELL_CACHE).then(c => c.addAll(SHELL).catch(() => {})));
   self.skipWaiting();
 });
 
 self.addEventListener('activate', e => {
   e.waitUntil(
     caches.keys().then(keys =>
-      Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)))
+      Promise.all(
+        keys
+          .filter(k => k !== SHELL_CACHE && k !== ASSET_CACHE)
+          .map(k => caches.delete(k))
+      )
     )
   );
   self.clients.claim();
 });
 
-self.addEventListener('fetch', e => {
-  const { request } = e;
-  // Skip cross-origin API requests (exercise DB) — always network for those
-  if (!request.url.startsWith(self.location.origin)) return;
+// ── Rest-timer notification scheduling ──────────────────────────────────────
+// The page hands off the rest countdown to the SW when it loses visibility (iOS freezes
+// page timers when the PWA is backgrounded). The SW fires the system notification at the
+// scheduled time so it lands on the lock screen even with the app closed/frozen.
+let restTimerId = null;
+self.addEventListener('message', e => {
+  const d = e.data || {};
+  if (d.type === 'schedule-rest') {
+    if (restTimerId) clearTimeout(restTimerId);
+    const delay = Math.max(0, (d.endsAt || 0) - Date.now());
+    restTimerId = setTimeout(() => {
+      restTimerId = null;
+      self.registration.showNotification(d.title || 'Rest complete', {
+        body: d.body || 'Time for your next set 💪',
+        tag: 'rest-timer',
+        renotify: true,
+        requireInteraction: true,
+        silent: false,
+        vibrate: [300, 120, 300, 120, 300],
+      });
+    }, delay);
+  } else if (d.type === 'cancel-rest') {
+    if (restTimerId) { clearTimeout(restTimerId); restTimerId = null; }
+  }
+});
 
-  e.respondWith(
-    caches.match(request).then(cached => {
-      if (cached) return cached;
-      return fetch(request).then(res => {
-        if (res.ok && request.method === 'GET') {
-          const clone = res.clone();
-          caches.open(CACHE).then(c => c.put(request, clone));
-        }
-        return res;
-      }).catch(() => caches.match('/index.html'));
+// Tapping a notification (e.g. rest-timer done) focuses the app, opening it if closed.
+self.addEventListener('notificationclick', e => {
+  e.notification.close();
+  e.waitUntil(
+    self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then(list => {
+      for (const c of list) { if ('focus' in c) return c.focus(); }
+      if (self.clients.openWindow) return self.clients.openWindow('./');
     })
   );
+});
+
+self.addEventListener('fetch', e => {
+  const { request } = e;
+  if (request.method !== 'GET') return;
+
+  const url = new URL(request.url);
+  const sameOrigin = url.origin === self.location.origin;
+
+  // Navigations → network-first with offline shell fallback.
+  if (request.mode === 'navigate') {
+    e.respondWith(
+      fetch(request)
+        .then(res => {
+          // Only cache real shell responses — gh-pages answers deep links with 404.html,
+          // and caching that over index.html bricks every offline launch.
+          if (res.ok) {
+            const copy = res.clone();
+            caches.open(SHELL_CACHE).then(c => c.put('./index.html', copy));
+          }
+          return res;
+        })
+        .catch(() => caches.match('./index.html').then(r => r || caches.match('./')))
+    );
+    return;
+  }
+
+  // Same-origin static assets and web fonts → stale-while-revalidate.
+  const isFont = url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com';
+  if (sameOrigin || isFont) {
+    e.respondWith(
+      caches.open(ASSET_CACHE).then(async cache => {
+        const cached = await cache.match(request);
+        const network = fetch(request)
+          .then(res => {
+            if (res && res.status === 200) cache.put(request, res.clone());
+            return res;
+          })
+          .catch(() =>
+            cached || new Response('', { status: 504, statusText: 'offline' })
+          );
+        return cached || network;
+      })
+    );
+  }
 });

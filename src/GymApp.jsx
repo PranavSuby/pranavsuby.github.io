@@ -1,68 +1,75 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { LayoutDashboard, Dumbbell, BookOpen, BarChart2, ArrowLeft } from 'lucide-react';
-import HomeScreen from './components/Home';
-import WorkoutBuilder from './components/WorkoutBuilder';
-import ExerciseLibrary from './components/ExerciseLibrary';
-import ActiveSession from './components/ActiveSession';
-import Metrics from './components/Metrics';
+import { Dumbbell, User, ChevronUp } from 'lucide-react';
+import { AppProvider, useApp } from './contexts/AppContext';
+import { WorkoutProvider, useWorkout } from './contexts/WorkoutContext';
+import WorkoutTab from './components/WorkoutTab';
+import HistoryTab from './components/HistoryTab';
+import LiveWorkout from './components/LiveWorkout';
+import { NavBar, TopBar, KeepAlive } from './ui';
+import { fmtTime } from './utils/format';
+import useWakeLock from './utils/useWakeLock';
 import './index.css';
 
-const TABS = [
-  { id: 'home', label: 'Home', icon: LayoutDashboard },
-  { id: 'workouts', label: 'Workouts', icon: Dumbbell },
-  { id: 'exercises', label: 'Library', icon: BookOpen },
-  { id: 'metrics', label: 'Metrics', icon: BarChart2 },
-];
+export default function GymApp() {
+  return (
+    <AppProvider>
+      <WorkoutProvider>
+        <GymAppInner />
+      </WorkoutProvider>
+    </AppProvider>
+  );
+}
 
-export default function App() {
+function GymAppInner() {
   const navigate = useNavigate();
-  const [tab, setTab] = useState('home');
-  const [activeWorkout, setActiveWorkout] = useState(null);
-  const [newWorkoutPending, setNewWorkoutPending] = useState(false);
+  const { session, elapsed, restTimer, isMinimized, expand } = useWorkout();
+  const { settings } = useApp();
+  const [tab, setTab] = useState('workout');
 
-  const handleStartWorkout = (workout) => setActiveWorkout(workout);
-  const handleFinishSession = () => { setActiveWorkout(null); setTab('home'); };
-  const handleNewWorkout = () => { setNewWorkoutPending(true); setTab('workouts'); };
+  // Keep the screen awake during an active workout when enabled.
+  useWakeLock(!!session && !!settings.keepAwake);
+
+  const TABS = [
+    { id: 'workout', label: 'Workout', Icon: Dumbbell },
+    { id: 'history', label: 'History', Icon: User },
+  ];
 
   return (
-    <div className="app">
-      {!activeWorkout && (
-        <button className="gym-back-btn" onClick={() => navigate('/')}>
-          <ArrowLeft size={15} />
-          Apps
-        </button>
+    <div className="app-shell app">
+      {/* Top bar — hidden during active session */}
+      {!session && (
+        <TopBar onBack={() => navigate('/')} backLabel="Apps" />
       )}
 
-      {activeWorkout ? (
-        <ActiveSession
-          workout={activeWorkout}
-          onFinish={handleFinishSession}
-          onCancel={() => setActiveWorkout(null)}
-        />
-      ) : (
-        <>
-          {tab === 'home' && <HomeScreen onStartWorkout={handleStartWorkout} onNewWorkout={handleNewWorkout} />}
-          {tab === 'workouts' && (
-            <WorkoutBuilder autoCreate={newWorkoutPending} onAutoCreateDone={() => setNewWorkoutPending(false)} />
+      {/* Tab content — KeepAlive preserves each tab's state across switches */}
+      <KeepAlive active={tab === 'workout'}><WorkoutTab active={tab === 'workout'} /></KeepAlive>
+      <KeepAlive active={tab === 'history'}><HistoryTab active={tab === 'history'} /></KeepAlive>
+
+      {/* Minimized workout bar — shown when workout is active but collapsed. In-flow,
+          directly above the nav so it never overlaps tab content. */}
+      {session && isMinimized && (
+        <div className="minimized-bar" onClick={expand}>
+          <ChevronUp size={18} color="var(--accent)" />
+          <span style={{ flex: 1, fontWeight: 600, fontSize: 15, color: 'var(--text)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+            {session.title || 'Quick Workout'}
+          </span>
+          {restTimer && (
+            <span style={{ fontSize: 13, fontWeight: 700, color: 'var(--pr-green)', fontVariantNumeric: 'tabular-nums', background: 'rgba(34,197,94,0.12)', borderRadius: 8, padding: '3px 8px' }}>
+              Rest {fmtTime(restTimer.remaining)}
+            </span>
           )}
-          {tab === 'exercises' && <ExerciseLibrary />}
-          {tab === 'metrics' && <Metrics />}
-        </>
+          <span style={{ fontSize: 14, fontWeight: 700, color: 'var(--accent)', fontVariantNumeric: 'tabular-nums' }}>
+            {fmtTime(elapsed)}
+          </span>
+        </div>
       )}
 
-      <nav className="bottom-nav">
-        {TABS.map(({ id, label, icon: Icon }) => (
-          <button
-            key={id}
-            className={`nav-btn ${tab === id && !activeWorkout ? 'active' : ''}`}
-            onClick={() => { setActiveWorkout(null); setTab(id); }}
-          >
-            <Icon />
-            {label}
-          </button>
-        ))}
-      </nav>
+      {/* Bottom nav — always visible */}
+      <NavBar tabs={TABS} activeId={tab} onSelect={setTab} iconSize={22} />
+
+      {/* Live workout overlay */}
+      {session && !isMinimized && <LiveWorkout onFinished={() => setTab('history')} />}
     </div>
   );
 }

@@ -1,0 +1,5768 @@
+{
+  "barbell bench press - medium grip": {
+    "url": "https://www.youtube.com/watch?v=ukDEXCXJxdM",
+    "title": "Barbell Bench Press Medium-Grip | Exercise Guide",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "barbell squat": {
+    "url": "https://www.youtube.com/watch?v=1oed-UmAxFs",
+    "title": "How To: Barbell Squat | 3 GOLDEN RULES!",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "barbell deadlift": {
+    "url": "https://www.youtube.com/watch?v=wYREQkVtvEc",
+    "title": "How To Deadlift: Starting Strength 5 Step Deadlift",
+    "channel": "Alan Thrall (Untamed Strength)",
+    "verified": true
+  },
+  "romanian deadlift": {
+    "url": "https://www.youtube.com/watch?v=_oyxCn2iSjU",
+    "title": "How To Do Romanian Deadlifts (RDLs): Perfect Technique",
+    "channel": "Jeff Nippard",
+    "verified": true
+  },
+  "chin-up": {
+    "url": "https://www.youtube.com/watch?v=e1YSApl-QcM",
+    "title": "Perfect Chin-Ups | The Only Chin-up Tutorial You'll Ever Need",
+    "channel": "Simonster Strength",
+    "verified": true
+  },
+  "weighted pull ups": {
+    "url": "https://www.youtube.com/watch?v=HuuyDNGrCI8",
+    "title": "How To: Weighted Pull-Up",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "barbell curl": {
+    "url": "https://www.youtube.com/watch?v=QZEqB6wUPxQ",
+    "title": "How To: Barbell Bicep Curl | 3 GOLDEN RULES",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "dumbbell shoulder press": {
+    "url": "https://www.youtube.com/watch?v=GFblCmuEE18",
+    "title": "How To: Dumbbell Shoulder Press | Perfect Form",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "wide-grip lat pulldown": {
+    "url": "https://www.youtube.com/watch?v=lueEJGjTuPQ",
+    "title": "Wide-Grip Lat Pulldown | Back Exercise Guide",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "plank": {
+    "url": "https://www.youtube.com/watch?v=pSHjTRCQxIw",
+    "title": "How To: Plank",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "leg press": {
+    "url": "https://www.youtube.com/watch?v=K5n2vg3oZa4",
+    "title": "How to PROPERLY Leg Press (Fix Your Form)",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "3/4 sit-up": {
+    "url": "https://www.youtube.com/watch?v=iL06z9PWYs8",
+    "title": "How to Do Sit-Ups | Proper Form",
+    "channel": "Combat Fit",
+    "verified": true
+  },
+  "90/90 hamstring": {
+    "url": "https://www.youtube.com/watch?v=LH7_7vKmmd4",
+    "title": "How to Do the 90/90 Hamstring Stretch",
+    "channel": "Your House Fitness",
+    "verified": true
+  },
+  "90/90 hip stretch": {
+    "url": "https://www.youtube.com/watch?v=P4GfbdNvOT8",
+    "title": "90/90 Hip Stretch (Simple & Effective)",
+    "channel": "Tom Morrison",
+    "verified": true
+  },
+  "ab crunch machine": {
+    "url": "https://www.youtube.com/watch?v=G8937xqkxDo",
+    "title": "Machine Crunch | Proper Form Tutorial",
+    "channel": "FIT.nl",
+    "verified": true
+  },
+  "ab roller": {
+    "url": "https://www.youtube.com/watch?v=ikkOq5mHaho",
+    "title": "How to Do Ab Wheel Rollouts | Perfect Technique",
+    "channel": "K's Perfect Fitness TV",
+    "verified": true
+  },
+  "adductor": {
+    "url": "https://www.youtube.com/watch?v=CjAVezAggkI",
+    "title": "How to Use the Hip Adduction Machine",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "adductor/groin": {
+    "url": "https://www.youtube.com/watch?v=BzAVOa8sEPc",
+    "title": "How to Properly Stretch Your Adductors",
+    "channel": "[P]rehab",
+    "verified": true
+  },
+  "advanced kettlebell windmill": {
+    "url": "https://www.youtube.com/watch?v=XJBU-IfiKY8",
+    "title": "How to Do the Kettlebell Windmill",
+    "channel": "Onnit",
+    "verified": true
+  },
+  "air bike": {
+    "url": "https://www.youtube.com/watch?v=1we3bh9uhqY",
+    "title": "How to Do a Bicycle Crunch (Air Bike)",
+    "channel": "Tone and Tighten",
+    "verified": true
+  },
+  "airplane balance": {
+    "url": "https://www.youtube.com/watch?v=9svtEV4vkp0",
+    "title": "Hip Airplane Exercise for Balance & Mobility",
+    "channel": "Dr. Carl Baird",
+    "verified": true
+  },
+  "all fours quad stretch": {
+    "url": "https://www.youtube.com/watch?v=PdTNAjLfybs",
+    "title": "All Fours Quad Stretch Tutorial",
+    "channel": "SEXioFIT",
+    "verified": true
+  },
+  "alternate hammer curl": {
+    "url": "https://www.youtube.com/watch?v=zC3nLlEvin4",
+    "title": "How to Do the Dumbbell Hammer Curl",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "alternate heel touchers": {
+    "url": "https://www.youtube.com/watch?v=IVppNiu0hvw",
+    "title": "Alternate Heel Taps for Core & Obliques",
+    "channel": "Dr. Jess Harvey",
+    "verified": true
+  },
+  "alternate incline dumbbell curl": {
+    "url": "https://www.youtube.com/watch?v=DCe8f6vMe9A",
+    "title": "Incline Dumbbell Curls (Proper Form)",
+    "channel": "ATHLEAN-X",
+    "verified": true
+  },
+  "alternate leg diagonal bound": {
+    "url": "https://www.youtube.com/watch?v=nTwTgnkFsNk",
+    "title": "Alternate Leg Bounding | Plyometric",
+    "channel": "Rehab My Patient",
+    "verified": true
+  },
+  "alternating cable shoulder press": {
+    "url": "https://www.youtube.com/watch?v=iJW_dJkgDvY",
+    "title": "Alternating Cable Shoulder Press | Demo",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "alternating deltoid raise": {
+    "url": "https://www.youtube.com/watch?v=zg8BvNfsVek",
+    "title": "How to Do the Alternating Deltoid Raise",
+    "channel": "U.S. Forces Fitness",
+    "verified": true
+  },
+  "alternating floor press": {
+    "url": "https://www.youtube.com/watch?v=wL7NClidGVE",
+    "title": "Alternating DB Floor Press Tutorial",
+    "channel": "Travis Tarrant",
+    "verified": true
+  },
+  "alternating hang clean": {
+    "url": "https://www.youtube.com/watch?v=wpIvq5IEf00",
+    "title": "Alternating Dumbbell Hang Clean",
+    "channel": "CrossFit St. Landry",
+    "verified": true
+  },
+  "alternating kettlebell press": {
+    "url": "https://www.youtube.com/watch?v=IVAJRhIkeBc",
+    "title": "Kettlebell Alternate Press",
+    "channel": "AustraliaWOW",
+    "verified": true
+  },
+  "alternating kettlebell row": {
+    "url": "https://www.youtube.com/watch?v=YTJw0Ko3tcg",
+    "title": "Alternating Kettlebell Row",
+    "channel": "Musqle",
+    "verified": true
+  },
+  "alternating renegade row": {
+    "url": "https://www.youtube.com/watch?v=F68p7cJFtOI",
+    "title": "How to Do Renegade Rows | Proper Form",
+    "channel": "Studio SWEAT onDemand",
+    "verified": true
+  },
+  "ankle circles": {
+    "url": "https://www.youtube.com/watch?v=6XX3R9ibBfw",
+    "title": "Ankle Circles to Improve Ankle Mobility",
+    "channel": "Rehab My Patient",
+    "verified": true
+  },
+  "ankle mobility rock": {
+    "url": "https://www.youtube.com/watch?v=W-zRyLyuAZ8",
+    "title": "Ankle Knee-Over-Toe Rockers",
+    "channel": "Paragon Training Methods",
+    "verified": true
+  },
+  "ankle on the knee": {
+    "url": "https://www.youtube.com/watch?v=2VE_NLcNMvQ",
+    "title": "Glute Figure-4 Stretch (Ankle on Knee)",
+    "channel": "AskDoctorJo",
+    "verified": true
+  },
+  "anterior tibialis-smr": {
+    "url": "https://www.youtube.com/watch?v=tmtHbkMz32U",
+    "title": "How to Foam Roll Your Shins / Anterior Tibialis",
+    "channel": "Rollga",
+    "verified": true
+  },
+  "anti-gravity press": {
+    "url": "https://www.youtube.com/watch?v=HXbetYIM-AY",
+    "title": "How to Perform the Anti-Gravity Press",
+    "channel": "Buff Dudes",
+    "verified": true
+  },
+  "archer push-up": {
+    "url": "https://www.youtube.com/watch?v=L109Ad4zCR4",
+    "title": "Archer Push-Ups Tutorial With Correct Form",
+    "channel": "Gymless Fitness",
+    "verified": true
+  },
+  "arm circles": {
+    "url": "https://www.youtube.com/watch?v=P3dzI9opLGE",
+    "title": "Arm Circles Dynamic Warmup",
+    "channel": "Made Possible Personal Training",
+    "verified": true
+  },
+  "arnold dumbbell press": {
+    "url": "https://www.youtube.com/watch?v=6Z15_WdXmVw",
+    "title": "Arnold Press | Proper Form Tutorial",
+    "channel": "Buff Dudes",
+    "verified": true
+  },
+  "around the worlds": {
+    "url": "https://www.youtube.com/watch?v=w_Pplr0hI1s",
+    "title": "How to Perform Around the Worlds | Chest",
+    "channel": "Buff Dudes",
+    "verified": true
+  },
+  "atlas stone trainer": {
+    "url": "https://www.youtube.com/watch?v=9eapa0eef3E",
+    "title": "Atlas Stone Tutorial With Brian Alsruhe",
+    "channel": "elitefts",
+    "verified": true
+  },
+  "atlas stones": {
+    "url": "https://www.youtube.com/watch?v=Cds9I_PlE8I",
+    "title": "Atlas Stone Tutorial: Load, Shoulder, Press",
+    "channel": "RAW Barbell Club",
+    "verified": true
+  },
+  "axle deadlift": {
+    "url": "https://www.youtube.com/watch?v=flVaOK1olik",
+    "title": "Axle Deadlifts | Strongman Training",
+    "channel": "Big Loz Official",
+    "verified": true
+  },
+  "back flyes - with bands": {
+    "url": "https://www.youtube.com/watch?v=cyihFNmsq-A",
+    "title": "How To: Resistance Band Reverse Fly",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "backward drag": {
+    "url": "https://www.youtube.com/watch?v=owGxZ2Fs8D4",
+    "title": "Reverse (Backward) Sled Drag Tutorial",
+    "channel": "UNDWellness",
+    "verified": true
+  },
+  "backward medicine ball throw": {
+    "url": "https://www.youtube.com/watch?v=fU1O_5bfFXY",
+    "title": "Backward Medicine Ball Throw",
+    "channel": "Testosterone Nation",
+    "verified": true
+  },
+  "balance board": {
+    "url": "https://www.youtube.com/watch?v=ObtgTAIsUMc",
+    "title": "How to Get Started on Your Balance Board",
+    "channel": "Swifty Scooters",
+    "verified": true
+  },
+  "ball leg curl": {
+    "url": "https://www.youtube.com/watch?v=8Wagn999nhA",
+    "title": "How to Do Stability Ball Hamstring Curls",
+    "channel": "Tangelo",
+    "verified": true
+  },
+  "band assisted pull-up": {
+    "url": "https://www.youtube.com/watch?v=67szBNNZMTA",
+    "title": "How to Use Bands for Pull-Ups",
+    "channel": "Nerd Fitness",
+    "verified": true
+  },
+  "band good morning": {
+    "url": "https://www.youtube.com/watch?v=fJA39ZOVaEQ",
+    "title": "How to Do Banded Good Mornings",
+    "channel": "Rogue Fitness",
+    "verified": true
+  },
+  "band hip adductions": {
+    "url": "https://www.youtube.com/watch?v=Vce3tIYpzhc",
+    "title": "Standing Hip Adduction With a Band",
+    "channel": "AskDoctorJo",
+    "verified": true
+  },
+  "band skull crusher": {
+    "url": "https://www.youtube.com/watch?v=uutP0eBt51I",
+    "title": "Skull Crusher With a Resistance Band",
+    "channel": "Kendall Hendon",
+    "verified": true
+  },
+  "barbell ab rollout": {
+    "url": "https://www.youtube.com/watch?v=QWpHMjZ9wDo",
+    "title": "How to Ab Rollout (Beginner & Advanced)",
+    "channel": "Alex Crockford",
+    "verified": true
+  },
+  "barbell ab rollout - on knees": {
+    "url": "https://www.youtube.com/watch?v=mIYuVpQF3N8",
+    "title": "How To: Barbell Ab Rollout on Knees",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "barbell full squat": {
+    "url": "https://www.youtube.com/watch?v=S0H0JxLAOAY",
+    "title": "Barbell Squat Tutorial - Proper Form",
+    "channel": "Runna",
+    "verified": true
+  },
+  "barbell glute bridge": {
+    "url": "https://www.youtube.com/watch?v=0od5lwWMGV8",
+    "title": "How To: Barbell Glute Bridge",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "barbell guillotine bench press": {
+    "url": "https://www.youtube.com/watch?v=y90T12sTukg",
+    "title": "The Guillotine Press",
+    "channel": "Testosterone Nation",
+    "verified": true
+  },
+  "barbell hack squat": {
+    "url": "https://www.youtube.com/watch?v=EdtaJRBqwes",
+    "title": "How to Perform Barbell Hack Squats",
+    "channel": "Buff Dudes",
+    "verified": true
+  },
+  "barbell hip thrust": {
+    "url": "https://www.youtube.com/watch?v=pBH7pKHn-dI",
+    "title": "How to Perform Barbell Hip Thrusts",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "barbell incline bench press - medium grip": {
+    "url": "https://www.youtube.com/watch?v=SrqOu55lrYU",
+    "title": "How To: Incline Barbell Bench Press",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "barbell incline shoulder raise": {
+    "url": "https://www.youtube.com/watch?v=7_MpFS-zS8Q",
+    "title": "Barbell Incline Shoulder Raise | Demo",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "barbell lunge": {
+    "url": "https://www.youtube.com/watch?v=0_9sJd9P8M0",
+    "title": "How To: Barbell Stepping Lunge",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "barbell rear delt row": {
+    "url": "https://www.youtube.com/watch?v=vWouUzyPweA",
+    "title": "Rear Delt Rows - A Quick Guide",
+    "channel": "JP Total Fitness",
+    "verified": true
+  },
+  "barbell rollout from bench": {
+    "url": "https://www.youtube.com/watch?v=rI6VMheAQpE",
+    "title": "Barbell Rollout From Bench",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "barbell seated calf raise": {
+    "url": "https://www.youtube.com/watch?v=ORY-ke6vcgk",
+    "title": "Seated Calf Raise Tutorial - Proper Form",
+    "channel": "Runna",
+    "verified": true
+  },
+  "barbell shoulder press": {
+    "url": "https://www.youtube.com/watch?v=G2qpTG1Eh40",
+    "title": "Standing Barbell Shoulder Press",
+    "channel": "Renaissance Periodization",
+    "verified": true
+  },
+  "band pull apart": {
+    "url": "https://www.youtube.com/watch?v=9IWz8v44mXs",
+    "title": "Band Pull Apart for Rear Delts - How To",
+    "channel": "Annie Cooper",
+    "verified": true
+  },
+  "barbell curls lying against an incline": {
+    "url": "https://www.youtube.com/watch?v=ZP9btZ9zna0",
+    "title": "Prone Incline Barbell Curl",
+    "channel": "Broser Built",
+    "verified": true
+  },
+  "band good morning (pull through)": {
+    "url": "https://www.youtube.com/watch?v=RZ4HyxZBAdQ",
+    "title": "The Banded Pull-Through | Hip Hinge Variation",
+    "channel": "Dr. Carl Baird",
+    "verified": true
+  },
+  "barbell shrug": {
+    "url": "https://www.youtube.com/watch?v=Vt7VMhnNFTc",
+    "title": "How to Do the Barbell Shrug Correctly",
+    "channel": "SET FOR SET",
+    "verified": true
+  },
+  "barbell shrug behind the back": {
+    "url": "https://www.youtube.com/watch?v=Rx2uuWoPJnw",
+    "title": "Behind-the-Back Shrugs for Bigger Traps",
+    "channel": "Jim Stoppani, PhD",
+    "verified": true
+  },
+  "barbell side bend": {
+    "url": "https://www.youtube.com/watch?v=q1CDfuR4Wrk",
+    "title": "Barbell Side Bend Exercise",
+    "channel": "Christopher Edghill",
+    "verified": true
+  },
+  "barbell side split squat": {
+    "url": "https://www.youtube.com/watch?v=rmNDpQ8ip3Y",
+    "title": "Barbell Cossack (Side Split) Squat",
+    "channel": "A2",
+    "verified": true
+  },
+  "barbell squat to a bench": {
+    "url": "https://www.youtube.com/watch?v=nBc_2Jyp3tM",
+    "title": "How to Box Squat (Squat to a Bench) Properly",
+    "channel": "Misfit Athletics",
+    "verified": true
+  },
+  "barbell step ups": {
+    "url": "https://www.youtube.com/watch?v=MRtbwZPK7iY",
+    "title": "How to Do a Barbell Step-Up",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "barbell walking lunge": {
+    "url": "https://www.youtube.com/watch?v=X9QswJmhBQI",
+    "title": "Barbell Walking Lunges",
+    "channel": "Testosterone Nation",
+    "verified": true
+  },
+  "battling ropes": {
+    "url": "https://www.youtube.com/watch?v=uyaANzMXQHY",
+    "title": "How to Actually Use Battle Ropes",
+    "channel": "Jujimufu",
+    "verified": true
+  },
+  "bear crawl hold": {
+    "url": "https://www.youtube.com/watch?v=CILKLy84EDk",
+    "title": "Bear Crawl Hold | Exercise Demo",
+    "channel": "RVA Performance Training",
+    "verified": true
+  },
+  "bear crawl sled drags": {
+    "url": "https://www.youtube.com/watch?v=Tq_DIjSHkcI",
+    "title": "Sled Bear Crawls | Exercise Demo",
+    "channel": "Justin Ochoa",
+    "verified": true
+  },
+  "bear plank hold": {
+    "url": "https://www.youtube.com/watch?v=ouIxFZSTBhc",
+    "title": "Bear Plank Hold",
+    "channel": "Fire Rescue Fitness",
+    "verified": true
+  },
+  "behind head chest stretch": {
+    "url": "https://www.youtube.com/watch?v=Vm8xjOHijek",
+    "title": "How to Do the Behind-Head Chest Stretch",
+    "channel": "Stylecraze Fitness",
+    "verified": true
+  },
+  "bench dip": {
+    "url": "https://www.youtube.com/watch?v=c3ZGl4pAwZ4",
+    "title": "How To: Bench Dip",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "bench dips": {
+    "url": "https://www.youtube.com/watch?v=iH16WFso6fo",
+    "title": "Bench Dips Tutorial",
+    "channel": "Ashton Fitness",
+    "verified": true
+  },
+  "bench jump": {
+    "url": "https://www.youtube.com/watch?v=-23PhtT_b-I",
+    "title": "How To: Bench Jump",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "bench press - powerlifting": {
+    "url": "https://www.youtube.com/watch?v=BYKScL2sgCs",
+    "title": "How to Bench Press (Powerlifting Technique)",
+    "channel": "Alan Thrall (Untamed Strength)",
+    "verified": true
+  },
+  "bench press - with bands": {
+    "url": "https://www.youtube.com/watch?v=Z6cR_KvRiBk",
+    "title": "How to Bench Press With Bands",
+    "channel": "Fitness Culture",
+    "verified": true
+  },
+  "bench press with chains": {
+    "url": "https://www.youtube.com/watch?v=xB1WmI4KNLk",
+    "title": "How to Add Chains to Your Bench Press",
+    "channel": "Fitness Culture",
+    "verified": true
+  },
+  "bench sprint": {
+    "url": "https://www.youtube.com/watch?v=fC4GiRdITqE",
+    "title": "How to Do a Bench Sprint",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "bent over barbell row": {
+    "url": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
+    "title": "Barbell Bent-Over Row Tutorial - Proper Form",
+    "channel": "Runna",
+    "verified": true
+  },
+  "bent over dumbbell rear delt raise with head on bench": {
+    "url": "https://www.youtube.com/watch?v=xEE_7TCAEmU",
+    "title": "Bent-Over Dumbbell Rear Delt Raise (Head on Bench)",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "bent over low-pulley side lateral": {
+    "url": "https://www.youtube.com/watch?v=vVha5m3ZCMo",
+    "title": "Bent-Over Low-Pulley Side Lateral",
+    "channel": "Get Right Results",
+    "verified": true
+  },
+  "bent over one-arm long bar row": {
+    "url": "https://www.youtube.com/watch?v=tiETx7VNDf0",
+    "title": "Landmine Single-Arm Row (Long Bar Row)",
+    "channel": "TrainFTW",
+    "verified": true
+  },
+  "bent over two-arm long bar row": {
+    "url": "https://www.youtube.com/watch?v=hYo72r8Ivso",
+    "title": "How to Do T-Bar / Landmine Rows",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "bent over two-dumbbell row": {
+    "url": "https://www.youtube.com/watch?v=ayBUERt_w6g",
+    "title": "How To: Dumbbell Bent-Over Row",
+    "channel": "Alex Crockford",
+    "verified": true
+  },
+  "bent over two-dumbbell row with palms in": {
+    "url": "https://www.youtube.com/watch?v=hkje6kyYnzg",
+    "title": "Neutral-Grip Dumbbell Bent-Over Row",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "bent press": {
+    "url": "https://www.youtube.com/watch?v=xkv7v1FxDm8",
+    "title": "How to Do the Bent Press",
+    "channel": "MFQH",
+    "verified": true
+  },
+  "bent-arm barbell pullover": {
+    "url": "https://www.youtube.com/watch?v=4FPl-H8LEcM",
+    "title": "How to Do the Barbell Pullover",
+    "channel": "Beast Strong Powerhouse",
+    "verified": true
+  },
+  "bent-arm dumbbell pullover": {
+    "url": "https://www.youtube.com/watch?v=4B-BrBH17uM",
+    "title": "Bent-Arm Dumbbell Pullover",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "bent-knee hip raise": {
+    "url": "https://www.youtube.com/watch?v=CpPEFVL-snA",
+    "title": "Reverse Crunch to Hip Raise",
+    "channel": "Michelle MacDonald",
+    "verified": true
+  },
+  "bicycle crunch": {
+    "url": "https://www.youtube.com/watch?v=uNmNvaNsu7w",
+    "title": "How To: Bicycle Crunch",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "bicycling": {
+    "url": "https://www.youtube.com/watch?v=UOg1hHmGIQQ",
+    "title": "How to Ride a Bike | Beginner Guide",
+    "channel": "Global Cycling Network",
+    "verified": true
+  },
+  "bicycling, stationary": {
+    "url": "https://www.youtube.com/watch?v=NwwDBARCGgo",
+    "title": "How to Use the Stationary Bike",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "bird dog": {
+    "url": "https://www.youtube.com/watch?v=ZdAHe9_HeEw",
+    "title": "How to Do a Bird Dog | Proper Form (NASM)",
+    "channel": "NASM",
+    "verified": true
+  },
+  "board press": {
+    "url": "https://www.youtube.com/watch?v=jkl7HhGwAPs",
+    "title": "How to Board Press",
+    "channel": "Men's Health",
+    "verified": true
+  },
+  "body tricep press": {
+    "url": "https://www.youtube.com/watch?v=99TWIhjzXuw",
+    "title": "Bodyweight Skull Crusher",
+    "channel": "Brandon Smitley",
+    "verified": true
+  },
+  "body-up": {
+    "url": "https://www.youtube.com/watch?v=9CvuiMeWQZo",
+    "title": "How to Do an Up-Down Plank",
+    "channel": "Tone and Tighten",
+    "verified": true
+  },
+  "bodyweight flyes": {
+    "url": "https://www.youtube.com/watch?v=oRbJLhLsNTo",
+    "title": "Bodyweight Flyes",
+    "channel": "Lidor Dayan",
+    "verified": true
+  },
+  "bodyweight hip thrust": {
+    "url": "https://www.youtube.com/watch?v=j59jWsUbl8A",
+    "title": "Bodyweight Hip Thrust on Bench",
+    "channel": "Travis Tarrant",
+    "verified": true
+  },
+  "bodyweight mid row": {
+    "url": "https://www.youtube.com/watch?v=dnpDUwqMX04",
+    "title": "Bodyweight Rows Tutorial (6 Variations)",
+    "channel": "Gymless Fitness",
+    "verified": true
+  },
+  "bodyweight squat": {
+    "url": "https://www.youtube.com/watch?v=P-yaD24bUE8",
+    "title": "Bodyweight Squat Tutorial - Proper Form",
+    "channel": "Runna",
+    "verified": true
+  },
+  "bodyweight walking lunge": {
+    "url": "https://www.youtube.com/watch?v=L8fvypPrzzs",
+    "title": "The Walking Lunge",
+    "channel": "CrossFit",
+    "verified": true
+  },
+  "bosu ball cable crunch with side bends": {
+    "url": "https://www.youtube.com/watch?v=B1knh5GGXgc",
+    "title": "Bosu Ball Cable Crunch With Side Bends",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "bottoms up": {
+    "url": "https://www.youtube.com/watch?v=gAyTBB4lm3I",
+    "title": "Reverse Crunch (Bottoms Up)",
+    "channel": "LivestrongWoman",
+    "verified": true
+  },
+  "bottoms-up clean from the hang position": {
+    "url": "https://www.youtube.com/watch?v=9g8a5mUGUAI",
+    "title": "Kettlebell Bottoms-Up Clean From the Hang",
+    "channel": "Clinique Vitalise",
+    "verified": true
+  },
+  "box jump": {
+    "url": "https://www.youtube.com/watch?v=G-bxQY57mKc",
+    "title": "Box Jump Tutorial - Proper Form",
+    "channel": "Runna",
+    "verified": true
+  },
+  "box jump (multiple response)": {
+    "url": "https://www.youtube.com/watch?v=KD7bpM2LDUI",
+    "title": "Consecutive Box Jumps | Plyometrics",
+    "channel": "Jason Thomas",
+    "verified": true
+  },
+  "box squat": {
+    "url": "https://www.youtube.com/watch?v=nBc_2Jyp3tM",
+    "title": "How to Box Squat Properly",
+    "channel": "Misfit Athletics",
+    "verified": true
+  },
+  "box squat with chains": {
+    "url": "https://www.youtube.com/watch?v=KWgye92ofo8",
+    "title": "Box Squat With Chains",
+    "channel": "Rippel Effect Fitness",
+    "verified": true
+  },
+  "brachialis-smr": {
+    "url": "https://www.youtube.com/watch?v=tdAALEKKJAY",
+    "title": "How to Foam Roll Your Biceps / Brachialis",
+    "channel": "Made to Move",
+    "verified": true
+  },
+  "bradford/rocky presses": {
+    "url": "https://www.youtube.com/watch?v=7aCSp9GtQDw",
+    "title": "How to Perform the Bradford Press",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "broad jump": {
+    "url": "https://www.youtube.com/watch?v=8BRnpWIB3qg",
+    "title": "Standing Broad Jump | Plyometric",
+    "channel": "Rehab My Patient",
+    "verified": true
+  },
+  "burpee": {
+    "url": "https://www.youtube.com/watch?v=wGvBfVeCNko",
+    "title": "Burpees for Beginners (Step by Step)",
+    "channel": "Combat Fit",
+    "verified": true
+  },
+  "butt lift (bridge)": {
+    "url": "https://www.youtube.com/watch?v=nuapk_-Q2BI",
+    "title": "How to Do a Glute Bridge (Beginners)",
+    "channel": "Dr. Carl Baird",
+    "verified": true
+  },
+  "butt-ups": {
+    "url": "https://www.youtube.com/watch?v=_D_W6lKC9vg",
+    "title": "Forearm Plank Pike-Ups",
+    "channel": "Mary Dot Yoga",
+    "verified": true
+  },
+  "butterfly": {
+    "url": "https://www.youtube.com/watch?v=Qr7dstCeYtw",
+    "title": "How to Do Pec Deck Butterflies",
+    "channel": "LIVESTRONG",
+    "verified": true
+  },
+  "butterfly stretch": {
+    "url": "https://www.youtube.com/watch?v=4xweyzS7Rno",
+    "title": "Seated Butterfly Stretch",
+    "channel": "Arthritis Foundation",
+    "verified": true
+  },
+  "box squat with bands": {
+    "url": "https://www.youtube.com/watch?v=zwa-VtaB4S0",
+    "title": "Banded Box Squat Tutorial",
+    "channel": "John Rusin",
+    "verified": true
+  },
+  "cable chest press": {
+    "url": "https://www.youtube.com/watch?v=uBVsI54gJmU",
+    "title": "How to Perform the Cable Chest Press",
+    "channel": "Buff Dudes",
+    "verified": true
+  },
+  "cable crossover": {
+    "url": "https://www.youtube.com/watch?v=mVAi3ZiSri4",
+    "title": "Cable Crossover | Chest Exercise",
+    "channel": "fatlossfit",
+    "verified": true
+  },
+  "cable crunch": {
+    "url": "https://www.youtube.com/watch?v=AV5PmZJIrrw",
+    "title": "How to Properly Do the Kneeling Cable Crunch",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "cable deadlifts": {
+    "url": "https://www.youtube.com/watch?v=kMdsruYbF9k",
+    "title": "How to Do the Cable Romanian Deadlift",
+    "channel": "Jim Stoppani, PhD",
+    "verified": true
+  },
+  "cable hammer curls - rope attachment": {
+    "url": "https://www.youtube.com/watch?v=VY4walmoM-I",
+    "title": "How to Perform Cable Hammer Curls",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "cable hip adduction": {
+    "url": "https://www.youtube.com/watch?v=SIQrpq6YnT8",
+    "title": "How to Do a Standing Cable Hip Adduction",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "cable incline pushdown": {
+    "url": "https://www.youtube.com/watch?v=_zdKZUv_aqk",
+    "title": "Cable Incline Tricep Pushdown",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "cable incline triceps extension": {
+    "url": "https://www.youtube.com/watch?v=HrNgklDApdE",
+    "title": "Seated Incline Cable Triceps Extension",
+    "channel": "Get Right Results",
+    "verified": true
+  },
+  "cable internal rotation": {
+    "url": "https://www.youtube.com/watch?v=0TxfJCE8yqU",
+    "title": "Cable Internal Rotation (Rotator Cuff)",
+    "channel": "HASfit",
+    "verified": true
+  },
+  "cable iron cross": {
+    "url": "https://www.youtube.com/watch?v=OWa-venDbfA",
+    "title": "Cable Iron Cross | Chest Exercise",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "cable judo flip": {
+    "url": "https://www.youtube.com/watch?v=CF3aIsvzKUE",
+    "title": "Cable Judo Flip Tutorial",
+    "channel": "SEXioFIT",
+    "verified": true
+  },
+  "cable lying triceps extension": {
+    "url": "https://www.youtube.com/watch?v=poKrZqvgF7E",
+    "title": "Lying Cable Triceps Extension (Skull Crusher)",
+    "channel": "Ethos Fitness & Performance",
+    "verified": true
+  },
+  "cable one arm tricep extension": {
+    "url": "https://www.youtube.com/watch?v=w3iAESGWK6M",
+    "title": "Single-Arm Cable Overhead Triceps Extension",
+    "channel": "Travis Tarrant",
+    "verified": true
+  },
+  "cable preacher curl": {
+    "url": "https://www.youtube.com/watch?v=vruRZKgRzv0",
+    "title": "How to Do the Cable Preacher Curl",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "cable rear delt fly": {
+    "url": "https://www.youtube.com/watch?v=ATSjVXoOgVg",
+    "title": "How to Do the Cable Rear Delt Fly",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "cable reverse crunch": {
+    "url": "https://www.youtube.com/watch?v=b8oUb_6POhQ",
+    "title": "How to Do a Cable Reverse Crunch",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "cable rope overhead triceps extension": {
+    "url": "https://www.youtube.com/watch?v=e7BivLfMN40",
+    "title": "Standing Overhead Rope Triceps Extension",
+    "channel": "Live Savage",
+    "verified": true
+  },
+  "cable rope rear-delt rows": {
+    "url": "https://www.youtube.com/watch?v=QPzdXm3osCk",
+    "title": "How to Do Cable Rope Rear-Delt Rows",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "cable russian twists": {
+    "url": "https://www.youtube.com/watch?v=WyQjF9u7Auo",
+    "title": "How to Do the Cable Russian Twist",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "cable seated crunch": {
+    "url": "https://www.youtube.com/watch?v=mkE_gNDQN8o",
+    "title": "How to Do the Seated Cable Crunch",
+    "channel": "Anabolic Aliens",
+    "verified": true
+  },
+  "cable seated lateral raise": {
+    "url": "https://www.youtube.com/watch?v=eozOiJMU2f8",
+    "title": "How to Do the Cable Seated Lateral Raise",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "cable shoulder press": {
+    "url": "https://www.youtube.com/watch?v=G1qWo8YjDPE",
+    "title": "Cable Shoulder Press",
+    "channel": "Ruth Maleski",
+    "verified": true
+  },
+  "cable shrugs": {
+    "url": "https://www.youtube.com/watch?v=ipwwB1LglGY",
+    "title": "How to Build Traps With Cable Shrugs",
+    "channel": "Trainer Johnny",
+    "verified": true
+  },
+  "cable wrist curl": {
+    "url": "https://www.youtube.com/watch?v=u7mWx_FlGx0",
+    "title": "How to Do Cable Wrist / Forearm Curls",
+    "channel": "Connor Meyler",
+    "verified": true
+  },
+  "calf press": {
+    "url": "https://www.youtube.com/watch?v=IEYAZZ5rELw",
+    "title": "Leg-Press Calf Press Demonstration",
+    "channel": "Stoke on Trent College",
+    "verified": true
+  },
+  "calf press on the leg press machine": {
+    "url": "https://www.youtube.com/watch?v=KxEYX_cuesM",
+    "title": "Leg Press Calf Raise",
+    "channel": "Renaissance Periodization",
+    "verified": true
+  },
+  "calf raise on a dumbbell": {
+    "url": "https://www.youtube.com/watch?v=uhLjADhUxFM",
+    "title": "Single-Leg Dumbbell Calf Raise",
+    "channel": "LivestrongWoman",
+    "verified": true
+  },
+  "calf raises - with bands": {
+    "url": "https://www.youtube.com/watch?v=a2xjbhP4MkY",
+    "title": "Calf Raise With a Resistance Band",
+    "channel": "Fredericksburg Fitness Studio",
+    "verified": true
+  },
+  "calf stretch elbows against wall": {
+    "url": "https://www.youtube.com/watch?v=hKOegRU3YIs",
+    "title": "Calf Stretch (Elbows Against Wall)",
+    "channel": "Samy Kent",
+    "verified": true
+  },
+  "calf stretch hands against wall": {
+    "url": "https://www.youtube.com/watch?v=f1HzSAuB-Vw",
+    "title": "Standing Wall Calf Stretch",
+    "channel": "FitnessBlender",
+    "verified": true
+  },
+  "calf stretch on wall": {
+    "url": "https://www.youtube.com/watch?v=YTYQo4WvJHA",
+    "title": "Standing Calf Stretch on Wall",
+    "channel": "Travis Tarrant",
+    "verified": true
+  },
+  "calf-machine shoulder shrug": {
+    "url": "https://www.youtube.com/watch?v=8Qla9t5I8rc",
+    "title": "Standing Calf-Machine Shrug",
+    "channel": "Testosterone Nation",
+    "verified": true
+  },
+  "calves-smr": {
+    "url": "https://www.youtube.com/watch?v=KbqpsBH9AKM",
+    "title": "How to Foam Roll Your Calves (SMR)",
+    "channel": "GEvolution Fitness",
+    "verified": true
+  },
+  "car deadlift": {
+    "url": "https://www.youtube.com/watch?v=HEBi2bo8l4k",
+    "title": "Car Deadlift (Simulator) How-To | Strongman",
+    "channel": "Kalle Beck",
+    "verified": true
+  },
+  "car drivers": {
+    "url": "https://www.youtube.com/watch?v=vDzz5F5U3IY",
+    "title": "Steering Wheel / Plate Car Drivers",
+    "channel": "Travis Tarrant",
+    "verified": true
+  },
+  "carioca quick step": {
+    "url": "https://www.youtube.com/watch?v=bRSrS9UMo-o",
+    "title": "Carioca Quick Step Drill",
+    "channel": "FASSTRAINING24",
+    "verified": true
+  },
+  "cat stretch": {
+    "url": "https://www.youtube.com/watch?v=ZiNXOE5EsZw",
+    "title": "How to Do a Cat Stretch",
+    "channel": "Howcast",
+    "verified": true
+  },
+  "cat-cow": {
+    "url": "https://www.youtube.com/watch?v=V-zycfsFjq0",
+    "title": "How to Do the Cat-Cow Stretch",
+    "channel": "Alex McBrairty",
+    "verified": true
+  },
+  "catch and overhead throw": {
+    "url": "https://www.youtube.com/watch?v=68ejBGJEdZE",
+    "title": "Medicine Ball Catch & Overhead Throw",
+    "channel": "Hugo Maturana",
+    "verified": true
+  },
+  "chain press": {
+    "url": "https://www.youtube.com/watch?v=6UKcYcDme-Y",
+    "title": "Barbell Bench Press With Chains (NASM)",
+    "channel": "NASM",
+    "verified": true
+  },
+  "chair leg extended stretch": {
+    "url": "https://www.youtube.com/watch?v=u55F2jOzBVI",
+    "title": "Seated (Chair) Hamstring Stretch",
+    "channel": "Mass General Hospital",
+    "verified": true
+  },
+  "chair lower back stretch": {
+    "url": "https://www.youtube.com/watch?v=pK9o04-5DrY",
+    "title": "Chair Twist for Low-Back Tension",
+    "channel": "Breaking Muscle",
+    "verified": true
+  },
+  "chair squat": {
+    "url": "https://www.youtube.com/watch?v=Z20XNb0VdEk",
+    "title": "Sit-Down Chair Squat",
+    "channel": "Rehab My Patient",
+    "verified": true
+  },
+  "chair upper body stretch": {
+    "url": "https://www.youtube.com/watch?v=uhRv-nq2_2M",
+    "title": "Seated Upper-Body Stretch (Chair)",
+    "channel": "Leslie L. Harrington",
+    "verified": true
+  },
+  "chest and front of shoulder stretch": {
+    "url": "https://www.youtube.com/watch?v=Dmm8_S23I74",
+    "title": "Doorway Pec & Front-Shoulder Stretch",
+    "channel": "Center For Total Back Care",
+    "verified": true
+  },
+  "chest push (multiple response)": {
+    "url": "https://www.youtube.com/watch?v=rBRseN7Iy-0",
+    "title": "Repeated Medicine-Ball Chest Pass",
+    "channel": "Jen Comas",
+    "verified": true
+  },
+  "chest push (single response)": {
+    "url": "https://www.youtube.com/watch?v=jmK7Ihw814o",
+    "title": "Medicine-Ball Chest Pass Drill",
+    "channel": "SKLZ",
+    "verified": true
+  },
+  "chest push with run release": {
+    "url": "https://www.youtube.com/watch?v=YHpsQCpi5yo",
+    "title": "Medicine-Ball Throw Into a Sprint",
+    "channel": "Simple Speed Coach",
+    "verified": true
+  },
+  "chest stretch on stability ball": {
+    "url": "https://www.youtube.com/watch?v=OeZE2W4s_Bk",
+    "title": "Chest Stretch on a Stability Ball",
+    "channel": "YST Exercises",
+    "verified": true
+  },
+  "child's pose": {
+    "url": "https://www.youtube.com/watch?v=2MJGg-dUKh0",
+    "title": "How to Do Child's Pose (Balasana)",
+    "channel": "Yoga & You",
+    "verified": true
+  },
+  "chin to chest stretch": {
+    "url": "https://www.youtube.com/watch?v=fVcYT5Lf7f0",
+    "title": "Chin-to-Chest Stretch",
+    "channel": "Trainest Coach",
+    "verified": true
+  },
+  "circus bell": {
+    "url": "https://www.youtube.com/watch?v=9625QqNhmB0",
+    "title": "How to Press a Circus Dumbbell",
+    "channel": "Kalle Beck",
+    "verified": true
+  },
+  "clap push-up": {
+    "url": "https://www.youtube.com/watch?v=EYwWCgM198U",
+    "title": "How to Do Clapping Push-Ups",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "clean": {
+    "url": "https://www.youtube.com/watch?v=5vVSGITznQk",
+    "title": "How to Power Clean",
+    "channel": "Squat University",
+    "verified": true
+  },
+  "clean and jerk": {
+    "url": "https://www.youtube.com/watch?v=57K1b_PcHKw",
+    "title": "Learn How to Do a Clean & Jerk",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "clean and press": {
+    "url": "https://www.youtube.com/watch?v=8h7giY-GWTs",
+    "title": "How to Do the Barbell Clean and Press",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "clean deadlift": {
+    "url": "https://www.youtube.com/watch?v=iCWAMA9Zeus",
+    "title": "Clean Deadlift | Olympic Weightlifting",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "clean from blocks": {
+    "url": "https://www.youtube.com/watch?v=FbtOYhvlQrw",
+    "title": "Clean From Blocks | Olympic Weightlifting",
+    "channel": "J2FIT Strength & Conditioning",
+    "verified": true
+  },
+  "clean pull": {
+    "url": "https://www.youtube.com/watch?v=xx8WkFrST2Y",
+    "title": "Clean Pull | Olympic Weightlifting",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "clean shrug": {
+    "url": "https://www.youtube.com/watch?v=l5CVf0ztMMs",
+    "title": "Clean Shrug | Olympic Weightlifting",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "clock push-up": {
+    "url": "https://www.youtube.com/watch?v=kQ4CHL1NP44",
+    "title": "How to Do the Clock Push-Up",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "close-grip barbell bench press": {
+    "url": "https://www.youtube.com/watch?v=nEF0bv2FW94",
+    "title": "How To: Close-Grip Barbell Bench Press",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "close-grip dumbbell press": {
+    "url": "https://www.youtube.com/watch?v=Surq2kqIDLw",
+    "title": "Close-Grip Triceps Dumbbell Press",
+    "channel": "Chris McCarthy",
+    "verified": true
+  },
+  "close-grip ez bar curl": {
+    "url": "https://www.youtube.com/watch?v=1rFP3APM27c",
+    "title": "Close-Grip EZ-Bar Curl",
+    "channel": "Instructional Fitness",
+    "verified": true
+  },
+  "close-grip ez-bar press": {
+    "url": "https://www.youtube.com/watch?v=D47mYdoKllE",
+    "title": "EZ-Bar Lying Triceps Press (Skull Crusher)",
+    "channel": "MyTraining App",
+    "verified": true
+  },
+  "close-grip front lat pulldown": {
+    "url": "https://www.youtube.com/watch?v=IjoFCmLX7z0",
+    "title": "How to Do a Close-Grip Lat Pulldown",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "close-grip push-up off of a dumbbell": {
+    "url": "https://www.youtube.com/watch?v=TShBPBXbRgM",
+    "title": "Close-Grip Push-Up Off a Dumbbell",
+    "channel": "Get Right Results",
+    "verified": true
+  },
+  "close-grip standing barbell curl": {
+    "url": "https://www.youtube.com/watch?v=vSupPQiBkeY",
+    "title": "How To: Close-Grip Standing Barbell Curl",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "cobra stretch": {
+    "url": "https://www.youtube.com/watch?v=aDzReSV1wOY",
+    "title": "Cobra Stretch Correct Form Tutorial",
+    "channel": "M-Form Fitness",
+    "verified": true
+  },
+  "cocoons": {
+    "url": "https://www.youtube.com/watch?v=t2vQj0PmdCE",
+    "title": "How to Do the Cocoon Exercise",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "commando pull-up": {
+    "url": "https://www.youtube.com/watch?v=65Amrl1wbt0",
+    "title": "Commando Pull-Up Tutorial",
+    "channel": "Granosthenics",
+    "verified": true
+  },
+  "conan's wheel": {
+    "url": "https://www.youtube.com/watch?v=SY6xJKa0nwo",
+    "title": "How to Do Conan's Wheel Carry",
+    "channel": "Adam Bishop Strongman",
+    "verified": true
+  },
+  "concentration curls": {
+    "url": "https://www.youtube.com/watch?v=8KySC0rUgpQ",
+    "title": "Concentration Curls | Exercise Tutorial",
+    "channel": "Wesley Vissers",
+    "verified": true
+  },
+  "cossack squat": {
+    "url": "https://www.youtube.com/watch?v=tpczTeSkHz0",
+    "title": "How to Cossack Squat (Tutorial & Progressions)",
+    "channel": "FitnessFAQs",
+    "verified": true
+  },
+  "couch stretch": {
+    "url": "https://www.youtube.com/watch?v=WKo4APrwfXQ",
+    "title": "Couch Stretch Progressions (Beginner to Advanced)",
+    "channel": "Flow Motion Fitness",
+    "verified": true
+  },
+  "cross body hammer curl": {
+    "url": "https://www.youtube.com/watch?v=7MrzVaPM0Uw",
+    "title": "Cross-Body Hammer Curl",
+    "channel": "Horton Barbell",
+    "verified": true
+  },
+  "cross over - with bands": {
+    "url": "https://www.youtube.com/watch?v=-yAXGzn1yY8",
+    "title": "Banded Cable Crossover Chest Fly",
+    "channel": "Clench Fitness",
+    "verified": true
+  },
+  "cross-body crunch": {
+    "url": "https://www.youtube.com/watch?v=S3a-uB-GQWo",
+    "title": "Cross-Body Crunch | Proper Form",
+    "channel": "BuiltLean",
+    "verified": true
+  },
+  "crossover reverse lunge": {
+    "url": "https://www.youtube.com/watch?v=ba375Xvm73I",
+    "title": "How to Do the Crossover Reverse Lunge",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "crow pose": {
+    "url": "https://www.youtube.com/watch?v=xEoaoes9f7k",
+    "title": "Crow Pose (Bakasana) Tutorial for Beginners",
+    "channel": "Yoga with Kassandra",
+    "verified": true
+  },
+  "crucifix": {
+    "url": "https://www.youtube.com/watch?v=WikfEWY_YSc",
+    "title": "Dumbbell Crucifix Hold",
+    "channel": "Kia Khadem",
+    "verified": true
+  },
+  "crunch - hands overhead": {
+    "url": "https://www.youtube.com/watch?v=XbrA2n8aEHE",
+    "title": "How to Do Hands-Overhead Crunches",
+    "channel": "Stylecraze Fitness",
+    "verified": true
+  },
+  "crunch - legs on exercise ball": {
+    "url": "https://www.youtube.com/watch?v=meo3bhh8NPk",
+    "title": "Crunch With Legs on an Exercise Ball",
+    "channel": "Christopher Edghill",
+    "verified": true
+  },
+  "crunches": {
+    "url": "https://www.youtube.com/watch?v=Xyd_fa5zoEU",
+    "title": "How to Do Crunches",
+    "channel": "LIVESTRONG",
+    "verified": true
+  },
+  "cuban press": {
+    "url": "https://www.youtube.com/watch?v=Wr0M1ZGFY-k",
+    "title": "Dumbbell Cuban Press Tutorial",
+    "channel": "Fox Body Fitness",
+    "verified": true
+  },
+  "curtsy lunge": {
+    "url": "https://www.youtube.com/watch?v=g8mCJDtD2DQ",
+    "title": "How to Do the Curtsy Lunge (Proper Form)",
+    "channel": "Studio SWEAT onDemand",
+    "verified": true
+  },
+  "dancer's stretch": {
+    "url": "https://www.youtube.com/watch?v=dc1l7ntrn-4",
+    "title": "Dancer's Pose Standing Quad Stretch",
+    "channel": "Body By Yoga",
+    "verified": true
+  },
+  "dead bug": {
+    "url": "https://www.youtube.com/watch?v=bxn9FBrt4-A",
+    "title": "How to Do a Dead Bug | Proper Form (NASM)",
+    "channel": "NASM",
+    "verified": true
+  },
+  "dead hang": {
+    "url": "https://www.youtube.com/watch?v=dOCQjaasbGs",
+    "title": "How to Dead Hang Correctly",
+    "channel": "FitnessFAQs",
+    "verified": true
+  },
+  "deadlift with bands": {
+    "url": "https://www.youtube.com/watch?v=ty7ssmRxRRw",
+    "title": "Resistance-Band Deadlift",
+    "channel": "Clench Fitness",
+    "verified": true
+  },
+  "deadlift with chains": {
+    "url": "https://www.youtube.com/watch?v=RS6R7pAD6Ao",
+    "title": "The Conventional Deadlift With Chains",
+    "channel": "Rogue Fitness",
+    "verified": true
+  },
+  "decline barbell bench press": {
+    "url": "https://www.youtube.com/watch?v=FFyGwcLnDYc",
+    "title": "How to Properly Decline Bench Press",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "decline close-grip bench to skull crusher": {
+    "url": "https://www.youtube.com/watch?v=tpga2WowwAE",
+    "title": "Decline Close-Grip Bench to Skull Crusher",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "decline crunch": {
+    "url": "https://www.youtube.com/watch?v=FRzQXeN1hro",
+    "title": "Decline Crunch | Abs Exercise",
+    "channel": "MyTraining App",
+    "verified": true
+  },
+  "decline dumbbell bench press": {
+    "url": "https://www.youtube.com/watch?v=0xRvl4Qv3ZY",
+    "title": "Decline Dumbbell Bench Press",
+    "channel": "MyTraining App",
+    "verified": true
+  },
+  "decline dumbbell flyes": {
+    "url": "https://www.youtube.com/watch?v=2MtKdUQEFoc",
+    "title": "How to Do Decline Dumbbell Chest Flyes",
+    "channel": "Chris McCarthy",
+    "verified": true
+  },
+  "decline dumbbell triceps extension": {
+    "url": "https://www.youtube.com/watch?v=8IXB2dE1IJA",
+    "title": "How to Do a Decline Dumbbell Triceps Extension",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "decline ez bar triceps extension": {
+    "url": "https://www.youtube.com/watch?v=G3v2NUIsvA8",
+    "title": "Decline EZ-Bar Triceps Extension (Skull Crusher)",
+    "channel": "Andre Williams",
+    "verified": true
+  },
+  "decline oblique crunch": {
+    "url": "https://www.youtube.com/watch?v=sBAZTuZAUA8",
+    "title": "How To: Decline Oblique Crunch",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "decline push-up": {
+    "url": "https://www.youtube.com/watch?v=SKPab2YC8BE",
+    "title": "How To: Decline Push-Up",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "decline reverse crunch": {
+    "url": "https://www.youtube.com/watch?v=YcMj0EEadQo",
+    "title": "Decline Reverse Crunch",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "decline smith press": {
+    "url": "https://www.youtube.com/watch?v=39qwRmE6ffc",
+    "title": "How to Do the Smith Machine Decline Bench Press",
+    "channel": "Korin Sutton",
+    "verified": true
+  },
+  "deep squat hold": {
+    "url": "https://www.youtube.com/watch?v=0wzrgyAurT8",
+    "title": "How to Deep Squat Hold",
+    "channel": "Strength Side",
+    "verified": true
+  },
+  "deficit deadlift": {
+    "url": "https://www.youtube.com/watch?v=m7Q8igdp3lA",
+    "title": "How To: Deficit Deadlift",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "depth jump leap": {
+    "url": "https://www.youtube.com/watch?v=fL66hVKR89Q",
+    "title": "How To: Depth Jump (Plyometric)",
+    "channel": "Simple Speed Coach",
+    "verified": true
+  },
+  "diamond push-up": {
+    "url": "https://www.youtube.com/watch?v=J0DnG1_S92I",
+    "title": "How To: Diamond Push-Up",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "dip machine": {
+    "url": "https://www.youtube.com/watch?v=D8RIzFsK8gA",
+    "title": "How to Use the Assisted Dip Machine",
+    "channel": "Wavvy Fitness",
+    "verified": true
+  },
+  "dips - chest version": {
+    "url": "https://www.youtube.com/watch?v=bd-eYgKJUdc",
+    "title": "Chest Dips on Parallel Bars",
+    "channel": "MyTraining App",
+    "verified": true
+  },
+  "dips - triceps version": {
+    "url": "https://www.youtube.com/watch?v=ZKn62XWsKIU",
+    "title": "Triceps Dips on Parallel Bars",
+    "channel": "MuscleDog Fitness",
+    "verified": true
+  },
+  "donkey calf raises": {
+    "url": "https://www.youtube.com/watch?v=Jk_fDd57e98",
+    "title": "Donkey Calf Raises | Exercise Tutorial",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "doorway pec stretch": {
+    "url": "https://www.youtube.com/watch?v=M850sCj9LHQ",
+    "title": "How to Do a Doorway Pec Stretch",
+    "channel": "MedBridge",
+    "verified": true
+  },
+  "double kettlebell alternating hang clean": {
+    "url": "https://www.youtube.com/watch?v=JX64eQ4Ffq4",
+    "title": "Double Kettlebell Alternating Hang Clean",
+    "channel": "Personal Power Training",
+    "verified": true
+  },
+  "double kettlebell jerk": {
+    "url": "https://www.youtube.com/watch?v=rjgNZcp7IOI",
+    "title": "How to Do a Double Kettlebell Jerk",
+    "channel": "Vadim Fitness Studio",
+    "verified": true
+  },
+  "double kettlebell push press": {
+    "url": "https://www.youtube.com/watch?v=W9NlTHkK1iU",
+    "title": "Double Kettlebell Push Press",
+    "channel": "Zack Henderson",
+    "verified": true
+  },
+  "double kettlebell snatch": {
+    "url": "https://www.youtube.com/watch?v=aR66q7GkEK0",
+    "title": "Double Kettlebell Snatch",
+    "channel": "Hardstyle Kettlebell Pro",
+    "verified": true
+  },
+  "double kettlebell windmill": {
+    "url": "https://www.youtube.com/watch?v=fHCoBfaNR1k",
+    "title": "How to Do the Double Kettlebell Windmill",
+    "channel": "Cavemantraining",
+    "verified": true
+  },
+  "double leg butt kick": {
+    "url": "https://www.youtube.com/watch?v=GCbCPZLWk8U",
+    "title": "Butt Kicks | Plyometric Tutorial",
+    "channel": "HASfit",
+    "verified": true
+  },
+  "downward dog": {
+    "url": "https://www.youtube.com/watch?v=Y0GDgQqt-bA",
+    "title": "How to Do Downward-Facing Dog",
+    "channel": "SarahBethYoga",
+    "verified": true
+  },
+  "downward facing balance": {
+    "url": "https://www.youtube.com/watch?v=i9HuuAUvp90",
+    "title": "Single-Leg Arabesque (Airplane) Balance",
+    "channel": "Advantage Physiotherapy",
+    "verified": true
+  },
+  "drag curl": {
+    "url": "https://www.youtube.com/watch?v=LMdNTHH6G8I",
+    "title": "How To: Barbell Drag Curl",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "dragon flag": {
+    "url": "https://www.youtube.com/watch?v=pvz7k5gO-DE",
+    "title": "Master the Dragon Flag",
+    "channel": "FitnessFAQs",
+    "verified": true
+  },
+  "drop push": {
+    "url": "https://www.youtube.com/watch?v=vs-0Ei4_pf8",
+    "title": "How to Do a Plyometric Depth Push-Up",
+    "channel": "Rich Hill",
+    "verified": true
+  },
+  "dumbbell alternate bicep curl": {
+    "url": "https://www.youtube.com/watch?v=M2Nbw9tunoY",
+    "title": "How to Perform the Alternating Dumbbell Curl",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "dumbbell bench press": {
+    "url": "https://www.youtube.com/watch?v=xhEhjF5ozuY",
+    "title": "Dumbbell Bench Press Tutorial - Proper Form",
+    "channel": "Runna",
+    "verified": true
+  },
+  "dumbbell bench press with neutral grip": {
+    "url": "https://www.youtube.com/watch?v=315SmTiVJAU",
+    "title": "Neutral-Grip Dumbbell Flat Bench Press",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "dumbbell bicep curl": {
+    "url": "https://www.youtube.com/watch?v=XE_pHwbst04",
+    "title": "Dumbbell Bicep Curl | Form & Technique",
+    "channel": "Fit Father Project",
+    "verified": true
+  },
+  "dumbbell clean": {
+    "url": "https://www.youtube.com/watch?v=sZ4XMWn8bAU",
+    "title": "Dumbbell Clean (and Press) Full Tutorial",
+    "channel": "J2FIT Strength & Conditioning",
+    "verified": true
+  },
+  "dumbbell floor press": {
+    "url": "https://www.youtube.com/watch?v=qHCI9rK7HqM",
+    "title": "How to Do a Dumbbell Floor Press",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "dumbbell flyes": {
+    "url": "https://www.youtube.com/watch?v=LzFvciCdoW0",
+    "title": "How to Perform Dumbbell Flyes",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "dumbbell incline row": {
+    "url": "https://www.youtube.com/watch?v=2LxN3_3atps",
+    "title": "How to Properly Incline Dumbbell Row",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "dumbbell incline shoulder raise": {
+    "url": "https://www.youtube.com/watch?v=55CdewS-0qU",
+    "title": "Dumbbell Incline Shoulder Raise",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "dumbbell lunges": {
+    "url": "https://www.youtube.com/watch?v=G4gAK8Bhyro",
+    "title": "How to Do Dumbbell Lunges",
+    "channel": "National Bowling Academy",
+    "verified": true
+  },
+  "dumbbell lying one-arm rear lateral raise": {
+    "url": "https://www.youtube.com/watch?v=v1ZtxU8PCRw",
+    "title": "Lying One-Arm Dumbbell Rear Lateral Raise",
+    "channel": "Get Right Results",
+    "verified": true
+  },
+  "dumbbell lying pronation": {
+    "url": "https://www.youtube.com/watch?v=Ttym0nIar5o",
+    "title": "Dumbbell Lying Pronation (Forearm)",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "dumbbell lying rear lateral raise": {
+    "url": "https://www.youtube.com/watch?v=UtFvLv9sDfY",
+    "title": "Dumbbell Lying Rear Lateral Raise",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "dumbbell lying supination": {
+    "url": "https://www.youtube.com/watch?v=T6XUHDFySZw",
+    "title": "Dumbbell Lying Supination (Forearm)",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "dumbbell one-arm shoulder press": {
+    "url": "https://www.youtube.com/watch?v=JyJJLEnCcUo",
+    "title": "Standing Single-Arm Dumbbell Shoulder Press",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "dumbbell one-arm triceps extension": {
+    "url": "https://www.youtube.com/watch?v=2jl4M0Dnq4c",
+    "title": "Single-Arm Overhead Dumbbell Triceps Extension",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "dumbbell one-arm upright row": {
+    "url": "https://www.youtube.com/watch?v=KZUf1_JjTZo",
+    "title": "Dumbbell One-Arm Upright Row",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "dumbbell prone incline curl": {
+    "url": "https://www.youtube.com/watch?v=OK6vpxXZ2pk",
+    "title": "Prone Incline Curl (Spider Curl)",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "dumbbell raise": {
+    "url": "https://www.youtube.com/watch?v=3VcKaXpzqRo",
+    "title": "How To: Dumbbell Lateral Raise",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "dumbbell rear lunge": {
+    "url": "https://www.youtube.com/watch?v=MpfeGnBFEo8",
+    "title": "Dumbbell Reverse (Rear) Lunge Tutorial",
+    "channel": "IronmasterPro",
+    "verified": true
+  },
+  "dumbbell scaption": {
+    "url": "https://www.youtube.com/watch?v=fLKMEKqCbCk",
+    "title": "How to Do a Dumbbell Scaption Raise",
+    "channel": "Swift Movement Academy",
+    "verified": true
+  },
+  "dumbbell seated box jump": {
+    "url": "https://www.youtube.com/watch?v=ql9ULrHGFSY",
+    "title": "Dumbbell Seated Box Jump",
+    "channel": "Alex Bunt",
+    "verified": true
+  },
+  "dumbbell seated one-leg calf raise": {
+    "url": "https://www.youtube.com/watch?v=Ih4bGiKq4Ac",
+    "title": "Dumbbell Seated One-Leg Calf Raise",
+    "channel": "Get Right Results",
+    "verified": true
+  },
+  "dumbbell shrug": {
+    "url": "https://www.youtube.com/watch?v=qvvJUKq7_sU",
+    "title": "How to Perform Dumbbell Shrugs",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "dumbbell side bend": {
+    "url": "https://www.youtube.com/watch?v=dL9ZzqtQI5c",
+    "title": "How to Do a Dumbbell Side Bend",
+    "channel": "Howcast",
+    "verified": true
+  },
+  "dumbbell squat": {
+    "url": "https://www.youtube.com/watch?v=ZXwvmRSRRxY",
+    "title": "Dumbbell Squat Tutorial",
+    "channel": "Travis Tarrant",
+    "verified": true
+  },
+  "dumbbell squat to a bench": {
+    "url": "https://www.youtube.com/watch?v=lDq799WEDsE",
+    "title": "Dumbbell Squat to a Bench",
+    "channel": "Get Right Results",
+    "verified": true
+  },
+  "dumbbell step ups": {
+    "url": "https://www.youtube.com/watch?v=aKj-6hgiViA",
+    "title": "How to Properly Perform Dumbbell Step-Ups",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "dumbbell tricep extension -pronated grip": {
+    "url": "https://www.youtube.com/watch?v=qwZHHWJy7zQ",
+    "title": "Dumbbell Triceps Extension (Pronated Grip)",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "dynamic back stretch": {
+    "url": "https://www.youtube.com/watch?v=tC3ZHGcgbWs",
+    "title": "Dynamic Back Stretches",
+    "channel": "Janice Hung",
+    "verified": true
+  },
+  "dynamic chest stretch": {
+    "url": "https://www.youtube.com/watch?v=urICkMgMrjk",
+    "title": "Dynamic Chest Stretch",
+    "channel": "Stylecraze Fitness",
+    "verified": true
+  },
+  "elbow circles": {
+    "url": "https://www.youtube.com/watch?v=m9Grt4tCtvo",
+    "title": "How to Do Elbow Circles (Mobility)",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "elbow to knee": {
+    "url": "https://www.youtube.com/watch?v=FcjwuLMdGyM",
+    "title": "How To: Elbow-to-Knee Crunch",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "elbows back": {
+    "url": "https://www.youtube.com/watch?v=LDY2LiB8sxE",
+    "title": "How to Do Elbows Back",
+    "channel": "Leap Fitness",
+    "verified": true
+  },
+  "elevated back lunge": {
+    "url": "https://www.youtube.com/watch?v=2uAq0hnbJVk",
+    "title": "Dumbbell Deficit (Elevated) Reverse Lunge",
+    "channel": "Travis Tarrant",
+    "verified": true
+  },
+  "elevated cable rows": {
+    "url": "https://www.youtube.com/watch?v=3GEkyB9Ke2w",
+    "title": "Elevated Cable Rows",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "elliptical trainer": {
+    "url": "https://www.youtube.com/watch?v=sHMemwz_HPU",
+    "title": "How to Use an Elliptical Machine",
+    "channel": "Planet Fitness",
+    "verified": true
+  },
+  "exercise ball crunch": {
+    "url": "https://www.youtube.com/watch?v=BKS9NRVko0g",
+    "title": "Exercise Ball Crunch",
+    "channel": "MyTraining App",
+    "verified": true
+  },
+  "exercise ball pull-in": {
+    "url": "https://www.youtube.com/watch?v=dHbO_KrO-7k",
+    "title": "Stability Ball Knee Tuck / Pull-In",
+    "channel": "FITBODY with Julie Lohre",
+    "verified": true
+  },
+  "extended range one-arm kettlebell floor press": {
+    "url": "https://www.youtube.com/watch?v=p_pf8S5vpTU",
+    "title": "Extended-Range One-Arm Kettlebell Floor Press",
+    "channel": "I'll Pump You Up",
+    "verified": true
+  },
+  "external rotation": {
+    "url": "https://www.youtube.com/watch?v=jQ4TKUEVDoc",
+    "title": "Dumbbell External Rotation (Rotator Cuff)",
+    "channel": "HASfit",
+    "verified": true
+  },
+  "external rotation with band": {
+    "url": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
+    "title": "Shoulder External Rotation With a Band",
+    "channel": "AskDoctorJo",
+    "verified": true
+  },
+  "external rotation with cable": {
+    "url": "https://www.youtube.com/watch?v=T_WCU7wjn4Y",
+    "title": "Cable External Rotation (Rotator Cuff)",
+    "channel": "HASfit",
+    "verified": true
+  },
+  "ez-bar curl": {
+    "url": "https://www.youtube.com/watch?v=5NsFLGUf0Fo",
+    "title": "How to EZ-Bar Curl With Perfect Form",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "ez-bar skullcrusher": {
+    "url": "https://www.youtube.com/watch?v=D47mYdoKllE",
+    "title": "EZ-Bar Skull Crushers",
+    "channel": "MyTraining App",
+    "verified": true
+  },
+  "face pull": {
+    "url": "https://www.youtube.com/watch?v=eTCBSFlCJ_s",
+    "title": "How to Do a Face Pull | Proper Form (NASM)",
+    "channel": "NASM",
+    "verified": true
+  },
+  "farmer's walk": {
+    "url": "https://www.youtube.com/watch?v=Fkzk_RqlYig",
+    "title": "How to Perform the Farmer's Walk",
+    "channel": "Buff Dudes",
+    "verified": true
+  },
+  "fast skipping": {
+    "url": "https://www.youtube.com/watch?v=alkbZy3KIBY",
+    "title": "How to Speed Jump Rope (Fast Skipping)",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "figure-four stretch": {
+    "url": "https://www.youtube.com/watch?v=-g0nuyTHMrI",
+    "title": "Piriformis Figure-Four Stretch",
+    "channel": "AskDoctorJo",
+    "verified": true
+  },
+  "finger curls": {
+    "url": "https://www.youtube.com/watch?v=mp61xNRZcrk",
+    "title": "How to Perform Finger Curls (Forearms)",
+    "channel": "Buff Dudes",
+    "verified": true
+  },
+  "flat bench cable flyes": {
+    "url": "https://www.youtube.com/watch?v=gV2QSjD3Cs0",
+    "title": "How to Do Flat-Bench Cable Flyes",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "flat bench leg pull-in": {
+    "url": "https://www.youtube.com/watch?v=GPBVNHl5cS8",
+    "title": "Seated Flat-Bench Leg Pull-In",
+    "channel": "MyTraining App",
+    "verified": true
+  },
+  "flat bench lying leg raise": {
+    "url": "https://www.youtube.com/watch?v=UqqEz164yQI",
+    "title": "How to Do the Flat-Bench Lying Leg Raise",
+    "channel": "Stylecraze Fitness",
+    "verified": true
+  },
+  "flexor incline dumbbell curls": {
+    "url": "https://www.youtube.com/watch?v=cjnaJSYbG3g",
+    "title": "How to Do Flexor Incline Dumbbell Curls",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "floor glute-ham raise": {
+    "url": "https://www.youtube.com/watch?v=RtwVVDS3vAM",
+    "title": "How to Do Glute-Ham Raises",
+    "channel": "Testosterone Nation",
+    "verified": true
+  },
+  "floor press": {
+    "url": "https://www.youtube.com/watch?v=0TcB1qQU0vw",
+    "title": "The Floor Press | Movement Demo",
+    "channel": "Rogue Fitness",
+    "verified": true
+  },
+  "floor press with chains": {
+    "url": "https://www.youtube.com/watch?v=rgDzHCcTLac",
+    "title": "Floor Press With Chains",
+    "channel": "Westside Barbell",
+    "verified": true
+  },
+  "flutter kicks": {
+    "url": "https://www.youtube.com/watch?v=5FRp7wvzxDM",
+    "title": "Flutter Kicks Tutorial (All Variations)",
+    "channel": "Gymless Fitness",
+    "verified": true
+  },
+  "foot-smr": {
+    "url": "https://www.youtube.com/watch?v=Wsj6HnQHAY0",
+    "title": "Foot Self-Myofascial Release (Spiky Ball)",
+    "channel": "NJD Sports Injury Centre",
+    "verified": true
+  },
+  "forward drag with press": {
+    "url": "https://www.youtube.com/watch?v=u3RZXe1kqLA",
+    "title": "Sled Forward Drag With Press",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "frankenstein squat": {
+    "url": "https://www.youtube.com/watch?v=FL42-R66dNM",
+    "title": "Frankenstein Front Squat",
+    "channel": "Power Monkey Fitness",
+    "verified": true
+  },
+  "freehand jump squat": {
+    "url": "https://www.youtube.com/watch?v=dtJ6kOV5dUc",
+    "title": "Freehand Jump Squat",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "frog hops": {
+    "url": "https://www.youtube.com/watch?v=t3_YDlS_rmk",
+    "title": "Frog Hops | Plyometric",
+    "channel": "Rehab My Patient",
+    "verified": true
+  },
+  "frog sit-ups": {
+    "url": "https://www.youtube.com/watch?v=zRMYJf5oe_I",
+    "title": "How to Do Frog Crunches (Frog Sit-Ups)",
+    "channel": "LIVESTRONG",
+    "verified": true
+  },
+  "frog stretch": {
+    "url": "https://www.youtube.com/watch?v=20ZWXZPQbpI",
+    "title": "How to Do the Frog Stretch (Tight Groin)",
+    "channel": "Squat University",
+    "verified": true
+  },
+  "front barbell squat": {
+    "url": "https://www.youtube.com/watch?v=0ect9ETE6t0",
+    "title": "How to Properly Do the Barbell Front Squat",
+    "channel": "Fit Father Project",
+    "verified": true
+  },
+  "front barbell squat to a bench": {
+    "url": "https://www.youtube.com/watch?v=RbMi6CQfGkk",
+    "title": "Barbell Front Squat to a Box/Bench",
+    "channel": "TEST Football Academy",
+    "verified": true
+  },
+  "front box jump": {
+    "url": "https://www.youtube.com/watch?v=G-bxQY57mKc",
+    "title": "Box Jump Tutorial - Proper Form",
+    "channel": "Runna",
+    "verified": true
+  },
+  "front cable raise": {
+    "url": "https://www.youtube.com/watch?v=RIAfO1-M_F4",
+    "title": "Cable Front Raise",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "front dumbbell raise": {
+    "url": "https://www.youtube.com/watch?v=-t7fuZ0KhDA",
+    "title": "How To: Dumbbell Front Raise",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "front incline dumbbell raise": {
+    "url": "https://www.youtube.com/watch?v=pJklk7UR69s",
+    "title": "Front Incline Dumbbell Raise",
+    "channel": "Get Right Results",
+    "verified": true
+  },
+  "front leg raises": {
+    "url": "https://www.youtube.com/watch?v=difYoBtZi2s",
+    "title": "How to Do Standing Leg Swings (Front Leg Raises)",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "front plate raise": {
+    "url": "https://www.youtube.com/watch?v=-TlT6aXNok4",
+    "title": "Plate Front Raise | Shoulder",
+    "channel": "Rehab My Patient",
+    "verified": true
+  },
+  "front cone hops (or hurdle hops)": {
+    "url": "https://www.youtube.com/watch?v=r47D5ITtVf0",
+    "title": "How to Do Hurdle / Cone Hops",
+    "channel": "Howcast",
+    "verified": true
+  },
+  "front raise and pullover": {
+    "url": "https://www.youtube.com/watch?v=OO8x69XwRZY",
+    "title": "Front Raise and Pullover | Exercise Guide",
+    "channel": "Peter Jordan",
+    "verified": true
+  },
+  "front squat (clean grip)": {
+    "url": "https://www.youtube.com/watch?v=tW2H0Ib_hQw",
+    "title": "Front Squat With Clean Grip | Exercise Guide",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "front squats with two kettlebells": {
+    "url": "https://www.youtube.com/watch?v=6XghYOzny8U",
+    "title": "How to Perform the Double Kettlebell Front Squat",
+    "channel": "Champion PT & Performance",
+    "verified": true
+  },
+  "front two-dumbbell raise": {
+    "url": "https://www.youtube.com/watch?v=zkP0MsTcIVU",
+    "title": "How to Do a Dumbbell Front Raise",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "full range-of-motion lat pulldown": {
+    "url": "https://www.youtube.com/watch?v=8Wv1l90lNIE",
+    "title": "Full Range-of-Motion Lat Pulldown",
+    "channel": "SEXioFIT",
+    "verified": true
+  },
+  "gironda sternum chins": {
+    "url": "https://www.youtube.com/watch?v=58QkcGVA12A",
+    "title": "Gironda Sternum Chin-Up",
+    "channel": "Testosterone Nation",
+    "verified": true
+  },
+  "glute bridge march": {
+    "url": "https://www.youtube.com/watch?v=M8LAwv4Od2I",
+    "title": "Glute Bridge March | Hip Stability",
+    "channel": "Flow Motion Fitness",
+    "verified": true
+  },
+  "glute ham raise": {
+    "url": "https://www.youtube.com/watch?v=TzowfEB3NqI",
+    "title": "Glute-Ham Raise (GHR) Tutorial",
+    "channel": "The Strength Institute",
+    "verified": true
+  },
+  "glute kickback": {
+    "url": "https://www.youtube.com/watch?v=PiateWJip1M",
+    "title": "How to Do Glute Kickbacks (Every Variation)",
+    "channel": "Glute Guru",
+    "verified": true
+  },
+  "goblet squat": {
+    "url": "https://www.youtube.com/watch?v=9W5KAqHfDe8",
+    "title": "The Goblet Squat | Proper Form",
+    "channel": "Fit Father Project",
+    "verified": true
+  },
+  "good morning": {
+    "url": "https://www.youtube.com/watch?v=f23vXjoG2e8",
+    "title": "How to Do the Good Morning Exercise",
+    "channel": "Jeff Nippard",
+    "verified": true
+  },
+  "good morning off pins": {
+    "url": "https://www.youtube.com/watch?v=8DxlaI1dGho",
+    "title": "Good Morning From Pins",
+    "channel": "Testosterone Nation",
+    "verified": true
+  },
+  "gorilla chin/crunch": {
+    "url": "https://www.youtube.com/watch?v=4cXIO4_HGsw",
+    "title": "Gorilla Chin / Crunch Exercise",
+    "channel": "Christopher Edghill",
+    "verified": true
+  },
+  "groin and back stretch": {
+    "url": "https://www.youtube.com/watch?v=YANA2VJeJRY",
+    "title": "Groin Stretches & Exercises",
+    "channel": "AskDoctorJo",
+    "verified": true
+  },
+  "groiners": {
+    "url": "https://www.youtube.com/watch?v=Ci13plBZgj4",
+    "title": "How to Do Groiners | Exercise Demo",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "hack squat": {
+    "url": "https://www.youtube.com/watch?v=hglQExHCM9Q",
+    "title": "Hack Squat Machine (Tutorial + Form Tips)",
+    "channel": "Team Evolve",
+    "verified": true
+  },
+  "half moon pose": {
+    "url": "https://www.youtube.com/watch?v=-wwRNGArTI0",
+    "title": "Half Moon Pose (Ardha Chandrasana) Tips",
+    "channel": "Heather Kitchen Yoga",
+    "verified": true
+  },
+  "hammer curls": {
+    "url": "https://www.youtube.com/watch?v=zC3nLlEvin4",
+    "title": "How To: Dumbbell Hammer Curl",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "hammer grip incline db bench press": {
+    "url": "https://www.youtube.com/watch?v=p9zeQCHL7k8",
+    "title": "Incline Hammer-Grip Dumbbell Press",
+    "channel": "Get Right Results",
+    "verified": true
+  },
+  "hamstring stretch": {
+    "url": "https://www.youtube.com/watch?v=2SdMmx_sLNc",
+    "title": "How to Stretch Tight Hamstrings",
+    "channel": "Tone and Tighten",
+    "verified": true
+  },
+  "hamstring-smr": {
+    "url": "https://www.youtube.com/watch?v=49lQp52xgmc",
+    "title": "How to Foam Roll Your Hamstrings (SMR)",
+    "channel": "GEvolution Fitness",
+    "verified": true
+  },
+  "handstand push-up": {
+    "url": "https://www.youtube.com/watch?v=KEfazWGOUok",
+    "title": "How to Handstand Push-Up",
+    "channel": "Andry Strong",
+    "verified": true
+  },
+  "handstand push-ups": {
+    "url": "https://www.youtube.com/watch?v=h0HjqYRlXYg",
+    "title": "Master the Handstand Push-Up (HSPU)",
+    "channel": "Calisthenic Movement",
+    "verified": true
+  },
+  "hang clean": {
+    "url": "https://www.youtube.com/watch?v=uUeV3LwisDI",
+    "title": "Hang Clean | Olympic Weightlifting",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "hang clean - below the knees": {
+    "url": "https://www.youtube.com/watch?v=uUeV3LwisDI",
+    "title": "Hang Clean (Below the Knee) | Olympic Weightlifting",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "hang snatch": {
+    "url": "https://www.youtube.com/watch?v=Php-RclQ1yU",
+    "title": "Hang Snatch | Olympic Weightlifting",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "hang snatch - below knees": {
+    "url": "https://www.youtube.com/watch?v=Php-RclQ1yU",
+    "title": "Hang Snatch (Below the Knee) | Olympic Weightlifting",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "hanging bar good morning": {
+    "url": "https://www.youtube.com/watch?v=fJA39ZOVaEQ",
+    "title": "Banded / Bar Good Morning",
+    "channel": "Rogue Fitness",
+    "verified": true
+  },
+  "hanging knee raise": {
+    "url": "https://www.youtube.com/watch?v=l7OroezzX9k",
+    "title": "Hanging Knee Raise Tutorial",
+    "channel": "Runna",
+    "verified": true
+  },
+  "hanging leg raise": {
+    "url": "https://www.youtube.com/watch?v=rbOJSK07AGA",
+    "title": "Hanging Leg Raise Tutorial",
+    "channel": "Runna",
+    "verified": true
+  },
+  "hanging pike": {
+    "url": "https://www.youtube.com/watch?v=wVRlRmGsZ2w",
+    "title": "How to Do a Hanging Pike",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "heaving snatch balance": {
+    "url": "https://www.youtube.com/watch?v=jarNDV_fMCE",
+    "title": "Heaving Snatch Balance",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "heavy bag thrust": {
+    "url": "https://www.youtube.com/watch?v=Av0hD5PNNpA",
+    "title": "Heavy Bag Thrust",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "heel-to-toe walk": {
+    "url": "https://www.youtube.com/watch?v=TNtYViPdJC4",
+    "title": "Heel-to-Toe (Tandem) Walk",
+    "channel": "Elevating KIDS",
+    "verified": true
+  },
+  "high cable curls": {
+    "url": "https://www.youtube.com/watch?v=2MUEL4nL6hA",
+    "title": "How to Properly Do Cable Bicep Curls",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "hindu push-up": {
+    "url": "https://www.youtube.com/watch?v=NPkIWXKZEYg",
+    "title": "Hindu Push-Up Tutorial",
+    "channel": "Andrew Alinda",
+    "verified": true
+  },
+  "hip circles": {
+    "url": "https://www.youtube.com/watch?v=JYqLwajOGjI",
+    "title": "Hip Circles Tutorial",
+    "channel": "Runna",
+    "verified": true
+  },
+  "hip circles (prone)": {
+    "url": "https://www.youtube.com/watch?v=goQjoah-An8",
+    "title": "Quadruped (Prone) Hip Circles",
+    "channel": "Inspire FAE Coaching",
+    "verified": true
+  },
+  "hip extension with bands": {
+    "url": "https://www.youtube.com/watch?v=H3QvaT4b1Y0",
+    "title": "Hip Extension With Resistance Bands",
+    "channel": "Bodylastics",
+    "verified": true
+  },
+  "hip flexion with band": {
+    "url": "https://www.youtube.com/watch?v=-wSTNPVgF0Q",
+    "title": "Standing Hip Flexion With a Band",
+    "channel": "AskDoctorJo",
+    "verified": true
+  },
+  "hip lift with band": {
+    "url": "https://www.youtube.com/watch?v=ktdIgom5B18",
+    "title": "Glute Bridges (Hip Lift) With Resistance Bands",
+    "channel": "Fit as a Mama Bear",
+    "verified": true
+  },
+  "hollow body hold": {
+    "url": "https://www.youtube.com/watch?v=0yPin8hSc8o",
+    "title": "Hollow Body Hold | Proper Form",
+    "channel": "FIT.nl",
+    "verified": true
+  },
+  "hollow hold to plank shoulder tap": {
+    "url": "https://www.youtube.com/watch?v=gKA5LBy7WAI",
+    "title": "How to Do Plank Shoulder Taps",
+    "channel": "Wellen",
+    "verified": true
+  },
+  "hollow rock": {
+    "url": "https://www.youtube.com/watch?v=gas_AFCRPxY",
+    "title": "How To: Hollow Rock",
+    "channel": "BOXROX",
+    "verified": true
+  },
+  "hug a ball": {
+    "url": "https://www.youtube.com/watch?v=XujJTXZxaYs",
+    "title": "How to Deep Squat Hold",
+    "channel": "Man Flow Yoga",
+    "verified": true
+  },
+  "hug knees to chest": {
+    "url": "https://www.youtube.com/watch?v=SngJLItXzjM",
+    "title": "Knees-to-Chest Stretch",
+    "channel": "Cumberland Chiropractic",
+    "verified": true
+  },
+  "hurdle hops": {
+    "url": "https://www.youtube.com/watch?v=r47D5ITtVf0",
+    "title": "How to Do a Hurdle Hop",
+    "channel": "Howcast",
+    "verified": true
+  },
+  "hyperextensions (back extensions)": {
+    "url": "https://www.youtube.com/watch?v=EiTg8Q4KKpg",
+    "title": "Roman Chair Back Extension (Hyperextension)",
+    "channel": "Dr. JP Guidry DPT",
+    "verified": true
+  },
+  "hyperextensions with no hyperextension bench": {
+    "url": "https://www.youtube.com/watch?v=DnjXAAr29Lc",
+    "title": "Back Extensions Off a Standard Bench",
+    "channel": "Bret Contreras",
+    "verified": true
+  },
+  "iliotibial tract-smr": {
+    "url": "https://www.youtube.com/watch?v=Ncl0oa4pD-8",
+    "title": "IT-Band Foam Rolling (SMR)",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "inchworm": {
+    "url": "https://www.youtube.com/watch?v=ml3MdmCkwbQ",
+    "title": "Inchworm: How To (Proper Form)",
+    "channel": "Born Fitness",
+    "verified": true
+  },
+  "incline barbell triceps extension": {
+    "url": "https://www.youtube.com/watch?v=9YPrhQmTqHs",
+    "title": "Incline Barbell Triceps Extension",
+    "channel": "Mohamed Attia",
+    "verified": true
+  },
+  "incline bench pull": {
+    "url": "https://www.youtube.com/watch?v=64AnL8BVd_8",
+    "title": "Bench Pull (Prone Incline Row) Tutorial",
+    "channel": "The Strength Institute",
+    "verified": true
+  },
+  "incline cable chest press": {
+    "url": "https://www.youtube.com/watch?v=chvZZIWje0M",
+    "title": "How to Do the Incline Cable Chest Press",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "incline cable flye": {
+    "url": "https://www.youtube.com/watch?v=lzxCuqCTAjU",
+    "title": "How to Do an Incline Cable Fly",
+    "channel": "Howcast",
+    "verified": true
+  },
+  "incline dumbbell bench with palms facing in": {
+    "url": "https://www.youtube.com/watch?v=SMO17ItT5Wc",
+    "title": "Neutral-Grip Incline Dumbbell Bench Press",
+    "channel": "Jacobs Fitness",
+    "verified": true
+  },
+  "incline dumbbell curl": {
+    "url": "https://www.youtube.com/watch?v=4FbGrHJyG8o",
+    "title": "Incline Dumbbell Curl",
+    "channel": "Merrick Lincoln, DPT",
+    "verified": true
+  },
+  "incline dumbbell flyes": {
+    "url": "https://www.youtube.com/watch?v=ajdFwa-qM98",
+    "title": "How to Do an Incline Dumbbell Fly",
+    "channel": "Howcast",
+    "verified": true
+  },
+  "incline dumbbell flyes - with a twist": {
+    "url": "https://www.youtube.com/watch?v=ssiFwHINCYk",
+    "title": "Incline Dumbbell Flyes (With a Twist)",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "incline dumbbell press": {
+    "url": "https://www.youtube.com/watch?v=IP4oeKh1Sd4",
+    "title": "How to Do the Incline Dumbbell Bench Press",
+    "channel": "Max Euceda",
+    "verified": true
+  },
+  "incline hammer curls": {
+    "url": "https://www.youtube.com/watch?v=dYmwchQHqEA",
+    "title": "How to Do Incline Hammer Curls",
+    "channel": "Rehab My Patient",
+    "verified": true
+  },
+  "incline inner biceps curl": {
+    "url": "https://www.youtube.com/watch?v=soxrZlIl35U",
+    "title": "Seated Incline Dumbbell Bicep Curl",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "incline push-up": {
+    "url": "https://www.youtube.com/watch?v=0JUrOH--Kdk",
+    "title": "How to Do an Incline Push-Up (NASM)",
+    "channel": "NASM",
+    "verified": true
+  },
+  "incline push-up close-grip": {
+    "url": "https://www.youtube.com/watch?v=F1Lq9LnyvVc",
+    "title": "Close-Grip Push-Ups",
+    "channel": "Brian Moyle Fitness",
+    "verified": true
+  },
+  "incline push-up depth jump": {
+    "url": "https://www.youtube.com/watch?v=x3UvaySw0ys",
+    "title": "Incline Push-Up Depth Jump",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "incline push-up medium": {
+    "url": "https://www.youtube.com/watch?v=o-3rhEHTDhg",
+    "title": "How to Do an Incline Push-Up",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "incline push-up reverse grip": {
+    "url": "https://www.youtube.com/watch?v=vYtLn6p_JIA",
+    "title": "Reverse-Grip Push-Up",
+    "channel": "The Sustainable Training Method",
+    "verified": true
+  },
+  "incline push-up wide": {
+    "url": "https://www.youtube.com/watch?v=rr6eFNNDQdU",
+    "title": "How to Do a Wide-Grip Push-Up",
+    "channel": "Howcast",
+    "verified": true
+  },
+  "intermediate groin stretch": {
+    "url": "https://www.youtube.com/watch?v=sQ1CuSFp14A",
+    "title": "Seated Butterfly (Groin) Stretch",
+    "channel": "Howcast",
+    "verified": true
+  },
+  "intermediate hip flexor and quad stretch": {
+    "url": "https://www.youtube.com/watch?v=vp2oIc890eU",
+    "title": "Half-Kneeling Hip Flexor & Quad Stretch",
+    "channel": "Mobility Doc",
+    "verified": true
+  },
+  "internal rotation with band": {
+    "url": "https://www.youtube.com/watch?v=wb2NMN5mly0",
+    "title": "Shoulder Internal Rotation With a Band",
+    "channel": "PersonalBestOz",
+    "verified": true
+  },
+  "inverted row": {
+    "url": "https://www.youtube.com/watch?v=11F_O_sZ1Z4",
+    "title": "How to Perform the Inverted Row",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "inverted row with straps": {
+    "url": "https://www.youtube.com/watch?v=utTuYn6ncGE",
+    "title": "How to Do TRX / Strap Inverted Rows",
+    "channel": "BluePhoenix Fitness",
+    "verified": true
+  },
+  "iron cross": {
+    "url": "https://www.youtube.com/watch?v=VsGuw0SwSeY",
+    "title": "Dumbbell Iron Cross",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "iron crosses (stretch)": {
+    "url": "https://www.youtube.com/watch?v=5-BuRpLixls",
+    "title": "How to Do the Iron Cross Stretch",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "isometric chest squeezes": {
+    "url": "https://www.youtube.com/watch?v=LKP1YiVV0y8",
+    "title": "Isometric Chest Squeeze",
+    "channel": "TruForm Nutrition",
+    "verified": true
+  },
+  "isometric neck exercise - front and back": {
+    "url": "https://www.youtube.com/watch?v=PSwHo-kcfhc",
+    "title": "Isometric Neck Exercise (Front & Back)",
+    "channel": "U.S. Forces Fitness",
+    "verified": true
+  },
+  "isometric neck exercise - sides": {
+    "url": "https://www.youtube.com/watch?v=e6RXxE2FaMo",
+    "title": "Isometric Neck Side Bend",
+    "channel": "PhysioMax Wellness",
+    "verified": true
+  },
+  "isometric wipers": {
+    "url": "https://www.youtube.com/watch?v=X59_4RrU_aA",
+    "title": "How to Do a Windshield Wiper",
+    "channel": "Howcast",
+    "verified": true
+  },
+  "it band and glute stretch": {
+    "url": "https://www.youtube.com/watch?v=mJBOwaoVBFw",
+    "title": "How to Stretch IT Bands and Glutes",
+    "channel": "Dr. Josh Axe",
+    "verified": true
+  },
+  "jackknife sit-up": {
+    "url": "https://www.youtube.com/watch?v=GI4S_zkJJkM",
+    "title": "How to Do Jackknife Sit-Ups",
+    "channel": "Brian Syuki",
+    "verified": true
+  },
+  "janda sit-up": {
+    "url": "https://www.youtube.com/watch?v=UsFGTXPmPaI",
+    "title": "How To: Janda Sit-Up",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "jefferson curl": {
+    "url": "https://www.youtube.com/watch?v=BGQ-1Uptah8",
+    "title": "Jefferson Curls - Step-by-Step Guide",
+    "channel": "Body By Brando",
+    "verified": true
+  },
+  "jefferson squats": {
+    "url": "https://www.youtube.com/watch?v=KIiRSnH00FU",
+    "title": "Jefferson Deadlift / Squat Guide",
+    "channel": "That Fit Friend",
+    "verified": true
+  },
+  "jerk balance": {
+    "url": "https://www.youtube.com/watch?v=VWU_0OwXoPQ",
+    "title": "Jerk Balance | Olympic Weightlifting",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "jerk dip squat": {
+    "url": "https://www.youtube.com/watch?v=ppVBNAGEtYI",
+    "title": "Jerk Dip (Rhythm Dip) | Olympic Weightlifting",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "jm press": {
+    "url": "https://www.youtube.com/watch?v=09q-wob818M",
+    "title": "How to Perform the JM Press",
+    "channel": "Total Fitness Bodybuilding",
+    "verified": true
+  },
+  "jogging, treadmill": {
+    "url": "https://www.youtube.com/watch?v=aKfJJ1TuyE4",
+    "title": "Treadmill Running Form for Beginners",
+    "channel": "The Run Experience",
+    "verified": true
+  },
+  "jump squat": {
+    "url": "https://www.youtube.com/watch?v=tZjZxrAeVjg",
+    "title": "How to Do Jump Squats Properly",
+    "channel": "Fit Father Project",
+    "verified": true
+  },
+  "keg load": {
+    "url": "https://www.youtube.com/watch?v=GtI0Z0MHvDQ",
+    "title": "Keg Loading | Intro to Strongman",
+    "channel": "Above the Rest Training",
+    "verified": true
+  },
+  "kettlebell arnold press": {
+    "url": "https://www.youtube.com/watch?v=EAU8uxxuKdI",
+    "title": "How to Do the Kettlebell Arnold Press",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "kettlebell dead clean": {
+    "url": "https://www.youtube.com/watch?v=ap1a1Wf5f3Y",
+    "title": "How to Do the Kettlebell Dead Clean",
+    "channel": "Cavemantraining",
+    "verified": true
+  },
+  "kettlebell figure 8": {
+    "url": "https://www.youtube.com/watch?v=mxDvhrMxuus",
+    "title": "How to Do the Kettlebell Figure-8",
+    "channel": "Brittany van Schravendijk",
+    "verified": true
+  },
+  "kettlebell hang clean": {
+    "url": "https://www.youtube.com/watch?v=lliRf_d6MDc",
+    "title": "How to Hang Clean With a Kettlebell",
+    "channel": "ATHLEAN-X",
+    "verified": true
+  },
+  "kettlebell one-legged deadlift": {
+    "url": "https://www.youtube.com/watch?v=o0rblOFkuho",
+    "title": "Kettlebell Single-Leg Deadlift",
+    "channel": "Trainer Hub",
+    "verified": true
+  },
+  "kettlebell pass between the legs": {
+    "url": "https://www.youtube.com/watch?v=sD6LZTJk1vM",
+    "title": "Kettlebell Figure-8 Between the Legs",
+    "channel": "STORM Combat System",
+    "verified": true
+  },
+  "kettlebell pirate ships": {
+    "url": "https://www.youtube.com/watch?v=eGv_qYDyJTM",
+    "title": "How to Do Kettlebell Pirate Ships",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "kettlebell pistol squat": {
+    "url": "https://www.youtube.com/watch?v=3dMMJMSpFV0",
+    "title": "Kettlebell Pistol Squat",
+    "channel": "John Parker",
+    "verified": true
+  },
+  "kettlebell seated press": {
+    "url": "https://www.youtube.com/watch?v=pH-FgjfbsFI",
+    "title": "How to Seated Press With a Kettlebell",
+    "channel": "Kettlebell Kings",
+    "verified": true
+  },
+  "kettlebell seesaw press": {
+    "url": "https://www.youtube.com/watch?v=mZ9hxnddbWc",
+    "title": "Kettlebell Seesaw Press Form",
+    "channel": "Kettlebell Kings",
+    "verified": true
+  },
+  "kettlebell sumo high pull": {
+    "url": "https://www.youtube.com/watch?v=sgZ1pY32Vyc",
+    "title": "Kettlebell Sumo Deadlift High Pull",
+    "channel": "IronmasterPro",
+    "verified": true
+  },
+  "kettlebell thruster": {
+    "url": "https://www.youtube.com/watch?v=SEUuzCEh29U",
+    "title": "How to Perform the Kettlebell Thruster",
+    "channel": "Fit Complex",
+    "verified": true
+  },
+  "kettlebell turkish get-up (lunge style)": {
+    "url": "https://www.youtube.com/watch?v=rB2Uce6kJJc",
+    "title": "Kettlebell Turkish Get-Up (Lunge Style)",
+    "channel": "Cavemantraining",
+    "verified": true
+  },
+  "kettlebell turkish get-up (squat style)": {
+    "url": "https://www.youtube.com/watch?v=Z9sJ0hrvMwc",
+    "title": "Kettlebell Turkish Get-Up (Squat Style)",
+    "channel": "Joe Daniels",
+    "verified": true
+  },
+  "kettlebell windmill": {
+    "url": "https://www.youtube.com/watch?v=XJBU-IfiKY8",
+    "title": "How to Do the Kettlebell Windmill",
+    "channel": "Onnit",
+    "verified": true
+  },
+  "kipping muscle up": {
+    "url": "https://www.youtube.com/watch?v=G8W0BhzrWcs",
+    "title": "The Kipping Muscle-Up",
+    "channel": "CrossFit",
+    "verified": true
+  },
+  "knee across the body": {
+    "url": "https://www.youtube.com/watch?v=ntUXh7qiyr0",
+    "title": "Knee-Across-Body (Piriformis) Stretch",
+    "channel": "AskDoctorJo",
+    "verified": true
+  },
+  "knee circles": {
+    "url": "https://www.youtube.com/watch?v=urrVyUcNdkY",
+    "title": "How To: Standing Knee Circles",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "knee tuck jump": {
+    "url": "https://www.youtube.com/watch?v=7oI1vhOMY7g",
+    "title": "How To: Tuck Jump",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "knee/hip raise on parallel bars": {
+    "url": "https://www.youtube.com/watch?v=7KDDZtaUaxw",
+    "title": "Captain's Chair Knee Raise",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "kneeling arm drill": {
+    "url": "https://www.youtube.com/watch?v=4aWY_Qji8qk",
+    "title": "Kneeling Arm Action Speed Drill",
+    "channel": "FASSTRAINING24",
+    "verified": true
+  },
+  "kneeling cable crunch with alternating oblique twists": {
+    "url": "https://www.youtube.com/watch?v=9zWWTq4YtmI",
+    "title": "Kneeling Cable Crunch With Alternating Oblique Twists",
+    "channel": "Lidor Dayan",
+    "verified": true
+  },
+  "kneeling cable triceps extension": {
+    "url": "https://www.youtube.com/watch?v=E_uhLao7mEQ",
+    "title": "Kneeling Cable Triceps Extension",
+    "channel": "Fitness Instructor",
+    "verified": true
+  },
+  "kneeling forearm stretch": {
+    "url": "https://www.youtube.com/watch?v=sUEBYCv3OZY",
+    "title": "Kneeling Forearm Stretch",
+    "channel": "TrainFTW",
+    "verified": true
+  },
+  "kneeling high pulley row": {
+    "url": "https://www.youtube.com/watch?v=3O1Lcc_NvvE",
+    "title": "Kneeling High-Pulley Row",
+    "channel": "Fitness Arabia",
+    "verified": true
+  },
+  "kneeling hip flexor": {
+    "url": "https://www.youtube.com/watch?v=Q4Ko275cluo",
+    "title": "Kneeling Hip-Flexor Stretch",
+    "channel": "Competitive EDGE PT",
+    "verified": true
+  },
+  "kneeling hip flexor stretch": {
+    "url": "https://www.youtube.com/watch?v=K5EZ8ztNEcw",
+    "title": "Kneeling Hip-Flexor Stretch",
+    "channel": "Rehab My Patient",
+    "verified": true
+  },
+  "kneeling jump squat": {
+    "url": "https://www.youtube.com/watch?v=4qK55avGyy4",
+    "title": "Kneeling Jump Squat | Plyometric",
+    "channel": "Rehab My Patient",
+    "verified": true
+  },
+  "kneeling single-arm high pulley row": {
+    "url": "https://www.youtube.com/watch?v=83BT6B4v7T4",
+    "title": "Kneeling Single-Arm High-Pulley Row",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "kneeling squat": {
+    "url": "https://www.youtube.com/watch?v=LMEGUcIqXUU",
+    "title": "Kneeling Squats Tutorial",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "l-sit": {
+    "url": "https://www.youtube.com/watch?v=eywCpp0p7lg",
+    "title": "The Perfect L-Sit Tutorial",
+    "channel": "STRIQfit",
+    "verified": true
+  },
+  "landmine 180's": {
+    "url": "https://www.youtube.com/watch?v=QDakeCOBdDE",
+    "title": "The Landmine Twist (180s)",
+    "channel": "Rogue Fitness",
+    "verified": true
+  },
+  "landmine linear jammer": {
+    "url": "https://www.youtube.com/watch?v=NOrpEdNoOVQ",
+    "title": "How to Do the Landmine Linear Jammer",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "lateral bound": {
+    "url": "https://www.youtube.com/watch?v=niEGdFUQ6sY",
+    "title": "How to Lateral (Skater) Bound",
+    "channel": "LPS Athletic",
+    "verified": true
+  },
+  "lateral box jump": {
+    "url": "https://www.youtube.com/watch?v=qGIZYzK6WFM",
+    "title": "Lateral Box Jump",
+    "channel": "Brandon Smitley",
+    "verified": true
+  },
+  "lateral cone hops": {
+    "url": "https://www.youtube.com/watch?v=viKgp6eLiLA",
+    "title": "How to Do Lateral Cone Hops",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "lateral raise - with bands": {
+    "url": "https://www.youtube.com/watch?v=iQlrRrZTrBs",
+    "title": "Band Lateral Raise",
+    "channel": "FitnessBlender",
+    "verified": true
+  },
+  "latissimus dorsi-smr": {
+    "url": "https://www.youtube.com/watch?v=1GaR-a9TWYM",
+    "title": "Foam Rolling the Latissimus Dorsi (SMR)",
+    "channel": "NASM",
+    "verified": true
+  },
+  "leg extensions": {
+    "url": "https://www.youtube.com/watch?v=gI0cn4DMFFI",
+    "title": "How to Do a Leg Extension",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "leg lift": {
+    "url": "https://www.youtube.com/watch?v=Zr-PtqcpeWM",
+    "title": "How to Do a Lying Straight Leg Raise",
+    "channel": "Nuffield Health",
+    "verified": true
+  },
+  "leg pull-in": {
+    "url": "https://www.youtube.com/watch?v=uJFXebe3vTQ",
+    "title": "How to Do the Leg Pull-In",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "leg-up hamstring stretch": {
+    "url": "https://www.youtube.com/watch?v=5P3E8Pec_L8",
+    "title": "Lying (Leg-Up) Hamstring Stretch",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "leverage chest press": {
+    "url": "https://www.youtube.com/watch?v=-YiqDRTu8ag",
+    "title": "Leverage Chest Press (Machine)",
+    "channel": "Get Right Results",
+    "verified": true
+  },
+  "leverage deadlift": {
+    "url": "https://www.youtube.com/watch?v=DvButwWMfMc",
+    "title": "Lever Deadlift Machine",
+    "channel": "Ascendancy Fitness",
+    "verified": true
+  },
+  "leverage decline chest press": {
+    "url": "https://www.youtube.com/watch?v=xK9zpXvjFUg",
+    "title": "Decline Leverage Chest Press",
+    "channel": "Get Right Results",
+    "verified": true
+  },
+  "leverage high row": {
+    "url": "https://www.youtube.com/watch?v=TpN5JkNVKxA",
+    "title": "Leverage High Row Tutorial",
+    "channel": "Scale Savvy",
+    "verified": true
+  },
+  "leverage incline chest press": {
+    "url": "https://www.youtube.com/watch?v=D45sO7jSebI",
+    "title": "Leverage Incline Chest Press",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "leverage iso row": {
+    "url": "https://www.youtube.com/watch?v=QEo_m-WTaUs",
+    "title": "Leverage Iso Row",
+    "channel": "Musqle",
+    "verified": true
+  },
+  "leverage shoulder press": {
+    "url": "https://www.youtube.com/watch?v=RwheHIggxps",
+    "title": "Leverage Shoulder Press",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "leverage shrug": {
+    "url": "https://www.youtube.com/watch?v=q5f7ByER6dE",
+    "title": "How to Do Plate-Loaded Machine Shrugs",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "linear 3-part start technique": {
+    "url": "https://www.youtube.com/watch?v=BY3VseTDVl4",
+    "title": "Sprint Start Techniques",
+    "channel": "Coach DuWayne Campbell",
+    "verified": true
+  },
+  "linear acceleration wall drill": {
+    "url": "https://www.youtube.com/watch?v=MWO1ax1TW_g",
+    "title": "Linear Speed Development: Wall Drills",
+    "channel": "Kevin Carr",
+    "verified": true
+  },
+  "linear depth jump": {
+    "url": "https://www.youtube.com/watch?v=GeN0S3XCZnM",
+    "title": "Depth Jump | Plyometric",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "lizard pose": {
+    "url": "https://www.youtube.com/watch?v=-6MGjYmHdYQ",
+    "title": "Lizard Pose - Foundations of Yoga",
+    "channel": "Yoga With Adriene",
+    "verified": true
+  },
+  "log lift": {
+    "url": "https://www.youtube.com/watch?v=AmCIN7G8zEc",
+    "title": "Log Clean & Press (Strongman) Tutorial",
+    "channel": "megsquats",
+    "verified": true
+  },
+  "london bridges": {
+    "url": "https://www.youtube.com/watch?v=EYnZDHs_hRM",
+    "title": "London Bridge Abdominal Exercise",
+    "channel": "Elliott Reid",
+    "verified": true
+  },
+  "looking at ceiling": {
+    "url": "https://www.youtube.com/watch?v=6k9VQNN8B5U",
+    "title": "Neck Flexion and Extension",
+    "channel": "TrackActive",
+    "verified": true
+  },
+  "low cable crossover": {
+    "url": "https://www.youtube.com/watch?v=eQ_NBB6OBH4",
+    "title": "Low-to-High Cable Crossover / Fly",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "low cable triceps extension": {
+    "url": "https://www.youtube.com/watch?v=lbL6bcPohDE",
+    "title": "Standing Low-Pulley Triceps Extension",
+    "channel": "TrainToSmileTV",
+    "verified": true
+  },
+  "low pulley row to neck": {
+    "url": "https://www.youtube.com/watch?v=jeeH5rXXsBs",
+    "title": "Cable Row to Neck",
+    "channel": "Train With Cuz",
+    "verified": true
+  },
+  "lower back curl": {
+    "url": "https://www.youtube.com/watch?v=z6PJMT2y8GQ",
+    "title": "Superman / Lower-Back Curl",
+    "channel": "XHIT Daily",
+    "verified": true
+  },
+  "lower back-smr": {
+    "url": "https://www.youtube.com/watch?v=NS73eSohTbc",
+    "title": "Foam Rolling the Back (SMR)",
+    "channel": "NASM",
+    "verified": true
+  },
+  "lunge pass through": {
+    "url": "https://www.youtube.com/watch?v=y6IFp2gWrz8",
+    "title": "Front Lunge Pass Through",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "lunge sprint": {
+    "url": "https://www.youtube.com/watch?v=c0AVozbLZFQ",
+    "title": "How to Do Sprinter Lunges",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "lying bent leg groin": {
+    "url": "https://www.youtube.com/watch?v=ScGo0VV85qA",
+    "title": "Lying Bent-Leg Groin Stretch",
+    "channel": "Dr. Carl Baird",
+    "verified": true
+  },
+  "lying cable curl": {
+    "url": "https://www.youtube.com/watch?v=khyjpRPUEB0",
+    "title": "Lying Cable Curls",
+    "channel": "Instructional Fitness",
+    "verified": true
+  },
+  "lying cambered barbell row": {
+    "url": "https://www.youtube.com/watch?v=QWsHaMO86OY",
+    "title": "Lying Cambered Barbell Row",
+    "channel": "nb023",
+    "verified": true
+  },
+  "lying close-grip bar curl on high pulley": {
+    "url": "https://www.youtube.com/watch?v=PmKWmG3ZrYE",
+    "title": "Lying High-Cable Curls",
+    "channel": "Train With Cuz",
+    "verified": true
+  },
+  "lying close-grip barbell triceps extension behind the head": {
+    "url": "https://www.youtube.com/watch?v=Rs1dN4VMts4",
+    "title": "Lying Close-Grip Barbell Triceps Extension (Behind Head)",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "lying close-grip barbell triceps press to chin": {
+    "url": "https://www.youtube.com/watch?v=mauSRcRf7-g",
+    "title": "Lying Close-Grip Barbell Triceps Press to Chin",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "lying crossover": {
+    "url": "https://www.youtube.com/watch?v=VW9iVnrXr9o",
+    "title": "How To: Lying Crossover Stretch",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "lying dumbbell tricep extension": {
+    "url": "https://www.youtube.com/watch?v=N5ImCU0mcpo",
+    "title": "Lying Dumbbell Triceps Extension (Skullcrusher)",
+    "channel": "Movement As Medicine",
+    "verified": true
+  },
+  "lying face down plate neck resistance": {
+    "url": "https://www.youtube.com/watch?v=3hZBdwfKtzU",
+    "title": "Lying Face-Down Plate Neck Resistance",
+    "channel": "Peter Jordan",
+    "verified": true
+  },
+  "lying face up plate neck resistance": {
+    "url": "https://www.youtube.com/watch?v=8jp0YTFoziU",
+    "title": "Lying Face-Up Plate Neck Resistance",
+    "channel": "Peter Jordan",
+    "verified": true
+  },
+  "lying glute": {
+    "url": "https://www.youtube.com/watch?v=eGqbnFII3J8",
+    "title": "Supine Figure-4 (Lying Glute) Stretch",
+    "channel": "Mobility Doc",
+    "verified": true
+  },
+  "lying hamstring": {
+    "url": "https://www.youtube.com/watch?v=5P3E8Pec_L8",
+    "title": "Lying Hamstring Stretch",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "lying high bench barbell curl": {
+    "url": "https://www.youtube.com/watch?v=CHK-ISOT0zo",
+    "title": "Barbell Curl Lying Against an Incline Bench",
+    "channel": "Fitness Arabia",
+    "verified": true
+  },
+  "lying leg curls": {
+    "url": "https://www.youtube.com/watch?v=3gZm9wGTsEo",
+    "title": "Lying Leg Curl | Proper Form",
+    "channel": "FIT.nl",
+    "verified": true
+  },
+  "lying machine squat": {
+    "url": "https://www.youtube.com/watch?v=fUu6vgi7djY",
+    "title": "Lying Machine Squat",
+    "channel": "Jase Stuart",
+    "verified": true
+  },
+  "lying one-arm lateral raise": {
+    "url": "https://www.youtube.com/watch?v=AF-F6cKElJs",
+    "title": "Side-Lying One-Arm Lateral Raise",
+    "channel": "Dr. Michael Maxwell",
+    "verified": true
+  },
+  "lying prone quadriceps": {
+    "url": "https://www.youtube.com/watch?v=J417bVJRbLA",
+    "title": "Prone Quadriceps Stretch",
+    "channel": "Merck Manuals",
+    "verified": true
+  },
+  "lying rear delt raise": {
+    "url": "https://www.youtube.com/watch?v=XIJTt_Czqmc",
+    "title": "Prone (Lying) Rear Delt Raise",
+    "channel": "John Rusin",
+    "verified": true
+  },
+  "lying spinal twist": {
+    "url": "https://www.youtube.com/watch?v=hZduN8rruKM",
+    "title": "Supine (Lying) Spinal Twist",
+    "channel": "YogaRenew",
+    "verified": true
+  },
+  "lying supine dumbbell curl": {
+    "url": "https://www.youtube.com/watch?v=n3MXFaGzg5U",
+    "title": "Lying Supine Dumbbell Curl",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "lying t-bar row": {
+    "url": "https://www.youtube.com/watch?v=lqW5XTNBVl4",
+    "title": "Chest-Supported (Lying) T-Bar Row",
+    "channel": "Ben Mighty",
+    "verified": true
+  },
+  "lying triceps press": {
+    "url": "https://www.youtube.com/watch?v=4re6CJ0XNF8",
+    "title": "Lying Triceps Extension / Press",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "machine bicep curl": {
+    "url": "https://www.youtube.com/watch?v=QElooWsIgSs",
+    "title": "How to Properly Use the Bicep Curl Machine",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "machine preacher curls": {
+    "url": "https://www.youtube.com/watch?v=R-8Sa0_qiws",
+    "title": "How to Do the Machine Preacher Curl",
+    "channel": "Men's Health Muscle",
+    "verified": true
+  },
+  "machine bench press": {
+    "url": "https://www.youtube.com/watch?v=zgP-UCKGe24",
+    "title": "How to Use the Chest-Press Machine",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "machine shoulder (military) press": {
+    "url": "https://www.youtube.com/watch?v=3R14MnZbcpw",
+    "title": "How to Use the Shoulder-Press Machine",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "machine triceps extension": {
+    "url": "https://www.youtube.com/watch?v=j4XSuFLiZ6I",
+    "title": "Seated Machine Triceps Extension",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "medicine ball chest pass": {
+    "url": "https://www.youtube.com/watch?v=bF2EfGGikEw",
+    "title": "Medicine Ball Chest Pass to Wall",
+    "channel": "IMPACT-X Performance",
+    "verified": true
+  },
+  "medicine ball full twist": {
+    "url": "https://www.youtube.com/watch?v=DLpMtMZnpy0",
+    "title": "How to Do a Medicine Ball Russian Twist",
+    "channel": "Get Healthy U",
+    "verified": true
+  },
+  "medicine ball scoop throw": {
+    "url": "https://www.youtube.com/watch?v=mxf1D3NtxMo",
+    "title": "Rotational Medicine Ball Scoop Toss",
+    "channel": "Eric Cressey",
+    "verified": true
+  },
+  "middle back shrug": {
+    "url": "https://www.youtube.com/watch?v=U2IzzhE1dbQ",
+    "title": "Prone Incline Shrug (Middle Back)",
+    "channel": "Jim Stoppani, PhD",
+    "verified": true
+  },
+  "middle back stretch": {
+    "url": "https://www.youtube.com/watch?v=r5JuFoNzOU8",
+    "title": "Seated Spinal Twist (Middle-Back Stretch)",
+    "channel": "Runna",
+    "verified": true
+  },
+  "mixed grip chin": {
+    "url": "https://www.youtube.com/watch?v=RzbCFanwKLQ",
+    "title": "How to Do Mixed-Grip Chin-Ups",
+    "channel": "Mindful Mover",
+    "verified": true
+  },
+  "monster walk": {
+    "url": "https://www.youtube.com/watch?v=snbNxUIUQPc",
+    "title": "Monster Walk Exercise Demonstration",
+    "channel": "MedStar Health",
+    "verified": true
+  },
+  "mountain climbers": {
+    "url": "https://www.youtube.com/watch?v=Q_olQdxEPF4",
+    "title": "Mountain Climbers Tutorial - Proper Form",
+    "channel": "Runna",
+    "verified": true
+  },
+  "moving claw series": {
+    "url": "https://www.youtube.com/watch?v=Y7QcY1t4ATI",
+    "title": "Paw-Back Running Drill",
+    "channel": "Rogue Running",
+    "verified": true
+  },
+  "muscle snatch": {
+    "url": "https://www.youtube.com/watch?v=nJmtGVutszE",
+    "title": "Muscle Snatch | Olympic Weightlifting",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "muscle up": {
+    "url": "https://www.youtube.com/watch?v=Gpny7WAAZ44",
+    "title": "How to Muscle-Up (Full Tutorial)",
+    "channel": "Adam Frater",
+    "verified": true
+  },
+  "narrow stance hack squats": {
+    "url": "https://www.youtube.com/watch?v=-SoTxdDciAY",
+    "title": "Narrow-Stance Hack Squat",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "narrow stance leg press": {
+    "url": "https://www.youtube.com/watch?v=pzxzfJHgsRI",
+    "title": "Narrow-Stance Leg Press",
+    "channel": "HerFitBod",
+    "verified": true
+  },
+  "narrow stance squats": {
+    "url": "https://www.youtube.com/watch?v=9Ulb6gOqhA4",
+    "title": "Barbell Back Squat (Narrow Stance)",
+    "channel": "Fitness Lab",
+    "verified": true
+  },
+  "natural glute ham raise": {
+    "url": "https://www.youtube.com/watch?v=v1DJzwKUGg0",
+    "title": "How to Do a Glute-Ham Raise (GHR)",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "neck press": {
+    "url": "https://www.youtube.com/watch?v=y90T12sTukg",
+    "title": "The Guillotine (Neck) Press",
+    "channel": "Testosterone Nation",
+    "verified": true
+  },
+  "neck side stretch": {
+    "url": "https://www.youtube.com/watch?v=oFuYstVevAc",
+    "title": "Lateral Neck (Side) Stretch",
+    "channel": "mahalo",
+    "verified": true
+  },
+  "neck-smr": {
+    "url": "https://www.youtube.com/watch?v=D4jbNc6tZ_c",
+    "title": "Neck Self-Release With a Foam Roller (SMR)",
+    "channel": "SpineCare",
+    "verified": true
+  },
+  "nordic hamstring curl": {
+    "url": "https://www.youtube.com/watch?v=_e9vFU9-tkc",
+    "title": "How to Do Nordic Hamstring Curls",
+    "channel": "E3 Rehab",
+    "verified": true
+  },
+  "oblique crunches": {
+    "url": "https://www.youtube.com/watch?v=wD2GY3fUJqQ",
+    "title": "How to Do Standing Oblique Crunches",
+    "channel": "Leap Fitness",
+    "verified": true
+  },
+  "oblique crunches - on the floor": {
+    "url": "https://www.youtube.com/watch?v=Yxvnfv76sI4",
+    "title": "Oblique Floor Crunches",
+    "channel": "Get Right Results",
+    "verified": true
+  },
+  "olympic squat": {
+    "url": "https://www.youtube.com/watch?v=dW5-C1fsMjk",
+    "title": "How to High-Bar (Olympic) Squat",
+    "channel": "OmarIsuf",
+    "verified": true
+  },
+  "on your side quad stretch": {
+    "url": "https://www.youtube.com/watch?v=uRRwljV-Nlk",
+    "title": "Side-Lying Quad Stretch",
+    "channel": "AskDoctorJo",
+    "verified": true
+  },
+  "on-your-back quad stretch": {
+    "url": "https://www.youtube.com/watch?v=Og_cw9mim00",
+    "title": "Supine (On-Back) Quad Stretch",
+    "channel": "Restore Plus PT",
+    "verified": true
+  },
+  "one arm against wall": {
+    "url": "https://www.youtube.com/watch?v=JjrT4oA3j6A",
+    "title": "Standing One-Arm Chest (Wall) Stretch",
+    "channel": "WorkoutEndomondo",
+    "verified": true
+  },
+  "one arm chin-up": {
+    "url": "https://www.youtube.com/watch?v=9X8qDYL86z8",
+    "title": "How to Do a One-Arm Chin-Up (Progressions)",
+    "channel": "TrainingPal",
+    "verified": true
+  },
+  "one arm dumbbell bench press": {
+    "url": "https://www.youtube.com/watch?v=td-4lC0tXKA",
+    "title": "How to Do the One-Arm Dumbbell Bench Press",
+    "channel": "Howcast",
+    "verified": true
+  },
+  "one arm dumbbell preacher curl": {
+    "url": "https://www.youtube.com/watch?v=2hmQRh6ZF4o",
+    "title": "Single-Arm Dumbbell Preacher Curl",
+    "channel": "Seriously Strong Training",
+    "verified": true
+  },
+  "one arm floor press": {
+    "url": "https://www.youtube.com/watch?v=j1poOYV_06A",
+    "title": "Single-Arm Dumbbell Floor Press",
+    "channel": "Signum Fitness",
+    "verified": true
+  },
+  "one arm lat pulldown": {
+    "url": "https://www.youtube.com/watch?v=eM162KNncD8",
+    "title": "Single-Arm Lat Pulldown",
+    "channel": "Nexus Performance",
+    "verified": true
+  },
+  "one arm pronated dumbbell triceps extension": {
+    "url": "https://www.youtube.com/watch?v=KnlcZya_QYQ",
+    "title": "One-Arm Pronated Dumbbell Triceps Extension",
+    "channel": "TrainToSmileTV",
+    "verified": true
+  },
+  "one arm supinated dumbbell triceps extension": {
+    "url": "https://www.youtube.com/watch?v=AkE7WRXz-Y8",
+    "title": "One-Arm Supinated Dumbbell Triceps Extension",
+    "channel": "WeightTraining.com",
+    "verified": true
+  },
+  "one half locust": {
+    "url": "https://www.youtube.com/watch?v=2Navck6wvQQ",
+    "title": "Half Locust Pose (Ardha Salabhasana)",
+    "channel": "Yoga With Landon",
+    "verified": true
+  },
+  "one handed hang": {
+    "url": "https://www.youtube.com/watch?v=P7lbcPo_7ps",
+    "title": "How to One-Arm Hang (Dead / Active)",
+    "channel": "Cheng Is Always Climbing",
+    "verified": true
+  },
+  "one knee to chest": {
+    "url": "https://www.youtube.com/watch?v=Yd9wY25koVk",
+    "title": "Single Knee-to-Chest Stretch",
+    "channel": "AskDoctorJo",
+    "verified": true
+  },
+  "one leg barbell squat": {
+    "url": "https://www.youtube.com/watch?v=r1jukGZPnZI",
+    "title": "Barbell Split (One-Leg) Squat",
+    "channel": "Men's Health",
+    "verified": true
+  },
+  "one-arm dumbbell row": {
+    "url": "https://www.youtube.com/watch?v=tLnlWj7LQ34",
+    "title": "How to Perform Single-Arm Dumbbell Rows",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "one-arm flat bench dumbbell flye": {
+    "url": "https://www.youtube.com/watch?v=7LnGW4ik3hU",
+    "title": "One-Arm Dumbbell Bench Flye",
+    "channel": "LIVESTRONG",
+    "verified": true
+  },
+  "one-arm high-pulley cable side bends": {
+    "url": "https://www.youtube.com/watch?v=k9bGvI8RwQM",
+    "title": "One-Arm High-Pulley Cable Side Bend",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "one-arm incline lateral raise": {
+    "url": "https://www.youtube.com/watch?v=8VGT6jPOnFE",
+    "title": "Single-Arm Incline Dumbbell Lateral Raise",
+    "channel": "Germain Craddock",
+    "verified": true
+  },
+  "one-arm kettlebell clean": {
+    "url": "https://www.youtube.com/watch?v=cxbBVUW8YQk",
+    "title": "Single-Arm Kettlebell Clean: How To",
+    "channel": "Born Fitness",
+    "verified": true
+  },
+  "one-arm kettlebell clean and jerk": {
+    "url": "https://www.youtube.com/watch?v=ImYTqRsNzLM",
+    "title": "One-Arm Kettlebell Clean and Jerk",
+    "channel": "GetStrong.fit",
+    "verified": true
+  },
+  "one-arm kettlebell floor press": {
+    "url": "https://www.youtube.com/watch?v=B340QckIfJM",
+    "title": "One-Arm Kettlebell Floor Press",
+    "channel": "Luka Hocevar",
+    "verified": true
+  },
+  "one-arm kettlebell jerk": {
+    "url": "https://www.youtube.com/watch?v=_XBgegWiKl0",
+    "title": "How to Do the One-Arm Kettlebell Jerk",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "one-arm kettlebell military press to the side": {
+    "url": "https://www.youtube.com/watch?v=QQBZuMOqgEw",
+    "title": "One-Arm Kettlebell Military Press to the Side",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "one-arm kettlebell para press": {
+    "url": "https://www.youtube.com/watch?v=wn1AfnU7bb8",
+    "title": "One-Arm Kettlebell Para Press",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "one-arm kettlebell push press": {
+    "url": "https://www.youtube.com/watch?v=W9NlTHkK1iU",
+    "title": "Kettlebell Push Press (Single & Double)",
+    "channel": "Zack Henderson",
+    "verified": true
+  },
+  "one-arm kettlebell row": {
+    "url": "https://www.youtube.com/watch?v=j2OdaGOmHlM",
+    "title": "Kettlebell One-Arm Row",
+    "channel": "Breaking Muscle",
+    "verified": true
+  },
+  "one-arm kettlebell snatch": {
+    "url": "https://www.youtube.com/watch?v=6l2Iu26oWW8",
+    "title": "One-Arm Kettlebell Snatch | Movement Demo",
+    "channel": "Rogue Fitness",
+    "verified": true
+  },
+  "one-arm kettlebell split jerk": {
+    "url": "https://www.youtube.com/watch?v=xoC_aBsawHM",
+    "title": "One-Arm Kettlebell Split Jerk",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "one-arm kettlebell split snatch": {
+    "url": "https://www.youtube.com/watch?v=3xqFzmTY9tU",
+    "title": "Single-Arm Kettlebell Split Snatch",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "one-arm kettlebell swings": {
+    "url": "https://www.youtube.com/watch?v=axaCQqM0R1k",
+    "title": "The Ultimate Single-Arm Kettlebell Swing Tutorial",
+    "channel": "Pat Damiano",
+    "verified": true
+  },
+  "one-arm long bar row": {
+    "url": "https://www.youtube.com/watch?v=tiETx7VNDf0",
+    "title": "Landmine Single-Arm (Long Bar) Row",
+    "channel": "TrainFTW",
+    "verified": true
+  },
+  "one-arm medicine ball slam": {
+    "url": "https://www.youtube.com/watch?v=4QXhXCYuOmY",
+    "title": "Single-Arm Medicine Ball Slam",
+    "channel": "Balance In Motion",
+    "verified": true
+  },
+  "one-arm open palm kettlebell clean": {
+    "url": "https://www.youtube.com/watch?v=YdIlaew-SZ8",
+    "title": "Kettlebell Open-Palm Clean",
+    "channel": "Cavemantraining",
+    "verified": true
+  },
+  "one-arm overhead kettlebell squats": {
+    "url": "https://www.youtube.com/watch?v=H132hB3E09U",
+    "title": "Single-Arm Overhead Kettlebell Squat",
+    "channel": "OPEX Fitness",
+    "verified": true
+  },
+  "one-arm side deadlift": {
+    "url": "https://www.youtube.com/watch?v=Q9k1Ahm_6o0",
+    "title": "Single-Arm Suitcase (Side) Deadlift",
+    "channel": "Experience Life",
+    "verified": true
+  },
+  "one-arm side laterals": {
+    "url": "https://www.youtube.com/watch?v=CAkjKSKWAi0",
+    "title": "One-Arm Dumbbell Lateral Raise",
+    "channel": "Seriously Strong Training",
+    "verified": true
+  },
+  "one-legged cable kickback": {
+    "url": "https://www.youtube.com/watch?v=xO5WVJGVJ2w",
+    "title": "One-Legged Cable Kickback",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "open palm kettlebell clean": {
+    "url": "https://www.youtube.com/watch?v=i1pRu43dqLM",
+    "title": "Kettlebell Open-Palm Clean",
+    "channel": "Fitway",
+    "verified": true
+  },
+  "otis-up": {
+    "url": "https://www.youtube.com/watch?v=BhtnaHGJa8w",
+    "title": "How to Perform the Otis-Up",
+    "channel": "Buff Dudes",
+    "verified": true
+  },
+  "overhead cable curl": {
+    "url": "https://www.youtube.com/watch?v=NUoI-eDwY0U",
+    "title": "The Overhead Cable Curl",
+    "channel": "DutchGuyFitness",
+    "verified": true
+  },
+  "overhead lat": {
+    "url": "https://www.youtube.com/watch?v=cnzBkJbt7ms",
+    "title": "Standing Lat (Latissimus Dorsi) Stretch",
+    "channel": "Dr. Donald Ozello",
+    "verified": true
+  },
+  "overhead slam": {
+    "url": "https://www.youtube.com/watch?v=-4PtBHHbVFY",
+    "title": "Overhead Medicine Ball Slam",
+    "channel": "Testosterone Nation",
+    "verified": true
+  },
+  "overhead squat": {
+    "url": "https://www.youtube.com/watch?v=k7KdFIwdWAE",
+    "title": "Overhead Squat",
+    "channel": "Marcus Filly",
+    "verified": true
+  },
+  "overhead stretch": {
+    "url": "https://www.youtube.com/watch?v=_JGWt2BDCl4",
+    "title": "Standing Overhead Reach",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "overhead triceps": {
+    "url": "https://www.youtube.com/watch?v=cPTrm13hSSo",
+    "title": "Overhead Triceps Stretch",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "pallof press": {
+    "url": "https://www.youtube.com/watch?v=_2xWmYNnFS8",
+    "title": "How to Do the Pallof Press",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "pallof press with rotation": {
+    "url": "https://www.youtube.com/watch?v=RQJ-9NgZXYs",
+    "title": "Pallof Press With Rotation",
+    "channel": "FITBODY with Julie Lohre",
+    "verified": true
+  },
+  "palms-down dumbbell wrist curl over a bench": {
+    "url": "https://www.youtube.com/watch?v=jtQslxR3f0A",
+    "title": "Palms-Down Dumbbell Wrist Curl Over a Bench",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "palms-down wrist curl over a bench": {
+    "url": "https://www.youtube.com/watch?v=s1MHtPsi8vY",
+    "title": "Palms-Down Barbell Wrist Curl Over a Bench",
+    "channel": "Musqle",
+    "verified": true
+  },
+  "palms-up barbell wrist curl over a bench": {
+    "url": "https://www.youtube.com/watch?v=FeKtbXKhCzs",
+    "title": "Palms-Up Barbell Wrist Curl Over a Bench",
+    "channel": "Plan-a-Better Lifestyle",
+    "verified": true
+  },
+  "palms-up dumbbell wrist curl over a bench": {
+    "url": "https://www.youtube.com/watch?v=VqN3IEJJ33A",
+    "title": "Palms-Up Dumbbell Wrist Curl Over a Bench",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "parallel bar dip": {
+    "url": "https://www.youtube.com/watch?v=T1L4smOP0L8",
+    "title": "Dip Tutorial (Chest or Triceps)",
+    "channel": "FitnessFAQs",
+    "verified": true
+  },
+  "pelvic tilt into bridge": {
+    "url": "https://www.youtube.com/watch?v=oje869YCAL4",
+    "title": "How to Do a Pelvic Tilt Into Bridge",
+    "channel": "Howcast",
+    "verified": true
+  },
+  "peroneals stretch": {
+    "url": "https://www.youtube.com/watch?v=tk8hI7N2RJM",
+    "title": "Peroneal (Outer Ankle) Stretch",
+    "channel": "Mary Felling, PT",
+    "verified": true
+  },
+  "peroneals-smr": {
+    "url": "https://www.youtube.com/watch?v=o0sqnX6FMzk",
+    "title": "Self-Myofascial Release (SMR) for the Peroneals",
+    "channel": "NASM",
+    "verified": true
+  },
+  "physioball hip bridge": {
+    "url": "https://www.youtube.com/watch?v=MRBMFFU2Ovc",
+    "title": "Physioball Hip Bridge",
+    "channel": "Fitness Arabia",
+    "verified": true
+  },
+  "pigeon pose": {
+    "url": "https://www.youtube.com/watch?v=zuYbjkuKLKY",
+    "title": "How to Safely Do Pigeon Pose",
+    "channel": "Brett Larkin Yoga",
+    "verified": true
+  },
+  "pike push-up": {
+    "url": "https://www.youtube.com/watch?v=pHR5yG6xBps",
+    "title": "Pike Push-Up Tutorial (With Progressions)",
+    "channel": "Gymless Fitness",
+    "verified": true
+  },
+  "pin presses": {
+    "url": "https://www.youtube.com/watch?v=wFgMKMrs5oI",
+    "title": "How to Do a Barbell Bench Pin Press",
+    "channel": "Women Who Lift Weights",
+    "verified": true
+  },
+  "piriformis-smr": {
+    "url": "https://www.youtube.com/watch?v=XS5hY6vBi6g",
+    "title": "Self-Myofascial Release (SMR) for the Piriformis",
+    "channel": "NASM",
+    "verified": true
+  },
+  "pistol squat": {
+    "url": "https://www.youtube.com/watch?v=Ei1nwSCQx-0",
+    "title": "How to Pistol Squat (Beginners)",
+    "channel": "Summer Fun Fitness",
+    "verified": true
+  },
+  "plate pinch": {
+    "url": "https://www.youtube.com/watch?v=LARw21BBiDk",
+    "title": "Plate Pinch | Grip Strength",
+    "channel": "FIT.nl",
+    "verified": true
+  },
+  "plate twist": {
+    "url": "https://www.youtube.com/watch?v=8ohhG1Y4tzU",
+    "title": "Seated Plate Russian Twist",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "platform hamstring slides": {
+    "url": "https://www.youtube.com/watch?v=TKSOQvvYW00",
+    "title": "Slider Hamstring Curl (Hamstring Slides)",
+    "channel": "The Unstoppable Baller",
+    "verified": true
+  },
+  "plie dumbbell squat": {
+    "url": "https://www.youtube.com/watch?v=Y-mIOYEdkWw",
+    "title": "Dumbbell Plie (Sumo) Squat",
+    "channel": "Katie Hunt",
+    "verified": true
+  },
+  "plyo kettlebell pushups": {
+    "url": "https://www.youtube.com/watch?v=ttywDTs0Fvw",
+    "title": "Kettlebell Alternating Plyo Push-Up",
+    "channel": "Stack 52",
+    "verified": true
+  },
+  "plyo push-up": {
+    "url": "https://www.youtube.com/watch?v=FRo3b_Pfw3M",
+    "title": "How to Do a Plyo / Clap Push-Up",
+    "channel": "Howcast",
+    "verified": true
+  },
+  "posterior tibialis stretch": {
+    "url": "https://www.youtube.com/watch?v=C-FQjLD4FMQ",
+    "title": "Standing Posterior Tibialis Stretch",
+    "channel": "You Wellbeing",
+    "verified": true
+  },
+  "power clean": {
+    "url": "https://www.youtube.com/watch?v=ORGBFvyUwGs",
+    "title": "How to Power Clean (Beginners)",
+    "channel": "Peak Strength",
+    "verified": true
+  },
+  "power clean from blocks": {
+    "url": "https://www.youtube.com/watch?v=D0QwEQLbAYs",
+    "title": "Block Power Clean | Olympic Weightlifting",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "power jerk": {
+    "url": "https://www.youtube.com/watch?v=Ir_34nxrk1Q",
+    "title": "Power Jerk | Olympic Weightlifting",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "power partials": {
+    "url": "https://www.youtube.com/watch?v=iKK25JU-hEk",
+    "title": "Partial Dumbbell Side Laterals",
+    "channel": "mountaindog1",
+    "verified": true
+  },
+  "power snatch": {
+    "url": "https://www.youtube.com/watch?v=ydHHsju1-Nc",
+    "title": "Power Snatch | Olympic Weightlifting",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "power snatch from blocks": {
+    "url": "https://www.youtube.com/watch?v=yN1ouEOGpag",
+    "title": "Block Power Snatch | Olympic Weightlifting",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "power stairs": {
+    "url": "https://www.youtube.com/watch?v=dtTvpjwo9Bs",
+    "title": "Power Stairs: Technique & Training (Strongman)",
+    "channel": "Cambidude",
+    "verified": true
+  },
+  "preacher curl": {
+    "url": "https://www.youtube.com/watch?v=jilTTmyEoYY",
+    "title": "Barbell Preacher Curl | Proper Form",
+    "channel": "Workouts for Men Over 40",
+    "verified": true
+  },
+  "preacher hammer dumbbell curl": {
+    "url": "https://www.youtube.com/watch?v=32W1sB5DkHY",
+    "title": "Preacher Hammer Curl",
+    "channel": "MyTraining App",
+    "verified": true
+  },
+  "press sit-up": {
+    "url": "https://www.youtube.com/watch?v=lNipH9vaaxU",
+    "title": "Plate Sit-Up With Overhead Press",
+    "channel": "Body Basics",
+    "verified": true
+  },
+  "prone manual hamstring": {
+    "url": "https://www.youtube.com/watch?v=uvXJlXNCnWU",
+    "title": "Self/Manual-Resisted Prone Hamstring Curl",
+    "channel": "Athletic Institute",
+    "verified": true
+  },
+  "prowler sprint": {
+    "url": "https://www.youtube.com/watch?v=oxCd3Hno8I0",
+    "title": "Prowler Pushes and Sprints | Technique",
+    "channel": "Barbell Shrugged",
+    "verified": true
+  },
+  "pseudo planche lean": {
+    "url": "https://www.youtube.com/watch?v=i33vHrgElkE",
+    "title": "The Perfect Pseudo Planche Lean Tutorial",
+    "channel": "STRIQfit",
+    "verified": true
+  },
+  "pseudo planche push-up": {
+    "url": "https://www.youtube.com/watch?v=L7GKps5ygkQ",
+    "title": "Pseudo Planche Push-Ups | Full Tutorial",
+    "channel": "Adam Morgan",
+    "verified": true
+  },
+  "pull through": {
+    "url": "https://www.youtube.com/watch?v=fbF4_pn_0xc",
+    "title": "How to Do a Cable Pull-Through",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "pull-up negative": {
+    "url": "https://www.youtube.com/watch?v=DGSm56-FixA",
+    "title": "Eccentric (Negative) Pull-Up",
+    "channel": "Cave Coach",
+    "verified": true
+  },
+  "pullups": {
+    "url": "https://www.youtube.com/watch?v=aNUSgyWRJYA",
+    "title": "How to Do Pull-Ups (Beginners)",
+    "channel": "FitnessFAQs",
+    "verified": true
+  },
+  "push press": {
+    "url": "https://www.youtube.com/watch?v=a8HQo8z20Uo",
+    "title": "How to Do the Barbell Push Press",
+    "channel": "MSP Fitness",
+    "verified": true
+  },
+  "push press - behind the neck": {
+    "url": "https://www.youtube.com/watch?v=qh-5-DfDG4E",
+    "title": "Behind-the-Neck Push Press",
+    "channel": "Peak Strength",
+    "verified": true
+  },
+  "push up to side plank": {
+    "url": "https://www.youtube.com/watch?v=o2Qek4N2ea8",
+    "title": "How to Do a Push-Up to Side Plank",
+    "channel": "Howcast",
+    "verified": true
+  },
+  "push-up wide": {
+    "url": "https://www.youtube.com/watch?v=rr6eFNNDQdU",
+    "title": "How to Do a Wide-Grip Push-Up",
+    "channel": "Howcast",
+    "verified": true
+  },
+  "push-ups - close triceps position": {
+    "url": "https://www.youtube.com/watch?v=8_ILkbB9an8",
+    "title": "Diamond / Close-Grip Push-Up",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "push-ups with feet elevated": {
+    "url": "https://www.youtube.com/watch?v=QBlYp-EwHlo",
+    "title": "How to Do a Decline (Feet-Elevated) Push-Up",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "push-ups with feet on an exercise ball": {
+    "url": "https://www.youtube.com/watch?v=mEKwGDCvc2Y",
+    "title": "Feet-on-Stability-Ball Push-Up",
+    "channel": "Testosterone Nation",
+    "verified": true
+  },
+  "pushups": {
+    "url": "https://www.youtube.com/watch?v=WDIpL0pjun0",
+    "title": "How to Do a Push-Up | Proper Form (NASM)",
+    "channel": "NASM",
+    "verified": true
+  },
+  "pushups (close and wide hand positions)": {
+    "url": "https://www.youtube.com/watch?v=EtP1fOyeVJk",
+    "title": "Wide-to-Narrow Push-Up",
+    "channel": "Joanna Soh",
+    "verified": true
+  },
+  "pyramid": {
+    "url": "https://www.youtube.com/watch?v=LTe3CO7Vtxs",
+    "title": "Pyramid Pose (Parsvottanasana)",
+    "channel": "Yoga With Adriene",
+    "verified": true
+  },
+  "quad stretch": {
+    "url": "https://www.youtube.com/watch?v=kia2OzZiwqw",
+    "title": "Standing Quad Stretch Tutorial",
+    "channel": "Runna",
+    "verified": true
+  },
+  "quadriceps-smr": {
+    "url": "https://www.youtube.com/watch?v=vUzmXO56jDI",
+    "title": "Self-Myofascial Release (SMR) for the Quads",
+    "channel": "NASM",
+    "verified": true
+  },
+  "quick leap": {
+    "url": "https://www.youtube.com/watch?v=cbTOQfZVo0s",
+    "title": "Explosive Step-Up / Plyometric Box Jump",
+    "channel": "Simple Speed Coach",
+    "verified": true
+  },
+  "rack delivery": {
+    "url": "https://www.youtube.com/watch?v=IbAK31BPotw",
+    "title": "Log Clean to Rack & Press (Strongman)",
+    "channel": "Kalle Beck",
+    "verified": true
+  },
+  "rack pull with bands": {
+    "url": "https://www.youtube.com/watch?v=tqk4fjFgRPM",
+    "title": "Banded Rack Pull",
+    "channel": "John Rusin",
+    "verified": true
+  },
+  "rack pulls": {
+    "url": "https://www.youtube.com/watch?v=aAjN8zS7Idg",
+    "title": "Rack Pulls | How-To Tutorial",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "rear leg raises": {
+    "url": "https://www.youtube.com/watch?v=YXgebUWaAN8",
+    "title": "Quadruped Rear Leg Lift",
+    "channel": "Martell Elite Fitness",
+    "verified": true
+  },
+  "recumbent bike": {
+    "url": "https://www.youtube.com/watch?v=M134EXNHYdA",
+    "title": "How to Use the Recumbent Bike",
+    "channel": "KevTheTrainer",
+    "verified": true
+  },
+  "return push from stance": {
+    "url": "https://www.youtube.com/watch?v=mJ50bSXvLq8",
+    "title": "Blocking-Sled Push from Stance",
+    "channel": "DICK'S",
+    "verified": true
+  },
+  "reverse band bench press": {
+    "url": "https://www.youtube.com/watch?v=n3KnDthkEAI",
+    "title": "How to Do the Reverse-Band Bench Press",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "reverse band box squat": {
+    "url": "https://www.youtube.com/watch?v=Dh0V-hfztb0",
+    "title": "Reverse-Band Box Squat",
+    "channel": "GymFit",
+    "verified": true
+  },
+  "reverse band deadlift": {
+    "url": "https://www.youtube.com/watch?v=UySx9m9TrNI",
+    "title": "Reverse-Band Deadlift",
+    "channel": "Testosterone Nation",
+    "verified": true
+  },
+  "reverse band power squat": {
+    "url": "https://www.youtube.com/watch?v=2M_96-qIGC4",
+    "title": "Reverse-Banded Squat",
+    "channel": "Testosterone Nation",
+    "verified": true
+  },
+  "reverse band sumo deadlift": {
+    "url": "https://www.youtube.com/watch?v=DyvafNcsVqg",
+    "title": "Reverse-Band Sumo Deadlift",
+    "channel": "Brandon Smitley",
+    "verified": true
+  },
+  "reverse barbell curl": {
+    "url": "https://www.youtube.com/watch?v=X5df_LHBVKQ",
+    "title": "Reverse (Pronated) Barbell Curl",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "reverse barbell preacher curls": {
+    "url": "https://www.youtube.com/watch?v=tiNcP28AUU4",
+    "title": "Reverse Barbell Preacher Curls",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "reverse cable curl": {
+    "url": "https://www.youtube.com/watch?v=HwB-DevuJjU",
+    "title": "Reverse Cable Curl",
+    "channel": "Chad Mollick",
+    "verified": true
+  },
+  "reverse crunch": {
+    "url": "https://www.youtube.com/watch?v=gAyTBB4lm3I",
+    "title": "Reverse Crunch",
+    "channel": "LivestrongWoman",
+    "verified": true
+  },
+  "reverse flyes": {
+    "url": "https://www.youtube.com/watch?v=buuYPLVXsJg",
+    "title": "How to Properly Do the Dumbbell Rear-Delt Fly",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "reverse flyes with external rotation": {
+    "url": "https://www.youtube.com/watch?v=xLKQB7r-bec",
+    "title": "Reverse Flyes With External Rotation",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "reverse grip bent-over rows": {
+    "url": "https://www.youtube.com/watch?v=3gdGSSgDby8",
+    "title": "Reverse-Grip Bent-Over Rows",
+    "channel": "KAGED",
+    "verified": true
+  },
+  "reverse grip triceps pushdown": {
+    "url": "https://www.youtube.com/watch?v=Xw3MsQTwH_Q",
+    "title": "Reverse-Grip Triceps Pushdown",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "reverse hyperextension": {
+    "url": "https://www.youtube.com/watch?v=uQqR1NHfsSU",
+    "title": "Reverse Hyperextensions Tutorial",
+    "channel": "Dr. Allan Bacon",
+    "verified": true
+  },
+  "reverse lunge": {
+    "url": "https://www.youtube.com/watch?v=u_zSfK5ZFU4",
+    "title": "Reverse Lunge | Proper Form",
+    "channel": "BuiltLean",
+    "verified": true
+  },
+  "reverse machine flyes": {
+    "url": "https://www.youtube.com/watch?v=e4dJ1QoxUtI",
+    "title": "How to Do the Reverse Pec-Deck / Fly Machine",
+    "channel": "Train For Life",
+    "verified": true
+  },
+  "reverse plank": {
+    "url": "https://www.youtube.com/watch?v=bnu5b61vqGQ",
+    "title": "How to Do a Reverse Plank",
+    "channel": "Well+Good",
+    "verified": true
+  },
+  "reverse plate curls": {
+    "url": "https://www.youtube.com/watch?v=NDCkZhgWVfQ",
+    "title": "Plate Reverse Curls",
+    "channel": "Mike & Leica Gelsei",
+    "verified": true
+  },
+  "reverse triceps bench press": {
+    "url": "https://www.youtube.com/watch?v=G-Z3aGhdow8",
+    "title": "How to Reverse-Grip Bench Press",
+    "channel": "Jim Stoppani, PhD",
+    "verified": true
+  },
+  "rhomboids-smr": {
+    "url": "https://www.youtube.com/watch?v=NS73eSohTbc",
+    "title": "Foam Rolling the Upper Back / Rhomboids (SMR)",
+    "channel": "NASM",
+    "verified": true
+  },
+  "rickshaw deadlift": {
+    "url": "https://www.youtube.com/watch?v=2d2wXoOsq4k",
+    "title": "Rickshaw (Frame) Deadlift",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "ring dips": {
+    "url": "https://www.youtube.com/watch?v=Ikeg_v5fvz4",
+    "title": "How to Do Ring Dips (Progressions)",
+    "channel": "The Movement Athlete",
+    "verified": true
+  },
+  "rocket jump": {
+    "url": "https://www.youtube.com/watch?v=-WYMJIZ6ppU",
+    "title": "Rocket Jumps",
+    "channel": "ASSA Sport Speed Academy",
+    "verified": true
+  },
+  "rocking standing calf raise": {
+    "url": "https://www.youtube.com/watch?v=-IKfUV5y6Jc",
+    "title": "Rocking Standing Calf Raise",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "rocky pull-ups/pulldowns": {
+    "url": "https://www.youtube.com/watch?v=YMD-Qs40qrE",
+    "title": "Rocky Pull-Ups",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "romanian deadlift from deficit": {
+    "url": "https://www.youtube.com/watch?v=uhghy9pFIPY",
+    "title": "How to Perform Romanian Deadlifts (RDLs)",
+    "channel": "E3 Rehab",
+    "verified": true
+  },
+  "rope climb": {
+    "url": "https://www.youtube.com/watch?v=BvvUhQ4P0Co",
+    "title": "How to Do a Rope Climb (Foot Locks)",
+    "channel": "Sea Shintani",
+    "verified": true
+  },
+  "rope crunch": {
+    "url": "https://www.youtube.com/watch?v=b9FJ4hIK3pI",
+    "title": "Kneeling Rope Crunch | Proper Form",
+    "channel": "Nutritioneering",
+    "verified": true
+  },
+  "rope jumping": {
+    "url": "https://www.youtube.com/watch?v=nMHfZ-yrFjA",
+    "title": "How to Jump Rope for Beginners",
+    "channel": "Kyle Easter",
+    "verified": true
+  },
+  "rope straight-arm pulldown": {
+    "url": "https://www.youtube.com/watch?v=mvgQs3CkgGQ",
+    "title": "Straight-Arm Cable Pulldown",
+    "channel": "Pure Motion Fitness",
+    "verified": true
+  },
+  "rickshaw carry": {
+    "url": "https://www.youtube.com/watch?v=pRkHLluG-V8",
+    "title": "Rickshaw (Frame) Carry",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "round the world shoulder stretch": {
+    "url": "https://www.youtube.com/watch?v=140RTNMciH8",
+    "title": "Arm Circles (Round-the-World) Shoulder Warm-Up",
+    "channel": "FitnessBlender",
+    "verified": true
+  },
+  "rowing, stationary": {
+    "url": "https://www.youtube.com/watch?v=H0r_ZPXJLtg",
+    "title": "How to Properly Use a Rowing Machine",
+    "channel": "GHF Training",
+    "verified": true
+  },
+  "runner's stretch": {
+    "url": "https://www.youtube.com/watch?v=SKnbQe0HuIM",
+    "title": "Runner's Lunge to Hamstring Stretch",
+    "channel": "Sol Fitness",
+    "verified": true
+  },
+  "running, treadmill": {
+    "url": "https://www.youtube.com/watch?v=kHD1NaSdwzI",
+    "title": "How to Run Properly on a Treadmill",
+    "channel": "The Run Experience",
+    "verified": true
+  },
+  "russian twist": {
+    "url": "https://www.youtube.com/watch?v=wkD8rjkodUI",
+    "title": "How to Do a Russian Twist",
+    "channel": "Howcast",
+    "verified": true
+  },
+  "scapular pull-up": {
+    "url": "https://www.youtube.com/watch?v=-ZIpSoTRsuE",
+    "title": "Scapular Pull-Ups (Progressions)",
+    "channel": "Zack Henderson",
+    "verified": true
+  },
+  "scapular push-up": {
+    "url": "https://www.youtube.com/watch?v=FTpVhBkyIzk",
+    "title": "How To: Scapular Push-Ups",
+    "channel": "Dani Winks Flexibility",
+    "verified": true
+  },
+  "scapular wall slide": {
+    "url": "https://www.youtube.com/watch?v=AEbcmAYbOkI",
+    "title": "Scapula Wall Slide (Shoulder Mobility)",
+    "channel": "Stroops",
+    "verified": true
+  },
+  "scissor kick": {
+    "url": "https://www.youtube.com/watch?v=bUJnyVsa3Ak",
+    "title": "Scissor Kicks",
+    "channel": "FitnessBlender",
+    "verified": true
+  },
+  "scissors jump": {
+    "url": "https://www.youtube.com/watch?v=R1VNNkSHI9I",
+    "title": "Scissor Jumps | Plyometric",
+    "channel": "HASfit",
+    "verified": true
+  },
+  "seated band hamstring curl": {
+    "url": "https://www.youtube.com/watch?v=M_dUNslNjBU",
+    "title": "Seated Band Hamstring Curl",
+    "channel": "Men's Health",
+    "verified": true
+  },
+  "seated barbell military press": {
+    "url": "https://www.youtube.com/watch?v=oBGeXxnigsQ",
+    "title": "How To: Seated Barbell Shoulder Press",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "seated barbell twist": {
+    "url": "https://www.youtube.com/watch?v=cfUXRs1PylY",
+    "title": "Seated Barbell Twist",
+    "channel": "Rob Riches",
+    "verified": true
+  },
+  "seated bent-over one-arm dumbbell triceps extension": {
+    "url": "https://www.youtube.com/watch?v=3hPrJTplm30",
+    "title": "Seated Bent-Over One-Arm Dumbbell Triceps Extension",
+    "channel": "Get Right Results",
+    "verified": true
+  },
+  "seated bent-over rear delt raise": {
+    "url": "https://www.youtube.com/watch?v=l7y9jIKD1Ls",
+    "title": "Seated Dumbbell Bent-Over Rear Delt Raise",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "seated bent-over two-arm dumbbell triceps extension": {
+    "url": "https://www.youtube.com/watch?v=dSdryrEnoSo",
+    "title": "Seated Bent-Over Two-Arm Dumbbell Triceps Extension",
+    "channel": "Get Right Results",
+    "verified": true
+  },
+  "seated biceps": {
+    "url": "https://www.youtube.com/watch?v=s9GGVuUXgmY",
+    "title": "Seated Dumbbell Biceps Curl",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "seated cable rows": {
+    "url": "https://www.youtube.com/watch?v=EU7bOadUsNI",
+    "title": "Seated Cable Row - Proper Form",
+    "channel": "Steev",
+    "verified": true
+  },
+  "sandbag load": {
+    "url": "https://www.youtube.com/watch?v=Uwrtyw7gpTU",
+    "title": "Sandbag Pick, Extensions & Loads",
+    "channel": "Brian Alsruhe",
+    "verified": true
+  },
+  "seated cable shoulder press": {
+    "url": "https://www.youtube.com/watch?v=bREeDArAsOw",
+    "title": "How To: Seated Cable Shoulder Press",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "seated calf raise": {
+    "url": "https://www.youtube.com/watch?v=pz66Bw6HJ4s",
+    "title": "Seated Calf Raise Machine Tutorial",
+    "channel": "The Gym in the North",
+    "verified": true
+  },
+  "seated calf stretch": {
+    "url": "https://www.youtube.com/watch?v=P9b79Sg0XfI",
+    "title": "Seated Calf Stretch (Resistance Band)",
+    "channel": "Travis Tarrant",
+    "verified": true
+  },
+  "seated close-grip concentration barbell curl": {
+    "url": "https://www.youtube.com/watch?v=iynnTu_mPw8",
+    "title": "Seated Close-Grip Concentration Barbell Curl",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "seated dumbbell curl": {
+    "url": "https://www.youtube.com/watch?v=SW5JS2Wf2uQ",
+    "title": "Seated Dumbbell Curls (How-To)",
+    "channel": "Horton Barbell",
+    "verified": true
+  },
+  "seated dumbbell inner biceps curl": {
+    "url": "https://www.youtube.com/watch?v=P9Q7koZOI78",
+    "title": "Inner Biceps (Supinated) Curl",
+    "channel": "Get Right Results",
+    "verified": true
+  },
+  "seated dumbbell palms-down wrist curl": {
+    "url": "https://www.youtube.com/watch?v=PDHxebi2vDQ",
+    "title": "Seated Dumbbell Palms-Down Wrist Curl",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "seated dumbbell palms-up wrist curl": {
+    "url": "https://www.youtube.com/watch?v=dA9_h9r8YBw",
+    "title": "Seated Palms-Up Dumbbell Wrist Curl",
+    "channel": "Get Right Results",
+    "verified": true
+  },
+  "seated dumbbell press": {
+    "url": "https://www.youtube.com/watch?v=1jYq9QQEWqE",
+    "title": "How to Perform the Seated Dumbbell Shoulder Press",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "seated flat bench leg pull-in": {
+    "url": "https://www.youtube.com/watch?v=0MbZ81BpVDg",
+    "title": "Seated Flat-Bench Leg Pull-In",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "seated floor hamstring stretch": {
+    "url": "https://www.youtube.com/watch?v=sctiIx9iWFQ",
+    "title": "Seated (Floor) Hamstring Stretch",
+    "channel": "St. Peter's Health",
+    "verified": true
+  },
+  "seated forward fold": {
+    "url": "https://www.youtube.com/watch?v=cPEYfk4TjQg",
+    "title": "Seated Forward Fold (Paschimottanasana)",
+    "channel": "Sarah Jo Almo",
+    "verified": true
+  },
+  "seated glute": {
+    "url": "https://www.youtube.com/watch?v=2E8WWX4cOc4",
+    "title": "Seated Figure-4 Glute Stretch",
+    "channel": "LSM Chiropractic",
+    "verified": true
+  },
+  "seated good mornings": {
+    "url": "https://www.youtube.com/watch?v=cJWYiUkiWrE",
+    "title": "How to Perform Seated Good Mornings",
+    "channel": "Body By Brando",
+    "verified": true
+  },
+  "seated hamstring": {
+    "url": "https://www.youtube.com/watch?v=AeJGXrD3CSU",
+    "title": "Seated Hamstring Stretch",
+    "channel": "Wellen",
+    "verified": true
+  },
+  "seated hamstring and calf stretch": {
+    "url": "https://www.youtube.com/watch?v=iPD_nUSdJ6o",
+    "title": "Seated Hamstring and Calf Stretch",
+    "channel": "American Diabetes Association",
+    "verified": true
+  },
+  "seated head harness neck resistance": {
+    "url": "https://www.youtube.com/watch?v=VLdIkr2Gfdc",
+    "title": "Seated Head-Harness Neck Extension",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "seated leg curl": {
+    "url": "https://www.youtube.com/watch?v=t9sTSr-JYSs",
+    "title": "Beginner's Guide: Seated Leg Curl",
+    "channel": "SilverSneakers",
+    "verified": true
+  },
+  "seated leg tucks": {
+    "url": "https://www.youtube.com/watch?v=9-_IcDi6qEg",
+    "title": "How to Do Seated Leg Tucks",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "seated one-arm cable pulley rows": {
+    "url": "https://www.youtube.com/watch?v=oDKu4Y-hQtA",
+    "title": "Single-Arm Seated Cable Row",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "seated one-arm dumbbell palms-down wrist curl": {
+    "url": "https://www.youtube.com/watch?v=pYY8cX3-ekM",
+    "title": "Seated One-Arm Dumbbell Palms-Down Wrist Curl",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "seated one-arm dumbbell palms-up wrist curl": {
+    "url": "https://www.youtube.com/watch?v=qvyh0Oqm_bI",
+    "title": "Seated One-Arm Palms-Up Dumbbell Wrist Curl",
+    "channel": "Get Right Results",
+    "verified": true
+  },
+  "seated overhead stretch": {
+    "url": "https://www.youtube.com/watch?v=fxdVpwne3Qk",
+    "title": "Seated Overhead Arm Reach Stretch",
+    "channel": "The Chair Lady",
+    "verified": true
+  },
+  "seated palm-up barbell wrist curl": {
+    "url": "https://www.youtube.com/watch?v=gQgYWV6aEbY",
+    "title": "Seated Palms-Up Barbell Wrist Curl",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "seated palms-down barbell wrist curl": {
+    "url": "https://www.youtube.com/watch?v=SOdcDpS2dpo",
+    "title": "Palms-Down Barbell Wrist Curls Over a Bench",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "seated side lateral raise": {
+    "url": "https://www.youtube.com/watch?v=OsDslPhkUWo",
+    "title": "Seated Dumbbell Lateral Raises",
+    "channel": "HW Motivation",
+    "verified": true
+  },
+  "seated spinal twist": {
+    "url": "https://www.youtube.com/watch?v=ciGK6HyYqV4",
+    "title": "How to Do the Seated Spinal Twist",
+    "channel": "Yoga With Abi",
+    "verified": true
+  },
+  "seated triceps press": {
+    "url": "https://www.youtube.com/watch?v=YbX7Wd8jQ-Q",
+    "title": "Seated Overhead Dumbbell Triceps Extension",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "seated two-arm palms-up low-pulley wrist curl": {
+    "url": "https://www.youtube.com/watch?v=_QhXMgl0xOI",
+    "title": "Seated Two-Arm Palms-Up Low-Pulley Wrist Curl",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "see-saw press (alternating side press)": {
+    "url": "https://www.youtube.com/watch?v=FC1dlMDsk0E",
+    "title": "See-Saw Dumbbell Press",
+    "channel": "Wells Street Fitness",
+    "verified": true
+  },
+  "shotgun row": {
+    "url": "https://www.youtube.com/watch?v=m3sY7iJryGQ",
+    "title": "How to Shotgun Row",
+    "channel": "Anabolic Aliens",
+    "verified": true
+  },
+  "shoulder circles": {
+    "url": "https://www.youtube.com/watch?v=mwDgFY86zck",
+    "title": "Arm / Shoulder Circles Warm-Up",
+    "channel": "The Hybrid Athlete",
+    "verified": true
+  },
+  "shoulder dislocates": {
+    "url": "https://www.youtube.com/watch?v=7p-Ma0eksaY",
+    "title": "How to Perform Shoulder Dislocates",
+    "channel": "Stick Mobility",
+    "verified": true
+  },
+  "shoulder press - with bands": {
+    "url": "https://www.youtube.com/watch?v=JMZxrSRpGhw",
+    "title": "Shoulder Press With Resistance Bands",
+    "channel": "Bodylastics",
+    "verified": true
+  },
+  "shoulder raise": {
+    "url": "https://www.youtube.com/watch?v=qvvJUKq7_sU",
+    "title": "Dumbbell Shrug (Shoulder Raise)",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "shoulder stretch": {
+    "url": "https://www.youtube.com/watch?v=1Sfl3iYM1Jg",
+    "title": "Cross-Body Shoulder Stretch",
+    "channel": "Denique Scott",
+    "verified": true
+  },
+  "shrimp squat": {
+    "url": "https://www.youtube.com/watch?v=85YE86ipw_w",
+    "title": "Shrimp Squat Progression Guide",
+    "channel": "Flow Motion Fitness",
+    "verified": true
+  },
+  "side bridge": {
+    "url": "https://www.youtube.com/watch?v=rCxF2nG9vQ0",
+    "title": "How to Do the Side Plank (Side Bridge)",
+    "channel": "Get Exercise Confident",
+    "verified": true
+  },
+  "side hop-sprint": {
+    "url": "https://www.youtube.com/watch?v=Bm9xIaxkNuo",
+    "title": "Lateral Hop to Sprint",
+    "channel": "Functional Muscle Fitness",
+    "verified": true
+  },
+  "side jackknife": {
+    "url": "https://www.youtube.com/watch?v=kRwqnBD9t88",
+    "title": "Side Jackknife",
+    "channel": "Anthony O.",
+    "verified": true
+  },
+  "side lateral raise": {
+    "url": "https://www.youtube.com/watch?v=3VcKaXpzqRo",
+    "title": "How To: Dumbbell Side Lateral Raise",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "side laterals to front raise": {
+    "url": "https://www.youtube.com/watch?v=6vdhFbacXms",
+    "title": "Side Laterals to Front Raise",
+    "channel": "Jase Stuart",
+    "verified": true
+  },
+  "side leg raises": {
+    "url": "https://www.youtube.com/watch?v=GycavhxcRTw",
+    "title": "Standing One-Leg Abduction (Side Leg Raise)",
+    "channel": "Travis Tarrant",
+    "verified": true
+  },
+  "side lying groin stretch": {
+    "url": "https://www.youtube.com/watch?v=RS7_qfhRZ6c",
+    "title": "Side-Lying Adductor (Groin) Stretch",
+    "channel": "Rehab My Patient",
+    "verified": true
+  },
+  "side neck stretch": {
+    "url": "https://www.youtube.com/watch?v=KX2OpgLVvVk",
+    "title": "Lateral Neck Flexion Stretch",
+    "channel": "Vive Health",
+    "verified": true
+  },
+  "side plank": {
+    "url": "https://www.youtube.com/watch?v=iNbH7_edNI8",
+    "title": "Side Plank - Proper Form and Technique",
+    "channel": "Runna",
+    "verified": true
+  },
+  "side to side box shuffle": {
+    "url": "https://www.youtube.com/watch?v=ebhRbdT25ko",
+    "title": "Side to Side Box Shuffle",
+    "channel": "FitSW",
+    "verified": true
+  },
+  "side to side chins": {
+    "url": "https://www.youtube.com/watch?v=oQvvfubBKHg",
+    "title": "Side-to-Side Pull-Ups",
+    "channel": "HASfit",
+    "verified": true
+  },
+  "side wrist pull": {
+    "url": "https://www.youtube.com/watch?v=QiMiia4F7Xg",
+    "title": "Wrist & Forearm Flexor Stretch",
+    "channel": "Intermountain Health",
+    "verified": true
+  },
+  "side-lying floor stretch": {
+    "url": "https://www.youtube.com/watch?v=DMlSdmsHEeI",
+    "title": "How to Do the Side-Lying Floor Stretch",
+    "channel": "Leap Fitness",
+    "verified": true
+  },
+  "single dumbbell raise": {
+    "url": "https://www.youtube.com/watch?v=xOksWZVV1_g",
+    "title": "Standing Single-Arm Dumbbell Front Raise",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "single leg butt kick": {
+    "url": "https://www.youtube.com/watch?v=oMW59TKZvaI",
+    "title": "How to Butt-Kick with Proper Form",
+    "channel": "Get Healthy U",
+    "verified": true
+  },
+  "single leg glute bridge": {
+    "url": "https://www.youtube.com/watch?v=VUl8R0kn6v4",
+    "title": "Single-Leg Glute Bridge - Proper Form",
+    "channel": "Runna",
+    "verified": true
+  },
+  "single leg push-off": {
+    "url": "https://www.youtube.com/watch?v=lM8igT6I6tw",
+    "title": "Single-Leg Box Push-Off",
+    "channel": "Dr. Michael Jeanfavre",
+    "verified": true
+  },
+  "single-arm cable crossover": {
+    "url": "https://www.youtube.com/watch?v=pU2P9gCIyRM",
+    "title": "Single-Arm Cable Crossover",
+    "channel": "Gym Professor",
+    "verified": true
+  },
+  "single-arm linear jammer": {
+    "url": "https://www.youtube.com/watch?v=XkvwvOje1DM",
+    "title": "How to Perform the Single-Arm Linear Jammer",
+    "channel": "Buff Dudes",
+    "verified": true
+  },
+  "single-arm push-up": {
+    "url": "https://www.youtube.com/watch?v=xvOoZ3SbKCw",
+    "title": "How to Do a One-Arm Push-Up",
+    "channel": "Andry Strong",
+    "verified": true
+  },
+  "side standing long jump": {
+    "url": "https://www.youtube.com/watch?v=t4aAcBraVks",
+    "title": "Lateral Standing Broad Jump",
+    "channel": "Performance Unlimited",
+    "verified": true
+  },
+  "single-leg balance reach": {
+    "url": "https://www.youtube.com/watch?v=UrB5wA7B3hI",
+    "title": "Single-Leg Balance Reach (Frontal Plane)",
+    "channel": "NASM",
+    "verified": true
+  },
+  "single-leg box squat": {
+    "url": "https://www.youtube.com/watch?v=3HCztPN3aSk",
+    "title": "Single-Leg Box Squat",
+    "channel": "Travis Tarrant",
+    "verified": true
+  },
+  "single-leg calf raise": {
+    "url": "https://www.youtube.com/watch?v=td7TMmbV8wI",
+    "title": "Single-Leg Calf Raise - Proper Form",
+    "channel": "Runna",
+    "verified": true
+  },
+  "single-leg high box squat": {
+    "url": "https://www.youtube.com/watch?v=uZplsX1ZPnM",
+    "title": "Single-Leg Squat onto High Box",
+    "channel": "LPS Athletic",
+    "verified": true
+  },
+  "single-leg hop progression": {
+    "url": "https://www.youtube.com/watch?v=tC_0paAW8RM",
+    "title": "Single-Leg Hops Plyometric Drill",
+    "channel": "Wodstar",
+    "verified": true
+  },
+  "single-leg lateral hop": {
+    "url": "https://www.youtube.com/watch?v=6t7T_VSMozc",
+    "title": "Single-Leg Side-to-Side Hop",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "single-leg leg extension": {
+    "url": "https://www.youtube.com/watch?v=82IuSLk5zNc",
+    "title": "How to Do a Single-Leg Extension",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "single-leg romanian deadlift (bodyweight)": {
+    "url": "https://www.youtube.com/watch?v=DPFnfAUCvTA",
+    "title": "Bodyweight Single-Leg RDL",
+    "channel": "Horton Barbell",
+    "verified": true
+  },
+  "single-leg stand": {
+    "url": "https://www.youtube.com/watch?v=Wb68ze1oH5c",
+    "title": "Single-Leg Stance",
+    "channel": "MedBridge",
+    "verified": true
+  },
+  "single-leg stride jump": {
+    "url": "https://www.youtube.com/watch?v=LMOrbWBhyMs",
+    "title": "Single-Leg Bounding",
+    "channel": "The Barefoot Sprinter",
+    "verified": true
+  },
+  "sissy squat": {
+    "url": "https://www.youtube.com/watch?v=cHpDhoud8oo",
+    "title": "How to Sissy Squat (Beginner to Advanced)",
+    "channel": "Australian Strength Performance",
+    "verified": true
+  },
+  "sit squats": {
+    "url": "https://www.youtube.com/watch?v=auC3XZx1tgA",
+    "title": "Sit-to-Stand Squat",
+    "channel": "The Physio Detective",
+    "verified": true
+  },
+  "sit-up": {
+    "url": "https://www.youtube.com/watch?v=iL06z9PWYs8",
+    "title": "How to Do Sit-Ups | Proper Form",
+    "channel": "Combat Fit",
+    "verified": true
+  },
+  "skating": {
+    "url": "https://www.youtube.com/watch?v=9_jLW6VkU8A",
+    "title": "Speed Skaters (Skater Hops) - Proper Form",
+    "channel": "BuiltLean",
+    "verified": true
+  },
+  "skin the cat": {
+    "url": "https://www.youtube.com/watch?v=44vYDHorwkM",
+    "title": "How to Skin the Cat (Beginner to Advanced)",
+    "channel": "Paul Twyman",
+    "verified": true
+  },
+  "sled overhead triceps extension": {
+    "url": "https://www.youtube.com/watch?v=1QI0tFgBuj4",
+    "title": "Sled Overhead Triceps Extension",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "sled drag - harness": {
+    "url": "https://www.youtube.com/watch?v=hWZmIvUEIyI",
+    "title": "Forward Sled Drag (Body Harness)",
+    "channel": "Elite Performance Training",
+    "verified": true
+  },
+  "sled push": {
+    "url": "https://www.youtube.com/watch?v=2Rl5rjgk6Yc",
+    "title": "Prowler / Sled Push Tutorial",
+    "channel": "op_tam_ise",
+    "verified": true
+  },
+  "sled reverse flye": {
+    "url": "https://www.youtube.com/watch?v=BisIi4cagtI",
+    "title": "Reverse Flye With Sled",
+    "channel": "Testosterone Nation",
+    "verified": true
+  },
+  "sled row": {
+    "url": "https://www.youtube.com/watch?v=RsEuH15svC4",
+    "title": "Sled Row",
+    "channel": "Perform 360",
+    "verified": true
+  },
+  "sledgehammer swings": {
+    "url": "https://www.youtube.com/watch?v=wFXKSWzuHe0",
+    "title": "How to Do Sledgehammer Tyre Slams",
+    "channel": "Irish Strength",
+    "verified": true
+  },
+  "smith machine behind the back shrug": {
+    "url": "https://www.youtube.com/watch?v=u4aiG-KFWrc",
+    "title": "Smith Machine Behind-the-Back Shrug",
+    "channel": "High Performance Muscle",
+    "verified": true
+  },
+  "smith machine bench press": {
+    "url": "https://www.youtube.com/watch?v=z_r6hDOYtO0",
+    "title": "How To: Smith Machine Bench Press",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "smith machine bent over row": {
+    "url": "https://www.youtube.com/watch?v=tGGq2VZIW_M",
+    "title": "Smith Machine Bent-Over Row | Form Tutorial",
+    "channel": "Kade Howell",
+    "verified": true
+  },
+  "smith machine calf raise": {
+    "url": "https://www.youtube.com/watch?v=avO_qtvHJAg",
+    "title": "Smith Machine Calf Raise",
+    "channel": "MyTraining App",
+    "verified": true
+  },
+  "smith machine close-grip bench press": {
+    "url": "https://www.youtube.com/watch?v=z8UWdGwtzRM",
+    "title": "Close-Grip Smith Machine Bench Press",
+    "channel": "Travis Tarrant",
+    "verified": true
+  },
+  "smith machine decline press": {
+    "url": "https://www.youtube.com/watch?v=39qwRmE6ffc",
+    "title": "Smith Machine Decline Bench Press",
+    "channel": "Korin Sutton",
+    "verified": true
+  },
+  "smith machine hang power clean": {
+    "url": "https://www.youtube.com/watch?v=YjxK7RppzIM",
+    "title": "Smith Machine Hang Power Clean",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "smith machine hip raise": {
+    "url": "https://www.youtube.com/watch?v=ADgWjz9i42Y",
+    "title": "Smith Machine Glute Bridge / Hip Thrust",
+    "channel": "Physique Development",
+    "verified": true
+  },
+  "smith machine incline bench press": {
+    "url": "https://www.youtube.com/watch?v=yFQshytandQ",
+    "title": "Incline Smith Machine Bench Press",
+    "channel": "James Harrison",
+    "verified": true
+  },
+  "smith machine leg press": {
+    "url": "https://www.youtube.com/watch?v=jAcAfsAtHHc",
+    "title": "Smith Machine Leg Press: How To",
+    "channel": "Hammer Fitness",
+    "verified": true
+  },
+  "smith machine one-arm upright row": {
+    "url": "https://www.youtube.com/watch?v=f3aBzdpKQYU",
+    "title": "Smith Machine One-Arm Upright Row",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "smith machine overhead shoulder press": {
+    "url": "https://www.youtube.com/watch?v=mLf0GVBy7Mo",
+    "title": "Smith Machine Overhead Shoulder Press",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "smith incline shoulder raise": {
+    "url": "https://www.youtube.com/watch?v=aH1quFAmxfU",
+    "title": "Incline Bench Leaning Lateral Raise",
+    "channel": "Kiki Cunningham",
+    "verified": true
+  },
+  "smith machine pistol squat": {
+    "url": "https://www.youtube.com/watch?v=pvdthsmKWio",
+    "title": "Smith Machine Pistol Squats",
+    "channel": "Rachel Scheer",
+    "verified": true
+  },
+  "smith machine reverse calf raises": {
+    "url": "https://www.youtube.com/watch?v=nS56vn8co1o",
+    "title": "Smith Machine Reverse Calf Raise",
+    "channel": "Physique by Sari",
+    "verified": true
+  },
+  "smith machine squat": {
+    "url": "https://www.youtube.com/watch?v=iAcRGCsG_PY",
+    "title": "Smith Machine Squat",
+    "channel": "Travis Tarrant",
+    "verified": true
+  },
+  "smith machine stiff-legged deadlift": {
+    "url": "https://www.youtube.com/watch?v=nmGzbW15qYo",
+    "title": "Smith Machine Stiff-Legged (Romanian) Deadlift",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "smith machine upright row": {
+    "url": "https://www.youtube.com/watch?v=vcXkzN6QXbk",
+    "title": "How To: Smith Machine Upright Row",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "smith single-leg split squat": {
+    "url": "https://www.youtube.com/watch?v=q9tyObJgPzk",
+    "title": "Smith Machine Bulgarian Split Squat",
+    "channel": "ATLASTHETICS",
+    "verified": true
+  },
+  "snatch": {
+    "url": "https://www.youtube.com/watch?v=3O7JjPr0_ok",
+    "title": "How to Snatch (Step-by-Step)",
+    "channel": "J2FIT Strength & Conditioning",
+    "verified": true
+  },
+  "snatch balance": {
+    "url": "https://www.youtube.com/watch?v=8KKQTdnxWso",
+    "title": "Snatch Balance | Weightlifting Library",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "snatch deadlift": {
+    "url": "https://www.youtube.com/watch?v=mp9gtX-JqB0",
+    "title": "Snatch Deadlift | Weightlifting Library",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "snatch from blocks": {
+    "url": "https://www.youtube.com/watch?v=hWLOXxFDz9o",
+    "title": "Block Snatch | Weightlifting Library",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "snatch pull": {
+    "url": "https://www.youtube.com/watch?v=G1QygZ3Kd3w",
+    "title": "Snatch Pull | Weightlifting Library",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "snatch shrug": {
+    "url": "https://www.youtube.com/watch?v=TOfpapB5wF8",
+    "title": "Snatch Shrug | Weightlifting Library",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "speed band overhead triceps": {
+    "url": "https://www.youtube.com/watch?v=Yi_zNoIsNcc",
+    "title": "Band Overhead Triceps Extension",
+    "channel": "FitnessBlender",
+    "verified": true
+  },
+  "speed box squat": {
+    "url": "https://www.youtube.com/watch?v=rRihE4weYg4",
+    "title": "How to Box Squat",
+    "channel": "Squat University",
+    "verified": true
+  },
+  "speed squats": {
+    "url": "https://www.youtube.com/watch?v=mEgtVIm9ymc",
+    "title": "Barbell Speed Squat (Explosive)",
+    "channel": "XIP Training Systems",
+    "verified": true
+  },
+  "spell caster": {
+    "url": "https://www.youtube.com/watch?v=FhnP5YkYkf4",
+    "title": "How to Do the Spell Caster",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "spider crawl": {
+    "url": "https://www.youtube.com/watch?v=X5bSdgWGTzs",
+    "title": "How to Do a Spider-Man Crawl",
+    "channel": "Michael Barrins",
+    "verified": true
+  },
+  "spider curl": {
+    "url": "https://www.youtube.com/watch?v=jFxs5x0cAX8",
+    "title": "Dumbbell Spider Curls",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "spiderman push-up": {
+    "url": "https://www.youtube.com/watch?v=HnrnLfymru0",
+    "title": "Spider-Man Push-Up Tutorial",
+    "channel": "Spideyfit",
+    "verified": true
+  },
+  "spinal stretch": {
+    "url": "https://www.youtube.com/watch?v=r5JuFoNzOU8",
+    "title": "Seated Spinal Twist Stretch",
+    "channel": "Runna",
+    "verified": true
+  },
+  "split clean": {
+    "url": "https://www.youtube.com/watch?v=mg3y0ffvv7g",
+    "title": "Split Clean | Weightlifting Library",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "split jerk": {
+    "url": "https://www.youtube.com/watch?v=2GPA-cjUFnA",
+    "title": "Split Jerk | Weightlifting Library",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "split jump": {
+    "url": "https://www.youtube.com/watch?v=FM0dbeJ5qPo",
+    "title": "How to Do Split Jumps",
+    "channel": "Kai Simon",
+    "verified": true
+  },
+  "split snatch": {
+    "url": "https://www.youtube.com/watch?v=2tHB7t5GElw",
+    "title": "The Split Snatch",
+    "channel": "TheSportSpecific",
+    "verified": true
+  },
+  "split squat with dumbbells": {
+    "url": "https://www.youtube.com/watch?v=5VG4UnfA7Bk",
+    "title": "Dumbbell Split Squat - Proper Form",
+    "channel": "Steev",
+    "verified": true
+  },
+  "split squats": {
+    "url": "https://www.youtube.com/watch?v=Ft-NS5Ogti0",
+    "title": "Split Squat - Proper Form Tutorial",
+    "channel": "6th Pillar Coaching",
+    "verified": true
+  },
+  "squat jerk": {
+    "url": "https://www.youtube.com/watch?v=iFc4l24llpw",
+    "title": "Squat Jerk | Weightlifting Library",
+    "channel": "Catalyst Athletics",
+    "verified": true
+  },
+  "squat with bands": {
+    "url": "https://www.youtube.com/watch?v=vpCec7gqDxE",
+    "title": "Banded Barbell Back Squat",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "squat with chains": {
+    "url": "https://www.youtube.com/watch?v=PgyMb995DYc",
+    "title": "Barbell Back Squat + Chains",
+    "channel": "John Rusin",
+    "verified": true
+  },
+  "squat with plate movers": {
+    "url": "https://www.youtube.com/watch?v=u7SnJiLbCXE",
+    "title": "Squat with Plate Movers",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "squats - with bands": {
+    "url": "https://www.youtube.com/watch?v=GiHdZ518VIE",
+    "title": "Bodyweight Squat with Band",
+    "channel": "Horton Barbell",
+    "verified": true
+  },
+  "stairmaster": {
+    "url": "https://www.youtube.com/watch?v=Zn1O9LcKW9E",
+    "title": "Stairmaster / Stair Climber Tutorial",
+    "channel": "KevTheTrainer",
+    "verified": true
+  },
+  "standing alternating dumbbell press": {
+    "url": "https://www.youtube.com/watch?v=uMr1qYcrcfY",
+    "title": "Alternating Standing Dumbbell Shoulder Press",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "standing barbell calf raise": {
+    "url": "https://www.youtube.com/watch?v=3UWi44yN-wM",
+    "title": "How To: Standing Barbell Calf Raise",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "standing barbell press behind neck": {
+    "url": "https://www.youtube.com/watch?v=QOrIAbGFjx8",
+    "title": "Standing Behind-Neck Press",
+    "channel": "Testosterone Nation",
+    "verified": true
+  },
+  "standing bent-over one-arm dumbbell triceps extension": {
+    "url": "https://www.youtube.com/watch?v=AbOUz070DC4",
+    "title": "Single-Arm Dumbbell Triceps Kickback",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "standing bent-over two-arm dumbbell triceps extension": {
+    "url": "https://www.youtube.com/watch?v=aIJwZVA-xO8",
+    "title": "Standing Bent-Over Two-Arm Dumbbell Triceps Extension",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "standing biceps cable curl": {
+    "url": "https://www.youtube.com/watch?v=NFzTWp2qpiE",
+    "title": "Standing Cable Biceps Curl",
+    "channel": "Fit Father Project",
+    "verified": true
+  },
+  "standing biceps stretch": {
+    "url": "https://www.youtube.com/watch?v=QY4gCIYbGQk",
+    "title": "Biceps Stretch",
+    "channel": "Baptist Health",
+    "verified": true
+  },
+  "standing bradford press": {
+    "url": "https://www.youtube.com/watch?v=7aCSp9GtQDw",
+    "title": "How to Perform the Bradford Press",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "standing cable chest press": {
+    "url": "https://www.youtube.com/watch?v=u74FbPhR8iE",
+    "title": "Standing Cable Chest Press",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "standing cable lift": {
+    "url": "https://www.youtube.com/watch?v=IjuXiJgr9fE",
+    "title": "Low-to-High Cable Lift",
+    "channel": "Kraken Fitness",
+    "verified": true
+  },
+  "standing cable wood chop": {
+    "url": "https://www.youtube.com/watch?v=PCQCwP1Xy0g",
+    "title": "How to Perform a Cable Wood Chop",
+    "channel": "TurnFit",
+    "verified": true
+  },
+  "standing calf raises": {
+    "url": "https://www.youtube.com/watch?v=SorIB5_zO9A",
+    "title": "Standing Calf Raise Tutorial",
+    "channel": "The Gym in the North",
+    "verified": true
+  },
+  "standing concentration curl": {
+    "url": "https://www.youtube.com/watch?v=gd5Q7hNu7KM",
+    "title": "Standing Dumbbell Concentration Curl",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "standing dumbbell calf raise": {
+    "url": "https://www.youtube.com/watch?v=SRUtMJ0tE2A",
+    "title": "Dumbbell Calf Raises Tutorial",
+    "channel": "IronmasterPro",
+    "verified": true
+  },
+  "standing dumbbell press": {
+    "url": "https://www.youtube.com/watch?v=6eDlfTDb7Po",
+    "title": "Standing Dumbbell Shoulder Press",
+    "channel": "Bear Grips",
+    "verified": true
+  },
+  "standing dumbbell reverse curl": {
+    "url": "https://www.youtube.com/watch?v=X5df_LHBVKQ",
+    "title": "Reverse Curls (Pronated Biceps Curl)",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "standing dumbbell straight-arm front delt raise above head": {
+    "url": "https://www.youtube.com/watch?v=yhyyWwiixiY",
+    "title": "Dumbbell Front Raise to Overhead",
+    "channel": "Elite Edge Transformation Center",
+    "verified": true
+  },
+  "standing dumbbell triceps extension": {
+    "url": "https://www.youtube.com/watch?v=v1qDINLCb8Q",
+    "title": "Overhead Dumbbell Triceps Extension",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "standing dumbbell upright row": {
+    "url": "https://www.youtube.com/watch?v=K0dYqPCaO14",
+    "title": "Dumbbell Upright Rows",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "standing elevated quad stretch": {
+    "url": "https://www.youtube.com/watch?v=S-0Gu6Kp6Zk",
+    "title": "Rear-Foot-Elevated Quad Stretch (with Bench)",
+    "channel": "SET Performance",
+    "verified": true
+  },
+  "standing forward fold": {
+    "url": "https://www.youtube.com/watch?v=goCnVzMRI0w",
+    "title": "Standing Forward Fold (Uttanasana)",
+    "channel": "Blue Lizard Yoga",
+    "verified": true
+  },
+  "standing front barbell raise over head": {
+    "url": "https://www.youtube.com/watch?v=Ytffw4cHBh0",
+    "title": "Barbell Standing Front Raise Overhead",
+    "channel": "Train With Cuz",
+    "verified": true
+  },
+  "standing gastrocnemius calf stretch": {
+    "url": "https://www.youtube.com/watch?v=bi_6uKDxDNU",
+    "title": "Standing Calf Stretch with Straight Leg",
+    "channel": "Lurie Children's Hospital",
+    "verified": true
+  },
+  "standing hamstring and calf stretch": {
+    "url": "https://www.youtube.com/watch?v=0r3qQUDArc8",
+    "title": "Standing Hamstring & Calf Stretch",
+    "channel": "Yogaia",
+    "verified": true
+  },
+  "standing hamstring stretch": {
+    "url": "https://www.youtube.com/watch?v=9ESpoUPqpFw",
+    "title": "How to Do the Standing Hamstring Stretch",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "standing hip circles": {
+    "url": "https://www.youtube.com/watch?v=Uq8QR1_N65U",
+    "title": "Standing Alternating Hip Circles",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "standing hip flexors": {
+    "url": "https://www.youtube.com/watch?v=OCPxQpO-4DE",
+    "title": "Standing Hip Flexor (Lunge) Stretch",
+    "channel": "Mobility Doc",
+    "verified": true
+  },
+  "standing inner-biceps curl": {
+    "url": "https://www.youtube.com/watch?v=DgTlETfEuEU",
+    "title": "Standing Supinated Dumbbell Biceps Curl",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "standing knee raise hold": {
+    "url": "https://www.youtube.com/watch?v=6EZjdNDHd-I",
+    "title": "Standing Knee Lift (Balance)",
+    "channel": "Keep Fit with Kim",
+    "verified": true
+  },
+  "standing lateral stretch": {
+    "url": "https://www.youtube.com/watch?v=wY9nQ-yfRwo",
+    "title": "Standing Side Bend Stretch",
+    "channel": "Runna",
+    "verified": true
+  },
+  "standing leg curl": {
+    "url": "https://www.youtube.com/watch?v=XMI4HDLZMf0",
+    "title": "Hamstring / Leg Curl Machine",
+    "channel": "HASfit",
+    "verified": true
+  },
+  "standing long jump": {
+    "url": "https://www.youtube.com/watch?v=dVgtvAXeBQw",
+    "title": "Standing Long Jump - The Fundamentals",
+    "channel": "Athletics Coach",
+    "verified": true
+  },
+  "standing low-pulley deltoid raise": {
+    "url": "https://www.youtube.com/watch?v=K1eQqUAWRDI",
+    "title": "Single-Arm Cable Side Lateral Raise",
+    "channel": "FITASTIC",
+    "verified": true
+  },
+  "standing low-pulley one-arm triceps extension": {
+    "url": "https://www.youtube.com/watch?v=juNUDw4hVHU",
+    "title": "Single-Arm Cable Triceps Extension",
+    "channel": "REP",
+    "verified": true
+  },
+  "standing military press": {
+    "url": "https://www.youtube.com/watch?v=Ftb3rlCE-zo",
+    "title": "How to Do the Barbell Military Press",
+    "channel": "SET FOR SET",
+    "verified": true
+  },
+  "standing olympic plate hand squeeze": {
+    "url": "https://www.youtube.com/watch?v=jFTV3DQf3HE",
+    "title": "How to Do Plate Pinches",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "standing one-arm cable curl": {
+    "url": "https://www.youtube.com/watch?v=njLoCel5lUI",
+    "title": "Single-Arm Cable Curl",
+    "channel": "James Harrison",
+    "verified": true
+  },
+  "standing one-arm dumbbell curl over incline bench": {
+    "url": "https://www.youtube.com/watch?v=DPYrHeVKvQA",
+    "title": "Incline-Bench Single-Arm Preacher Curl",
+    "channel": "Adam Pow",
+    "verified": true
+  },
+  "standing one-arm dumbbell triceps extension": {
+    "url": "https://www.youtube.com/watch?v=jTQWYdWLvys",
+    "title": "Single-Arm Dumbbell Overhead Extension",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "standing overhead barbell triceps extension": {
+    "url": "https://www.youtube.com/watch?v=mc5fXk6voZU",
+    "title": "French Press (Overhead Barbell Triceps Extension)",
+    "channel": "The Diabetes Resistance",
+    "verified": true
+  },
+  "standing palm-in one-arm dumbbell press": {
+    "url": "https://www.youtube.com/watch?v=XQ3H8YZmigM",
+    "title": "Standing Single-Arm Neutral-Grip Dumbbell Press",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "standing palms-in dumbbell press": {
+    "url": "https://www.youtube.com/watch?v=00bjCsQz25A",
+    "title": "Standing Neutral-Grip Dumbbell Shoulder Press",
+    "channel": "Dr. Allan Bacon",
+    "verified": true
+  },
+  "standing palms-up barbell behind the back wrist curl": {
+    "url": "https://www.youtube.com/watch?v=vqWjwsfTjKA",
+    "title": "Behind-the-Back Barbell Wrist Curl",
+    "channel": "Jim Stoppani, PhD",
+    "verified": true
+  },
+  "standing pelvic tilt": {
+    "url": "https://www.youtube.com/watch?v=jzAJgSA3HqQ",
+    "title": "How to Do Pelvic Tilts",
+    "channel": "Spine Body Collective",
+    "verified": true
+  },
+  "standing quad stretch": {
+    "url": "https://www.youtube.com/watch?v=Td-9CSgSFhs",
+    "title": "Standing Quadriceps Stretch",
+    "channel": "Lurie Children's Hospital",
+    "verified": true
+  },
+  "standing rope crunch": {
+    "url": "https://www.youtube.com/watch?v=vFV78ASgsak",
+    "title": "How to Do the Standing Cable Crunch",
+    "channel": "Jim Stoppani, PhD",
+    "verified": true
+  },
+  "standing soleus and achilles stretch": {
+    "url": "https://www.youtube.com/watch?v=vzg233ClYdU",
+    "title": "Soleus Calf Stretch (Bent Knee)",
+    "channel": "Achilles Healers Sports Therapy",
+    "verified": true
+  },
+  "standing toe touches": {
+    "url": "https://www.youtube.com/watch?v=Xvr5N_Xf6QM",
+    "title": "Standing Toe Touch Stretch",
+    "channel": "FitnessBlender",
+    "verified": true
+  },
+  "standing towel triceps extension": {
+    "url": "https://www.youtube.com/watch?v=fpmhCrrnP0M",
+    "title": "Standing Towel Triceps Extension",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "standing two-arm overhead throw": {
+    "url": "https://www.youtube.com/watch?v=z1JiHB8a4PY",
+    "title": "Overhead Medicine Ball Throw",
+    "channel": "Strong Athlete",
+    "verified": true
+  },
+  "star jump": {
+    "url": "https://www.youtube.com/watch?v=5umStCF7m6Q",
+    "title": "Star Jumps | Plyometric",
+    "channel": "HASfit",
+    "verified": true
+  },
+  "step mill": {
+    "url": "https://www.youtube.com/watch?v=nsMRH2cEybM",
+    "title": "How to Use a Stair Climber / Step Mill",
+    "channel": "LA Fitness",
+    "verified": true
+  },
+  "step-up": {
+    "url": "https://www.youtube.com/watch?v=aKj-6hgiViA",
+    "title": "How to Perform Dumbbell Step-Ups",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "step-up with knee raise": {
+    "url": "https://www.youtube.com/watch?v=U0I8sw4_LCg",
+    "title": "Step-Up With Knee Drive",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "stiff leg barbell good morning": {
+    "url": "https://www.youtube.com/watch?v=nHlQimZZzRM",
+    "title": "Stiff-Leg Barbell Good Morning",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "stiff-legged barbell deadlift": {
+    "url": "https://www.youtube.com/watch?v=cO5omNU0wYI",
+    "title": "Barbell Stiff-Leg Deadlift",
+    "channel": "HASfit",
+    "verified": true
+  },
+  "stiff-legged dumbbell deadlift": {
+    "url": "https://www.youtube.com/watch?v=z2p-qoY6rCc",
+    "title": "Dumbbell Stiff-Leg Deadlift",
+    "channel": "Glute Lab",
+    "verified": true
+  },
+  "stomach vacuum": {
+    "url": "https://www.youtube.com/watch?v=b5GsE6ZHn_E",
+    "title": "How to Do a Stomach Vacuum",
+    "channel": "Mind Pump TV",
+    "verified": true
+  },
+  "straight bar bench mid rows": {
+    "url": "https://www.youtube.com/watch?v=1CRJutjGCTE",
+    "title": "Straight-Bar Mid-Grip Seated Row",
+    "channel": "Jacobs Fitness",
+    "verified": true
+  },
+  "straight raises on incline bench": {
+    "url": "https://www.youtube.com/watch?v=XRyzgA2zsZk",
+    "title": "Straight Raises on Incline Bench",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "straight-arm dumbbell pullover": {
+    "url": "https://www.youtube.com/watch?v=jhYVQSs8GY8",
+    "title": "Dumbbell Straight-Arm Pullover",
+    "channel": "Never Die Project",
+    "verified": true
+  },
+  "straight-arm pulldown": {
+    "url": "https://www.youtube.com/watch?v=vc7ZBleFaCQ",
+    "title": "Straight-Arm Pulldown",
+    "channel": "All Strength Training",
+    "verified": true
+  },
+  "stride jump crossover": {
+    "url": "https://www.youtube.com/watch?v=VwpP9p7uguY",
+    "title": "Stride Jump Crossover",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "sumo deadlift": {
+    "url": "https://www.youtube.com/watch?v=JbY72Him34Q",
+    "title": "How to Correctly Perform a Sumo Deadlift",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "sumo deadlift with bands": {
+    "url": "https://www.youtube.com/watch?v=H3FcYHL8dRo",
+    "title": "Sumo Deadlift with Barbell or Bands",
+    "channel": "Clench Fitness",
+    "verified": true
+  },
+  "sumo deadlift with chains": {
+    "url": "https://www.youtube.com/watch?v=_i8tq5NihcE",
+    "title": "The Sumo Deadlift with Chains",
+    "channel": "Rogue Fitness",
+    "verified": true
+  },
+  "superman": {
+    "url": "https://www.youtube.com/watch?v=z6PJMT2y8GQ",
+    "title": "Superman Exercise Tutorial",
+    "channel": "XHIT Daily",
+    "verified": true
+  },
+  "superman hold": {
+    "url": "https://www.youtube.com/watch?v=z6PJMT2y8GQ",
+    "title": "Superman Hold (Back Extension)",
+    "channel": "XHIT Daily",
+    "verified": true
+  },
+  "supine chest throw": {
+    "url": "https://www.youtube.com/watch?v=kFk3LPS76pU",
+    "title": "Lying (Supine) Med-Ball Chest Pass",
+    "channel": "Third Space London",
+    "verified": true
+  },
+  "supine one-arm overhead throw": {
+    "url": "https://www.youtube.com/watch?v=GPmscIDo5gc",
+    "title": "Supine One-Arm Overhead Throw",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "supine two-arm overhead throw": {
+    "url": "https://www.youtube.com/watch?v=uBX4Ao_7j8I",
+    "title": "Supine Med-Ball Overhead Throw",
+    "channel": "Phil Daru",
+    "verified": true
+  },
+  "suspended fallout": {
+    "url": "https://www.youtube.com/watch?v=3X8UHOVMXuQ",
+    "title": "TRX Fallout (Anti-Extension)",
+    "channel": "Movement Upgraded",
+    "verified": true
+  },
+  "suspended push-up": {
+    "url": "https://www.youtube.com/watch?v=seZpSbTSgsc",
+    "title": "How to Do a TRX Push-Up",
+    "channel": "Your House Fitness",
+    "verified": true
+  },
+  "suspended reverse crunch": {
+    "url": "https://www.youtube.com/watch?v=25aumXflDAQ",
+    "title": "TRX Reverse Crunch (Knee Tuck)",
+    "channel": "AskTheTrainer",
+    "verified": true
+  },
+  "suspended row": {
+    "url": "https://www.youtube.com/watch?v=N_14s8zFOms",
+    "title": "TRX Row",
+    "channel": "Travis Tarrant",
+    "verified": true
+  },
+  "suspended split squat": {
+    "url": "https://www.youtube.com/watch?v=UASrBjtToww",
+    "title": "Suspension Trainer Rear-Foot-Elevated Split Squat",
+    "channel": "The Barbell Physio",
+    "verified": true
+  },
+  "svend press": {
+    "url": "https://www.youtube.com/watch?v=cIoUZOnypS8",
+    "title": "Svend Press | Exercise Guide",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "t-bar row with handle": {
+    "url": "https://www.youtube.com/watch?v=KDEl3AmZbVE",
+    "title": "T-Bar Row with Handle",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "tate press": {
+    "url": "https://www.youtube.com/watch?v=c86r5KVF7Xo",
+    "title": "Tate Press - Proper Form",
+    "channel": "FIT.nl",
+    "verified": true
+  },
+  "the straddle": {
+    "url": "https://www.youtube.com/watch?v=rpJUQEx9MVc",
+    "title": "Seated Straddle (Pancake) Stretch",
+    "channel": "Captain Cairo",
+    "verified": true
+  },
+  "thigh abductor": {
+    "url": "https://www.youtube.com/watch?v=G_8LItOiZ0Q",
+    "title": "Seated Hip Abductor (Outer Thigh) Machine",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "thigh adductor": {
+    "url": "https://www.youtube.com/watch?v=CjAVezAggkI",
+    "title": "Seated Thigh Adduction (Hip Adductor) Machine",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "thoracic rotation": {
+    "url": "https://www.youtube.com/watch?v=AzCghjjWt5k",
+    "title": "Quadruped Thoracic Rotation",
+    "channel": "Vive Health",
+    "verified": true
+  },
+  "thread the needle": {
+    "url": "https://www.youtube.com/watch?v=z-gJfzsPzlI",
+    "title": "Thread the Needle Mobility Stretch",
+    "channel": "PostureFlow",
+    "verified": true
+  },
+  "tire flip": {
+    "url": "https://www.youtube.com/watch?v=8_YGpXYNGF4",
+    "title": "How to Flip a Tire (Strongman)",
+    "channel": "Alan Thrall",
+    "verified": true
+  },
+  "toe touchers": {
+    "url": "https://www.youtube.com/watch?v=9iEI95-eZWk",
+    "title": "How to Do Toe Touches",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "toe walk": {
+    "url": "https://www.youtube.com/watch?v=R0my8rofrc0",
+    "title": "Toe Walking",
+    "channel": "Travis Tarrant",
+    "verified": true
+  },
+  "toes-to-bar": {
+    "url": "https://www.youtube.com/watch?v=DVMrILiX_oc",
+    "title": "How to Do Toes-to-Bar",
+    "channel": "WODprep",
+    "verified": true
+  },
+  "torso rotation": {
+    "url": "https://www.youtube.com/watch?v=QMT8cjcbW5o",
+    "title": "Standing Torso Rotation (Med Ball)",
+    "channel": "Jamie Adcock",
+    "verified": true
+  },
+  "trail running/walking": {
+    "url": "https://www.youtube.com/watch?v=l9K1nx7_FH8",
+    "title": "Trail Running Skills & Tips",
+    "channel": "Global Triathlon Network",
+    "verified": true
+  },
+  "trap bar deadlift": {
+    "url": "https://www.youtube.com/watch?v=PWJU5grrh4Y",
+    "title": "Trap Bar Deadlifts | How-To",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "tree pose": {
+    "url": "https://www.youtube.com/watch?v=XhTHT0M9aK0",
+    "title": "How to Do Tree Pose (Vrksasana)",
+    "channel": "YYOGA at Home",
+    "verified": true
+  },
+  "tricep dumbbell kickback": {
+    "url": "https://www.youtube.com/watch?v=6SS6K3lAwZ8",
+    "title": "How To: Triceps Kickback (Dumbbell)",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "tricep side stretch": {
+    "url": "https://www.youtube.com/watch?v=cPTrm13hSSo",
+    "title": "Overhead Triceps Stretch",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "triceps overhead extension with rope": {
+    "url": "https://www.youtube.com/watch?v=mRozZKkGIfg",
+    "title": "Cable Rope Overhead Triceps Extension",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "triceps pushdown": {
+    "url": "https://www.youtube.com/watch?v=8JBHlaS7Dkk",
+    "title": "Triceps Pushdown with Straight Bar",
+    "channel": "Nevels Fitness",
+    "verified": true
+  },
+  "triceps pushdown - rope attachment": {
+    "url": "https://www.youtube.com/watch?v=qHDrQglWgS4",
+    "title": "Cable Rope Triceps Pushdown",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "triceps pushdown - v-bar attachment": {
+    "url": "https://www.youtube.com/watch?v=4s8Fdhnk6aI",
+    "title": "Cable V-Bar Triceps Pushdown",
+    "channel": "The Hungry Elite",
+    "verified": true
+  },
+  "triceps stretch": {
+    "url": "https://www.youtube.com/watch?v=nbHOmIYMazk",
+    "title": "Overhead Triceps Stretch",
+    "channel": "FitnessBlender",
+    "verified": true
+  },
+  "tuck crunch": {
+    "url": "https://www.youtube.com/watch?v=xIX-RdJlNlc",
+    "title": "Tuck Crunch",
+    "channel": "Marie Claire",
+    "verified": true
+  },
+  "tuck front lever": {
+    "url": "https://www.youtube.com/watch?v=BwhZYpIdhro",
+    "title": "Tuck Front Lever Tutorial (Beginners)",
+    "channel": "Ashton Fitness",
+    "verified": true
+  },
+  "two-arm dumbbell preacher curl": {
+    "url": "https://www.youtube.com/watch?v=sZfiJzEkaVc",
+    "title": "Two-Arm Dumbbell Preacher Curl",
+    "channel": "OriGym",
+    "verified": true
+  },
+  "two-arm kettlebell clean": {
+    "url": "https://www.youtube.com/watch?v=9OPCiOpKIq4",
+    "title": "Two-Arm Kettlebell Clean",
+    "channel": "Kettlebell Kings",
+    "verified": true
+  },
+  "two-arm kettlebell jerk": {
+    "url": "https://www.youtube.com/watch?v=gTzU2IV5Gzw",
+    "title": "Two-Arm Kettlebell Jerk Technique",
+    "channel": "Coach Gabe West",
+    "verified": true
+  },
+  "two-arm kettlebell military press": {
+    "url": "https://www.youtube.com/watch?v=27EYSfdNKFc",
+    "title": "Double Kettlebell Overhead Press",
+    "channel": "Girls Gone Strong",
+    "verified": true
+  },
+  "two-arm kettlebell row": {
+    "url": "https://www.youtube.com/watch?v=GcuExSjDhok",
+    "title": "Bent-Over Double Kettlebell Row",
+    "channel": "Movement As Medicine",
+    "verified": true
+  },
+  "typewriter pull-up": {
+    "url": "https://www.youtube.com/watch?v=NUnWw0sHJ2w",
+    "title": "How to Do Typewriter Pull-Ups",
+    "channel": "strengthOVERsize",
+    "verified": true
+  },
+  "underhand cable pulldowns": {
+    "url": "https://www.youtube.com/watch?v=SNiwpA13ZLU",
+    "title": "Reverse-Grip (Underhand) Lat Pulldown",
+    "channel": "PureGym",
+    "verified": true
+  },
+  "upper back stretch": {
+    "url": "https://www.youtube.com/watch?v=mbJBJfbo2GY",
+    "title": "Fingers-Interlaced Upper Back Stretch",
+    "channel": "Train Like a Ranger",
+    "verified": true
+  },
+  "upper back-leg grab": {
+    "url": "https://www.youtube.com/watch?v=goN4rWbQUn4",
+    "title": "Standing Forward Fold (Back & Hamstrings)",
+    "channel": "Group HIIT",
+    "verified": true
+  },
+  "upright barbell row": {
+    "url": "https://www.youtube.com/watch?v=jaAV-rD45I0",
+    "title": "How to Perform the Upright Row",
+    "channel": "Buff Dudes",
+    "verified": true
+  },
+  "upright cable row": {
+    "url": "https://www.youtube.com/watch?v=68fQ7AXW0Os",
+    "title": "Low Cable Upright Row",
+    "channel": "Hammer Fitness",
+    "verified": true
+  },
+  "upright row - with bands": {
+    "url": "https://www.youtube.com/watch?v=4engp4e6KzU",
+    "title": "Resistance Band Upright Row",
+    "channel": "Freeweight Forge",
+    "verified": true
+  },
+  "upward stretch": {
+    "url": "https://www.youtube.com/watch?v=_JGWt2BDCl4",
+    "title": "Standing Overhead Reach",
+    "channel": "Live Lean TV",
+    "verified": true
+  },
+  "v-bar pulldown": {
+    "url": "https://www.youtube.com/watch?v=wrt5Y25QbH4",
+    "title": "Close-Grip (V-Bar) Pulldown",
+    "channel": "Sweeney Fitness",
+    "verified": true
+  },
+  "v-bar pullup": {
+    "url": "https://www.youtube.com/watch?v=feWrZs4IVx8",
+    "title": "V-Bar Pull-Up",
+    "channel": "Musqle",
+    "verified": true
+  },
+  "v-up": {
+    "url": "https://www.youtube.com/watch?v=iP2fjvG0g3w",
+    "title": "V-Up Exercise Tutorial",
+    "channel": "XHIT Daily",
+    "verified": true
+  },
+  "vertical swing": {
+    "url": "https://www.youtube.com/watch?v=wqUKvSouuFI",
+    "title": "How to Perform Dumbbell Swings",
+    "channel": "Buff Dudes Workouts",
+    "verified": true
+  },
+  "walking lunge": {
+    "url": "https://www.youtube.com/watch?v=_DLIS8SySzs",
+    "title": "How to Do the Walking Dumbbell Lunge",
+    "channel": "Colossus Fitness",
+    "verified": true
+  },
+  "walking, treadmill": {
+    "url": "https://www.youtube.com/watch?v=8i3Vrd95o2k",
+    "title": "How to Use a Treadmill (Beginner Guide)",
+    "channel": "Naomi Kong",
+    "verified": true
+  },
+  "wall angels": {
+    "url": "https://www.youtube.com/watch?v=1UU4VvklQ44",
+    "title": "How to Perform Wall Angels",
+    "channel": "Vive Health",
+    "verified": true
+  },
+  "wall handstand hold": {
+    "url": "https://www.youtube.com/watch?v=sdnSvETgPbU",
+    "title": "Wall Handstand (Easy Wall Method)",
+    "channel": "Don't You Dare!",
+    "verified": true
+  },
+  "wall sit": {
+    "url": "https://www.youtube.com/watch?v=y-wV4Venusw",
+    "title": "How To: Wall Sit",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "wall walk": {
+    "url": "https://www.youtube.com/watch?v=ycKvYNOEoI4",
+    "title": "Wall Walks for CrossFit (Progression)",
+    "channel": "WODprep",
+    "verified": true
+  },
+  "warrior i": {
+    "url": "https://www.youtube.com/watch?v=fniJmxMyqBU",
+    "title": "Warrior I (Virabhadrasana I)",
+    "channel": "Muscle & Motion",
+    "verified": true
+  },
+  "warrior iii": {
+    "url": "https://www.youtube.com/watch?v=j423eDJ5mQg",
+    "title": "Warrior III (Virabhadrasana III)",
+    "channel": "YogaDownload",
+    "verified": true
+  },
+  "weighted ball hyperextension": {
+    "url": "https://www.youtube.com/watch?v=csIB5sq05Ko",
+    "title": "Medicine Ball Hyperextension",
+    "channel": "Fitway",
+    "verified": true
+  },
+  "weighted ball side bend": {
+    "url": "https://www.youtube.com/watch?v=dL9ZzqtQI5c",
+    "title": "Dumbbell / Weighted Side Bend",
+    "channel": "Howcast",
+    "verified": true
+  },
+  "weighted bench dip": {
+    "url": "https://www.youtube.com/watch?v=1vFKKxqqmPs",
+    "title": "Weighted Bench Dip",
+    "channel": "Jacob Zemer",
+    "verified": true
+  },
+  "weighted crunches": {
+    "url": "https://www.youtube.com/watch?v=9qaHEqgHH1E",
+    "title": "Weighted Crunch with Plate",
+    "channel": "FitNut",
+    "verified": true
+  },
+  "weighted jump squat": {
+    "url": "https://www.youtube.com/watch?v=XOTO2qWRy9U",
+    "title": "Dumbbell Jump Squat",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "weighted sissy squat": {
+    "url": "https://www.youtube.com/watch?v=vFoUXHFyP44",
+    "title": "How To: Weighted Sissy Squats",
+    "channel": "Jacob Zemer",
+    "verified": true
+  },
+  "weighted sit-ups - with bands": {
+    "url": "https://www.youtube.com/watch?v=nHBp-ZAibq8",
+    "title": "Sit-Ups with Resistance Bands",
+    "channel": "Bodylastics",
+    "verified": true
+  },
+  "weighted squat": {
+    "url": "https://www.youtube.com/watch?v=MeIiIdhvXT4",
+    "title": "How To: Goblet Squat",
+    "channel": "ScottHermanFitness",
+    "verified": true
+  },
+  "wide stance barbell squat": {
+    "url": "https://www.youtube.com/watch?v=JXdGBp_YYz0",
+    "title": "Wide-Stance Barbell Squat",
+    "channel": "Bodybuilding.com",
+    "verified": true
+  },
+  "wide stance stiff legs": {
+    "url": "https://www.youtube.com/watch?v=ZYmcPCzQGgE",
+    "title": "Wide-Stance Stiff-Legged Deadlift",
+    "channel": "WebFit",
+    "verified": true
+  },
+  "wide-grip barbell bench press": {
+    "url": "https://www.youtube.com/watch?v=iFheDEgOhhc",
+    "title": "Wide-Grip Bench Press",
+    "channel": "Travis Tarrant",
+    "verified": true
+  },
+  "wide-grip decline barbell bench press": {
+    "url": "https://www.youtube.com/watch?v=xuDfTsju4Ko",
+    "title": "Wide-Grip Decline Barbell Bench Press",
+    "channel": "PerfectBodyMagazine",
+    "verified": true
+  },
+  "wide-grip decline barbell pullover": {
+    "url": "https://www.youtube.com/watch?v=VZrgXy-aySE",
+    "title": "Wide-Grip Decline Barbell Pullover",
+    "channel": "My PT Hub",
+    "verified": true
+  },
+  "wide-grip pull-up": {
+    "url": "https://www.youtube.com/watch?v=9A6NPVPzkqQ",
+    "title": "How to Do Wide-Grip Pull-Ups",
+    "channel": "All Strength Training",
+    "verified": true
+  },
+  "wide-grip pulldown behind the neck": {
+    "url": "https://www.youtube.com/watch?v=1YKQ5xqP_yg",
+    "title": "Behind-Neck Wide-Grip Lat Pulldown",
+    "channel": "Fede Kelly",
+    "verified": true
+  },
+  "wide-grip rear pull-up": {
+    "url": "https://www.youtube.com/watch?v=I8fdiB8J_lw",
+    "title": "Behind-the-Neck Wide-Grip Pull-Ups",
+    "channel": "Weightlifting 101",
+    "verified": true
+  },
+  "wide-grip standing barbell curl": {
+    "url": "https://www.youtube.com/watch?v=crk9ZzNAG_Q",
+    "title": "Standing Wide-Grip Barbell Curl",
+    "channel": "WeightTraining.com",
+    "verified": true
+  },
+  "wind sprints": {
+    "url": "https://www.youtube.com/watch?v=Ky_1tRwadCs",
+    "title": "Interval / Wind Sprints",
+    "channel": "Simple Speed Coach",
+    "verified": true
+  },
+  "windmills": {
+    "url": "https://www.youtube.com/watch?v=l77n4NJDLmA",
+    "title": "Standing Kettlebell Windmill",
+    "channel": "Runna",
+    "verified": true
+  },
+  "world's greatest stretch": {
+    "url": "https://www.youtube.com/watch?v=T6j7BpxeqqU",
+    "title": "World's Greatest Stretch | Tutorial",
+    "channel": "FIT.nl",
+    "verified": true
+  },
+  "wrist circles": {
+    "url": "https://www.youtube.com/watch?v=IJvS9bYl_cs",
+    "title": "How to Do Wrist Circles",
+    "channel": "Blind Athletes Exercise",
+    "verified": true
+  },
+  "wrist extensor stretch": {
+    "url": "https://www.youtube.com/watch?v=yj7QdBxvHzQ",
+    "title": "Wrist & Forearm Extensor Stretch",
+    "channel": "Intermountain Health",
+    "verified": true
+  },
+  "wrist flexor stretch": {
+    "url": "https://www.youtube.com/watch?v=QiMiia4F7Xg",
+    "title": "Wrist & Forearm Flexor Stretch",
+    "channel": "Intermountain Health",
+    "verified": true
+  },
+  "wrist roller": {
+    "url": "https://www.youtube.com/watch?v=Qb8DWuiwkZs",
+    "title": "Wrist Roller | Grip Strength",
+    "channel": "Figarelle's Fitness",
+    "verified": true
+  },
+  "yoke walk": {
+    "url": "https://www.youtube.com/watch?v=zRsFkNPxaMM",
+    "title": "How to Do the Yoke Walk",
+    "channel": "Blackstone Labs",
+    "verified": true
+  },
+  "zercher squats": {
+    "url": "https://www.youtube.com/watch?v=Qq3yteWfVGE",
+    "title": "Zercher Squat Tutorial",
+    "channel": "Brian Alsruhe",
+    "verified": true
+  },
+  "zottman curl": {
+    "url": "https://www.youtube.com/watch?v=8dt_LaA4zEI",
+    "title": "Dumbbell Zottman Curl Tutorial",
+    "channel": "Fit to Create",
+    "verified": true
+  },
+  "zottman preacher curl": {
+    "url": "https://www.youtube.com/watch?v=pCQo4VJxmhI",
+    "title": "Zottman Preacher Curl",
+    "channel": "OPEX Fitness",
+    "verified": true
+  },
+  "wrist rotations with straight bar": {
+    "url": "https://www.youtube.com/watch?v=cilRJnworw0",
+    "title": "Barbell Wrist Rotations (Supination & Pronation)",
+    "channel": "Physiohealth01",
+    "verified": true
+  }
+}

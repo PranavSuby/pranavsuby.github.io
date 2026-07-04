@@ -1,0 +1,34 @@
+{
+  "box skip": {
+    "reason": "No dedicated tutorial found (only box jumps / power skips / compilations)",
+    "date": "2026-06-22"
+  },
+  "chain handle extension": {
+    "reason": "Obscure ExerciseDB-only chain+handle lying triceps setup; no tutorial demonstrates it",
+    "date": "2026-06-22"
+  },
+  "chest push from 3 point stance": {
+    "reason": "Niche football push drill; only generic 3-point-stance videos found",
+    "date": "2026-06-22"
+  },
+  "close-grip ez-bar curl with band": {
+    "reason": "No clean tutorial for the band-loaded EZ-bar curl variant",
+    "date": "2026-06-22"
+  },
+  "leg-over floor press": {
+    "reason": "Obscure ExerciseDB variation; only generic floor-press videos found (no leg-over component)",
+    "date": "2026-06-23"
+  },
+  "seated front deltoid": {
+    "reason": "Could not confirm a precise seated front-deltoid stretch video; only standing/banded variants",
+    "date": "2026-06-23"
+  },
+  "sled overhead backward walk": {
+    "reason": "No genuine arms-overhead backward sled walk tutorial exists; only low-arm backward sled drags",
+    "date": "2026-06-23"
+  },
+  "single-cone sprint drill": {
+    "reason": "Original source video title spam-replaced; only multi-cone (W-drill) compilations available, no clean single-cone sprint tutorial",
+    "date": "2026-06-23"
+  }
+}
