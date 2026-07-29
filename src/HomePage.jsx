@@ -15,7 +15,7 @@ const tools = [
     id: 'nutricore',
     index: '02',
     title: 'NutriCore',
-    version: '0.26.0',
+    version: '0.27.0',
     description: 'Track food, macros, and calories. Offline-first food diary.',
     icon: Salad,
     path: '/nutricore',

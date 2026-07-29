@@ -21,21 +21,11 @@ export function computeBMR({ sex, ageYears, heightCm, weightKg }) {
   return Math.max(1000, base);
 }
 
-export function computeTDEE(profile) {
-  const {
-    sex, dateOfBirth, heightCm, weightKg,
-    activityLevel = 'moderatelyActive',
-    goalType = 'maintain',
-    goalRateKgWeek = 0,
-  } = profile;
-
-  const ageYears = dateOfBirth
-    ? Math.floor((Date.now() - new Date(dateOfBirth).getTime()) / (365.25 * 24 * 3600 * 1000))
-    : 30;
-
-  const bmr  = computeBMR({ sex: sex || 'male', ageYears, heightCm: heightCm || 175, weightKg: weightKg || 75 });
-  const actObj = ACTIVITY_LEVELS.find(a => a.value === activityLevel) || ACTIVITY_LEVELS[2];
-  const tdee = bmr * actObj.multiplier;
+// Daily calorie + macro targets for a given expenditure. Works for both the
+// formula TDEE and the adaptive (observed) TDEE, so coached weekly adjustments
+// produce the same macro split the Goals screen shows.
+export function computeTargetsFromTdee(profile, tdee) {
+  const { goalType = 'maintain', goalRateKgWeek = 0 } = profile;
 
   const kcalPerKg    = 7700;
   const weeklyDelta  = (goalRateKgWeek || 0) * kcalPerKg;
@@ -53,7 +43,26 @@ export function computeTDEE(profile) {
     proteinG: Math.round((targetKcal * goalObj.pPct) / 4),
     carbsG:   Math.round((targetKcal * goalObj.cPct) / 4),
     fatG:     Math.round((targetKcal * goalObj.fPct) / 9),
-    tdee:     Math.round(tdee),
-    bmr:      Math.round(bmr),
+  };
+}
+
+export function computeTDEE(profile) {
+  const {
+    sex, dateOfBirth, heightCm, weightKg,
+    activityLevel = 'moderatelyActive',
+  } = profile;
+
+  const ageYears = dateOfBirth
+    ? Math.floor((Date.now() - new Date(dateOfBirth).getTime()) / (365.25 * 24 * 3600 * 1000))
+    : 30;
+
+  const bmr  = computeBMR({ sex: sex || 'male', ageYears, heightCm: heightCm || 175, weightKg: weightKg || 75 });
+  const actObj = ACTIVITY_LEVELS.find(a => a.value === activityLevel) || ACTIVITY_LEVELS[2];
+  const tdee = bmr * actObj.multiplier;
+
+  return {
+    ...computeTargetsFromTdee(profile, tdee),
+    tdee: Math.round(tdee),
+    bmr:  Math.round(bmr),
   };
 }

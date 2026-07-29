@@ -22,8 +22,8 @@ The top-level `package.json` version should mirror the highest app version or be
 ### Current app versions (update this list when versions change)
 | App | Field in `tools[]` | Current version |
 |-----|--------------------|-----------------|
-| Gym Tracker | `id: 'gym'` | 1.16.0 |
-| NutriCore   | `id: 'nutricore'` | 0.25.0 |
+| Gym Tracker | `id: 'gym'` | 1.17.0 |
+| NutriCore   | `id: 'nutricore'` | 0.27.0 |
 
 ## Project structure
 ```
@@ -42,6 +42,7 @@ src/
     db.js              # IndexedDB layer
     nutrition.js       # Calc utils + tokenized search
     tdee.js            # Mifflin-St Jeor TDEE
+    adaptive.js        # Adaptive TDEE (observed expenditure), trend-weight EMA, weekly coaching key
     seedFoods.js       # 60 common foods (seeded on first launch)
     TrendsScreen.jsx
     FastingScreen.jsx

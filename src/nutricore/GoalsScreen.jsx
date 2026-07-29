@@ -2,14 +2,15 @@ import { useState, useEffect } from 'react';
 import { AppScreen } from '../ui';
 import { saveDefaultGoals } from './db';
 import { useNutriCore } from './NCContext';
-import { computeTDEE, ACTIVITY_LEVELS, GOAL_TYPES } from './tdee';
+import { computeTDEE, computeTargetsFromTdee, ACTIVITY_LEVELS, GOAL_TYPES } from './tdee';
+import { weekKey } from './adaptive';
 import {
   kgRateToDisplay, displayRateToKg, rateUnit,
   mlToDisplayVal, waterDisplayToMl, waterUnitLabel,
 } from './units';
 
 export default function GoalsScreen() {
-  const { profile: ctxProfile, updateProfile } = useNutriCore();
+  const { profile: ctxProfile, updateProfile, adaptive } = useNutriCore();
   const [profile, setProfile] = useState(null);
   const [saved,   setSaved]   = useState(false);
   const [rateStr, setRateStr] = useState('');
@@ -29,7 +30,12 @@ export default function GoalsScreen() {
 
   if (!profile) return <div className="nc-loader">Loading…</div>;
 
-  const tdee = computeTDEE(profile);
+  const formula = computeTDEE(profile);
+  const mode    = profile.coachingMode || 'adaptive';
+  const useAdaptive   = mode !== 'manual' && !!adaptive?.available;
+  const effectiveTdee = useAdaptive ? adaptive.tdee : formula.tdee;
+  const targets = computeTargetsFromTdee(profile, effectiveTdee);
+  const lastCoach = (profile.coachHistory || [])[profile.coachHistory?.length - 1];
   const uw   = profile.unitWeight || 'kg';
   const ue   = profile.unitEnergy || 'kcal';
   const uwa  = profile.unitWater  || 'ml';
@@ -46,13 +52,11 @@ export default function GoalsScreen() {
   }
 
   async function handleSave() {
-    await updateProfile(profile);
-    await saveDefaultGoals({
-      kcal:     tdee.kcal,
-      proteinG: tdee.proteinG,
-      carbsG:   tdee.carbsG,
-      fatG:     tdee.fatG,
-    });
+    // Saving IS this week's check-in when adaptive is live — stamp the week so
+    // the auto-coach doesn't immediately append a duplicate history entry.
+    const stamped = useAdaptive ? { ...profile, lastCoachedWeek: weekKey() } : profile;
+    await updateProfile(stamped);
+    await saveDefaultGoals(targets);
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   }
@@ -97,30 +101,72 @@ export default function GoalsScreen() {
           )}
         </div>
 
+        <div className="nc-section-title">Expenditure</div>
+        <div className="nc-card">
+          <div className="nc-field-row">
+            <span className="nc-field-label">Coaching</span>
+            <select className="nc-field-select"
+              value={mode}
+              onChange={e => update('coachingMode', e.target.value)}>
+              <option value="adaptive">Adaptive (auto-adjust weekly)</option>
+              <option value="manual">Manual (formula only)</option>
+            </select>
+          </div>
+          <div style={{ fontSize: 12, color: 'var(--nc-text3)', padding: '8px 2px 2px', lineHeight: 1.5 }}>
+            Formula TDEE: {formula.tdee} kcal · BMR {formula.bmr} kcal
+            {adaptive?.available ? (
+              <>
+                <br />
+                <span style={{ color: 'var(--nc-accent)' }}>
+                  Adaptive expenditure: {adaptive.tdee} kcal
+                </span>
+                {' '}— from {adaptive.loggedDays} logged days &amp; {adaptive.weighInCount} weigh-ins
+                ({Math.round(adaptive.confidence * 100)}% confidence)
+                {useAdaptive && <>. Targets auto-adjust every Monday.</>}
+              </>
+            ) : (
+              <>
+                <br />
+                Adaptive expenditure unlocks with ~1 week of data
+                ({adaptive?.loggedDays ?? 0}/7 logged days, {adaptive?.weighInCount ?? 0}/3 weigh-ins
+                over 7+ days). Until then the formula is used.
+              </>
+            )}
+          </div>
+        </div>
+
         <div className="nc-section-title">Calculated Daily Targets</div>
         <div style={{ fontSize: 12, color: 'var(--nc-text3)', marginBottom: 8 }}>
-          BMR {tdee.bmr} kcal · TDEE {tdee.tdee} kcal
+          Based on {useAdaptive ? 'adaptive' : 'formula'} expenditure of {effectiveTdee} kcal
         </div>
         <div className="nc-goal-summary">
           <div className="nc-goal-tile">
             <div className="nc-goal-tile-val" style={{ color: 'var(--nc-accent)' }}>
-              {ue === 'kj' ? Math.round(tdee.kcal * 4.184) : tdee.kcal}
+              {ue === 'kj' ? Math.round(targets.kcal * 4.184) : targets.kcal}
             </div>
             <div className="nc-goal-tile-lbl">{ue === 'kj' ? 'kJ' : 'kcal'}</div>
           </div>
           <div className="nc-goal-tile">
-            <div className="nc-goal-tile-val">{tdee.proteinG}g</div>
+            <div className="nc-goal-tile-val">{targets.proteinG}g</div>
             <div className="nc-goal-tile-lbl">protein</div>
           </div>
           <div className="nc-goal-tile">
-            <div className="nc-goal-tile-val">{tdee.carbsG}g</div>
+            <div className="nc-goal-tile-val">{targets.carbsG}g</div>
             <div className="nc-goal-tile-lbl">carbs</div>
           </div>
           <div className="nc-goal-tile">
-            <div className="nc-goal-tile-val">{tdee.fatG}g</div>
+            <div className="nc-goal-tile-val">{targets.fatG}g</div>
             <div className="nc-goal-tile-lbl">fat</div>
           </div>
         </div>
+        {lastCoach && (
+          <div style={{ fontSize: 12, color: 'var(--nc-text3)', marginTop: 8 }}>
+            Last check-in (week of {lastCoach.week}): target set to {lastCoach.kcal} kcal
+            {lastCoach.deltaKcal !== 0 && (
+              <> ({lastCoach.deltaKcal > 0 ? '+' : ''}{lastCoach.deltaKcal} kcal)</>
+            )}
+          </div>
+        )}
 
         <div className="nc-section-title">Hydration</div>
         <div className="nc-card">

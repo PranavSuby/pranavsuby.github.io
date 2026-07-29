@@ -7,6 +7,7 @@ import {
 } from 'recharts';
 import { Plus } from 'lucide-react';
 import { getCalorieHistory, getBiometricsInRange, addBiometric, getGoalsForDate, getProfile } from './db';
+import { computeTrendWeight } from './adaptive';
 import { useNutriCore } from './NCContext';
 import { kgToDisplay, displayToKg, weightUnit } from './units';
 import { toDateStr } from '../utils/dates';
@@ -28,37 +29,20 @@ function daysBetween(a, b) {
   return (new Date(b + 'T00:00:00') - new Date(a + 'T00:00:00')) / 86400000;
 }
 
-// x is real days elapsed since the first point (not array index), so slope is a
-// true per-day rate even when weigh-ins aren't daily.
-function linearRegression(weightData) {
-  const n = weightData.length;
-  if (n < 2) return null;
-  const x0 = weightData[0].date;
-  const xs = weightData.map(d => daysBetween(x0, d.date));
-  const ys = weightData.map(d => d.weightKg);
-  const xMean = xs.reduce((s, x) => s + x, 0) / n;
-  const yMean = ys.reduce((s, y) => s + y, 0) / n;
-  const num = xs.reduce((s, x, i) => s + (x - xMean) * (ys[i] - yMean), 0);
-  const den = xs.reduce((s, x) => s + (x - xMean) ** 2, 0);
-  if (den === 0) return null;
-  const slope = num / den;
-  return { slope, intercept: yMean - slope * xMean };
-}
-
 function xLabel(dateStr) {
   const d = new Date(dateStr + 'T00:00:00');
   return d.toLocaleDateString('en-US', { month: 'numeric', day: 'numeric' });
 }
 
-// Project when the goal weight is reached from the actual rate of change over the
-// logged window. weightData values are already in display units.
+// Project when the goal weight is reached from the smoothed trend's rate of
+// change over the logged window. weightData values are already in display units.
 function computeEta(weightData, goalDisplay) {
   if (!goalDisplay || weightData.length < 2) return null;
   const first = weightData[0];
   const last  = weightData[weightData.length - 1];
-  const latest = last.weightKg;
+  const latest = last.trend ?? last.weightKg;
   const days = Math.max(1, (new Date(last.date) - new Date(first.date)) / 86400000);
-  const ratePerDay = (latest - first.weightKg) / days;
+  const ratePerDay = (latest - (first.trend ?? first.weightKg)) / days;
   const remaining = goalDisplay - latest;
   if (Math.abs(remaining) < 0.1) return { state: 'reached' };
   if (ratePerDay === 0 || Math.sign(ratePerDay) !== Math.sign(remaining)) return { state: 'away' };
@@ -105,10 +89,16 @@ export default function TrendsScreen() {
     setGoalInput(prof?.goalWeightKg != null ? String(kgToDisplay(prof.goalWeightKg, uw)) : '');
     setCalorieData(kcalHist);
     // Dedupe multiple weigh-ins on the same day — keep the latest (later same-day
-    // records come last in insertion order, so they win).
+    // records come last in insertion order, so they win). Smooth in kg (the EMA
+    // is unit-agnostic but rounding should happen once, at display conversion).
     const byDay = new Map();
     for (const b of wHist) byDay.set(b.date, b);
-    setWeightData([...byDay.values()].map(b => ({ date: b.date, weightKg: kgToDisplay(b.value, uw) })));
+    const raw = [...byDay.values()].map(b => ({ date: b.date, weightKg: b.value }));
+    setWeightData(computeTrendWeight(raw).map(p => ({
+      date: p.date,
+      weightKg: kgToDisplay(p.weightKg, uw),
+      trend: kgToDisplay(p.trendKg, uw),
+    })));
     setCalorieGoal(ue === 'kj' ? Math.round((goals?.kcal || 2000) * 4.184) : (goals?.kcal || 2000));
     setLoading(false);
   }
@@ -129,11 +119,12 @@ export default function TrendsScreen() {
     bumpData();   // weight feeds other screens; also reloads this one via dataVersion
   }
 
-  const reg = weightData.length >= 2 ? linearRegression(weightData) : null;
-  const weightWithTrend = weightData.map(d => ({
-    ...d,
-    trend: reg ? parseFloat((reg.intercept + reg.slope * daysBetween(weightData[0].date, d.date)).toFixed(2)) : undefined,
-  }));
+  // Weekly rate from the smoothed trend endpoints (display units).
+  const hasTrend = weightData.length >= 2;
+  const trendRateWeek = hasTrend
+    ? ((weightData[weightData.length - 1].trend - weightData[0].trend) /
+       Math.max(1, daysBetween(weightData[0].date, weightData[weightData.length - 1].date))) * 7
+    : 0;
 
   const nonZero  = calorieData.filter(d => d.kcal > 0);
   const avgKcal  = nonZero.length ? Math.round(nonZero.reduce((s, d) => s + d.kcal, 0) / nonZero.length) : 0;
@@ -205,17 +196,17 @@ export default function TrendsScreen() {
           </button>
         </div>
 
-        {weightWithTrend.length < 2 ? (
+        {weightData.length < 2 ? (
           <div className="nc-trends-empty">Log weight on 2+ days to see chart</div>
         ) : (
           <ResponsiveContainer width="100%" height={140}>
-            <LineChart data={weightWithTrend} margin={{ top: 4, right: 8, left: -22, bottom: 0 }}>
+            <LineChart data={weightData} margin={{ top: 4, right: 8, left: -22, bottom: 0 }}>
               <XAxis
                 dataKey="date"
                 tickFormatter={v => xLabel(v)}
                 tick={{ fontSize: 10, fill: '#9CA3AF' }}
                 axisLine={false} tickLine={false}
-                interval={Math.max(0, Math.floor(weightWithTrend.length / 4) - 1)}
+                interval={Math.max(0, Math.floor(weightData.length / 4) - 1)}
               />
               <YAxis tick={{ fontSize: 10, fill: '#9CA3AF' }} axisLine={false} tickLine={false} domain={['auto', 'auto']} />
               <Tooltip
@@ -228,7 +219,7 @@ export default function TrendsScreen() {
                 type="monotone" dataKey="weightKg" stroke="#4ADE80" strokeWidth={2}
                 dot={{ r: 3, fill: '#4ADE80' }} activeDot={{ r: 5 }}
               />
-              {reg && (
+              {hasTrend && (
                 <Line
                   type="monotone" dataKey="trend" stroke="#6366F1" strokeWidth={1.5}
                   dot={false} strokeDasharray="4 3"
@@ -237,10 +228,10 @@ export default function TrendsScreen() {
             </LineChart>
           </ResponsiveContainer>
         )}
-        {reg && (
+        {hasTrend && (
           <div className="nc-trends-meta">
-            <span style={{ color: '#6366F1' }}>— trend</span>
-            <span>{reg.slope >= 0 ? '+' : ''}{(reg.slope * 7).toFixed(2)} {wUnit}/wk</span>
+            <span style={{ color: '#6366F1' }}>— trend (smoothed)</span>
+            <span>{trendRateWeek >= 0 ? '+' : ''}{trendRateWeek.toFixed(2)} {wUnit}/wk</span>
           </div>
         )}
 

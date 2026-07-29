@@ -142,7 +142,7 @@ function PeriodNav({ period, anchor, onPeriodChange, onShift }) {
 
 // ── Main DataTab ──────────────────────────────────────────────────────────────
 export default function DataTab() {
-  const { profile, dataVersion } = useNutriCore();
+  const { profile, dataVersion, adaptive } = useNutriCore();
   const [period, setPeriod] = useState('day');       // 'day' | 'week' | 'month'
   const [anchor, setAnchor] = useState(todayStr());  // any date inside the period
   const [entries, setEntries] = useState([]);
@@ -227,7 +227,12 @@ export default function DataTab() {
   const waterMl = isDay
     ? (waterByDate[anchor] || 0)
     : (waterDays ? Math.round(Object.values(waterByDate).reduce((a, b) => a + b, 0) / waterDays) : 0);
-  const activity = Math.max(0, tdee - bmr) + gymKcal;
+  // Adaptive expenditure already includes training on average — don't re-add
+  // gym kcal on top of it (same reasoning as the diary's Energy slide).
+  const useAdaptive = !!adaptive?.available;
+  const activity = useAdaptive
+    ? Math.max(0, adaptive.tdee - bmr)
+    : Math.max(0, tdee - bmr) + gymKcal;
   const expenditure = bmr + activity;
   const consumed = totals.kcal;
   const deficit = Math.max(0, expenditure - consumed);

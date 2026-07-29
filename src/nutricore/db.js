@@ -388,6 +388,11 @@ export async function getGoalsForDate(date) {
   return db.get('nc_goals', 'default');
 }
 
+export async function getDefaultGoals() {
+  const db = await getDB();
+  return db.get('nc_goals', 'default');
+}
+
 export async function saveDefaultGoals(goals) {
   const db = await getDB();
   return db.put('nc_goals', { ...goals, date: 'default' });
@@ -542,6 +547,7 @@ const DEFAULT_PROFILE = {
   goalRateKgWeek: 0,
   goalWeightKg: null,
   waterGoalMl: 2000,
+  coachingMode: 'adaptive', // 'adaptive' (weekly auto-adjust) | 'manual' (formula only)
   onboardingComplete: false,
   unitWeight: 'kg',   // 'kg' | 'lbs'
   unitWater: 'ml',    // 'ml' | 'floz'

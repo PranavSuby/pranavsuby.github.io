@@ -107,12 +107,17 @@ function RingCell({ label, value, total, color, children }) {
 }
 
 // ── Slide 0: Energy Summary ────────────────────────────────────────────────
-function EnergySlide({ totals, goals, profile, activeKcal = 0 }) {
+function EnergySlide({ totals, goals, profile, activeKcal = 0, adaptive }) {
   const tdeeData = profile ? computeTDEE(profile) : null;
   const baseTdee = tdeeData?.tdee || goals.kcal;
   const bmr = tdeeData?.bmr || Math.round(baseTdee / 1.55);
-  // Fold gym calories into expenditure (the cross-app integration).
-  const activity = Math.max(0, baseTdee - bmr) + activeKcal;
+  // Adaptive expenditure is observed from intake + weight trend, so training
+  // calories are already baked into it — re-adding gym kcal would double count.
+  // The formula fallback keeps the gym fold-in (the cross-app integration).
+  const useAdaptive = !!adaptive?.available;
+  const activity = useAdaptive
+    ? Math.max(0, adaptive.tdee - bmr)
+    : Math.max(0, baseTdee - bmr) + activeKcal;
   const expenditure = bmr + activity;
   const consumed = totals.kcal;
   const deficit = Math.max(0, expenditure - consumed);
@@ -120,7 +125,7 @@ function EnergySlide({ totals, goals, profile, activeKcal = 0 }) {
   return (
     <div className="nc-energy-slide">
       <div className="nc-slide-label" style={{ padding: '6px 12px 2px' }}>
-        ENERGY SUMMARY{activeKcal > 0 ? ` · +${activeKcal} from training` : ''}
+        ENERGY SUMMARY{useAdaptive ? ' · ADAPTIVE' : activeKcal > 0 ? ` · +${activeKcal} from training` : ''}
       </div>
       <div className="nc-energy-row">
         <RingCell label="Consumed" value={consumed}>
@@ -224,7 +229,7 @@ function ScoresSlide({ totals, goals, dri }) {
 // ── Carousel ───────────────────────────────────────────────────────────────
 const SLIDE_COUNT = 4;
 
-function Carousel({ totals, goals, profile, activeKcal = 0 }) {
+function Carousel({ totals, goals, profile, activeKcal = 0, adaptive }) {
   const [slide, setSlide] = useState(0);
   const touchStartX = useRef(null);
   const dri = getDRI(profile);
@@ -255,7 +260,7 @@ function Carousel({ totals, goals, profile, activeKcal = 0 }) {
           onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
           <div className="nc-carousel-track" style={{ transform: `translateX(-${slide * 100}%)` }}>
             <div className="nc-carousel-slide">
-              <EnergySlide totals={totals} goals={goals} profile={profile} activeKcal={activeKcal} />
+              <EnergySlide totals={totals} goals={goals} profile={profile} activeKcal={activeKcal} adaptive={adaptive} />
             </div>
             <div className="nc-carousel-slide">
               <TargetsSlide totals={totals} goals={goals} />
@@ -412,7 +417,7 @@ function MealSection({ meal, entries, onAddFood, onDeleteEntry, onEditEntry }) {
 
 // ── Main DiaryScreen ───────────────────────────────────────────────────────
 export default function DiaryScreen() {
-  const { profile, bumpData } = useNutriCore();
+  const { profile, bumpData, adaptive } = useNutriCore();
   const [date, setDate] = useState(todayStr());
   const [entries, setEntries] = useState([]);
   const [meals, setMeals] = useState([]);
@@ -560,7 +565,7 @@ export default function DiaryScreen() {
 
         {/* Carousel */}
         <div className="nc-energy-banner" style={{ padding: 0 }}>
-          <Carousel totals={totals} goals={goals} profile={profile} activeKcal={gymKcal} />
+          <Carousel totals={totals} goals={goals} profile={profile} activeKcal={gymKcal} adaptive={adaptive} />
         </div>
 
         {/* Water */}
